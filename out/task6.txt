@@ -1,0 +1,15 @@
+1 Sandra journeyed to the hallway.	 sandra:teleport:hallway
+2 Daniel moved to the bathroom.	 daniel:teleport:bathroom
+3 Is Sandra in the hallway?	 Sandra:is_in hallway:*	true	1
+4 Sandra moved to the kitchen.	 sandra:teleport:kitchen
+5 John travelled to the bedroom.	 john:teleport:bedroom
+6 Is Daniel in the bathroom?	 Daniel:is_in bathroom:*	true	2
+7 Sandra travelled to the bedroom.	 sandra:teleport:bedroom
+8 John journeyed to the office.	 john:teleport:office
+9 Is Sandra in the office?	 Sandra:is_in office:*	false	7
+10 Sandra moved to the bathroom.	 sandra:teleport:bathroom
+11 Daniel went to the kitchen.	 daniel:teleport:kitchen
+12 Is John in the bathroom?	 John:is_in bathroom:*	false	8
+13 Sandra travelled to the hallway.	 sandra:teleport:hallway
+14 Daniel moved to the garden.	 daniel:teleport:garden
+15 Is John in the office?	 John:is_in office:*	true	8

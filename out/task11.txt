@@ -1,0 +1,15 @@
+1 Sandra journeyed to the hallway.	 sandra:teleport:hallway
+2 She then went to the bathroom.	 sandra:teleport:bathroom
+3 Where is Sandra?	 Sandra:is_in:*	bathroom	2
+4 Daniel moved to the bathroom.	 daniel:teleport:bathroom
+5 He then moved to the kitchen.	 daniel:teleport:kitchen
+6 Where is Daniel?	 Daniel:is_in:*	kitchen	5
+7 Mary went to the kitchen.	 mary:teleport:kitchen
+8 Then she journeyed to the bedroom.	 mary:teleport:bedroom
+9 Where is Mary?	 Mary:is_in:*	bedroom	8
+10 John went to the office.	 john:teleport:office
+11 Then he moved to the bedroom.	 john:teleport:bedroom
+12 Where is John?	 John:is_in:*	bedroom	11
+13 John went to the hallway.	 john:teleport:hallway
+14 Following that he moved to the office.	 john:teleport:office
+15 Where is John?	 John:is_in:*	office	14

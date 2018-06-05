@@ -28,11 +28,15 @@ end
 
 -- Load world from text file
 function World:load(fname)
+    --print("loading world: ", fname)
     local f = assert(io.open(fname))
     while true do
         local line = f:read('*l')
         if not line then break end
-        if line ~= '' and line:sub(1, 1) ~= '#' then
+        --print("processing line: " , line)
+        --print("  len=", #line)
+        --print("  first char=", string.byte(line))
+        if line ~= '' and string.byte(line)~=13 and line:sub(1, 1) ~= '#' then
             self:perform_command('god ' .. line)
         end
     end

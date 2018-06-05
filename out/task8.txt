@@ -1,0 +1,15 @@
+1 John took the milk.	 john:get:milk
+2 John got the apple.	 john:get:apple
+3 What is John holding?	 John:hold:*	apple,milk	1 2
+4 John moved to the hallway.	 john:teleport:hallway
+5 John gave Daniel the apple.	 john:give:apple:daniel
+6 What is John holding?	 John:hold:*	milk	1 5 2
+7 John gave Daniel the milk.	 john:give:milk:daniel
+8 Daniel went to the bedroom.	 daniel:teleport:bedroom
+9 What is John holding?	 John:hold:*	nothing	2 1 7 5
+10 Daniel gave Mary the milk.	 daniel:give:milk:mary
+11 Daniel gave Mary the apple.	 daniel:give:apple:mary
+12 What is John holding?	 John:hold:*	nothing	2 1 7 5
+13 Mary gave Daniel the apple.	 mary:give:apple:daniel
+14 Daniel moved to the garden.	 daniel:teleport:garden
+15 What is John holding?	 John:hold:*	nothing	2 1 7 5

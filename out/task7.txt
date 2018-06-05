@@ -1,0 +1,15 @@
+1 John took the milk.	 john:get:milk
+2 John got the apple.	 john:get:apple
+3 How many objects is John holding?	 John:hold:*	2	1 2
+4 John moved to the hallway.	 john:teleport:hallway
+5 John gave Daniel the apple.	 john:give:apple:daniel
+6 How many objects is John holding?	 John:hold:*	1	1 2 5
+7 John gave Daniel the milk.	 john:give:milk:daniel
+8 Daniel went to the bedroom.	 daniel:teleport:bedroom
+9 How many objects is John holding?	 John:hold:*	0	1 2 5 7
+10 Daniel gave Mary the milk.	 daniel:give:milk:mary
+11 Daniel gave Mary the apple.	 daniel:give:apple:mary
+12 How many objects is John holding?	 John:hold:*	0	1 2 5 7
+13 Mary gave Daniel the apple.	 mary:give:apple:daniel
+14 Daniel moved to the garden.	 daniel:teleport:garden
+15 How many objects is John holding?	 John:hold:*	0	1 2 5 7

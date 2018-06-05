@@ -1,0 +1,10 @@
+1 Bernhard is a swan.	 bernhard:is:swan
+2 Brian is a swan.	 brian:is:swan
+3 Julius is a swan.	 julius:is:swan
+4 Greg is a swan.	 greg:is:swan
+5 Greg is white.	 greg:has_color:white
+6 Lily is a rhino.	 lily:is:rhino
+7 Bernhard is white.	 bernhard:has_color:white
+8 Lily is gray.	 lily:has_color:gray
+9 Julius is white.	 julius:has_color:white
+10 What color is Brian?	 Brian:has_color:*	white	3 9 1 2 5 4 7

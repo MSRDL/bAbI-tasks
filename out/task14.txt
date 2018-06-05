@@ -1,0 +1,17 @@
+1 Daniel journeyed to the office yesterday.	 daniel:teleport:office:when:yesterday
+2 This afternoon Daniel moved to the hallway.	 daniel:teleport:hallway:when:this_afternoon
+3 Sandra moved to the hallway yesterday.	 sandra:teleport:hallway:when:yesterday
+4 John journeyed to the bathroom yesterday.	 john:teleport:bathroom:when:yesterday
+5 Where was Daniel before the hallway?	 Daniel:is_in before hallway:*	office	1 2
+6 Daniel went to the garden this morning.	 daniel:teleport:garden:when:this_morning
+7 Mary moved to the kitchen this afternoon.	 mary:teleport:kitchen:when:this_afternoon
+8 Where was Daniel before the garden?	 Daniel:is_in before garden:*	office	1 6
+9 This afternoon John went to the office.	 john:teleport:office:when:this_afternoon
+10 Sandra went to the garden this afternoon.	 sandra:teleport:garden:when:this_afternoon
+11 Where was Sandra before the garden?	 Sandra:is_in before garden:*	hallway	10 3
+12 Yesterday Mary journeyed to the garden.	 mary:teleport:garden:when:yesterday
+13 This morning John journeyed to the kitchen.	 john:teleport:kitchen:when:this_morning
+14 Where was Sandra before the garden?	 Sandra:is_in before garden:*	hallway	10 3
+15 Mary journeyed to the bedroom this morning.	 mary:teleport:bedroom:when:this_morning
+16 John went to the garden this evening.	 john:teleport:garden:when:this_evening
+17 Where was Daniel before the hallway?	 Daniel:is_in before hallway:*	garden	6 2

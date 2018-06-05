@@ -31,6 +31,8 @@ function Clause:is_valid()
 end
 
 function Clause:perform()
+    --print("world.entites=", self.world.entites, ", world.actions=", self.world.actions)
+    --print("action=", self.action, ", actor=", self.actor)
     if self.truth_value then
         self.action:perform(self.world, self.actor, unpack(self.args))
     end

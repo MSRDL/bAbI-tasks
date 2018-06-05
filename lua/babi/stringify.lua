@@ -1583,6 +1583,145 @@ local function to_string(obj, symbolic_names)
     end
 end
 
+local function to_string_triple_item(obj)
+    local str = tostring(obj)
+    local t = torch.type(obj)
+    --print("tostring: obj=", str, ", t=", t, "t.sub(1,5)=", string.sub(t, 1,5))
+
+    if t == 'string' then
+        value = obj:gsub(' ', '_')
+    elseif t == 'nil' then
+        value = 'nothing'
+    elseif t == 'number' then
+        value = tostring(obj)
+    elseif t == 'table' then
+        for item in obj do
+            -- use first item in table
+            value = to_string_triple_item(item)
+            break
+        end
+    elseif t == 'babi.Action' or t == 'babi.Entity' then
+        value = obj.name
+    elseif string.sub(t, 1, 5) == "babi." then
+        value = string.sub(t, 6)
+    elseif t == 'babi.Teleport' then
+        value = 'goes'
+    elseif torch.isTypeOf(obj, 'babi.Action') then
+        if string.sub(t, 1, 5) == "babi." then
+            --print("---- FOUND babi. #2 ----")
+            value = string.sub(t, 1, 6)
+        else
+            value = t:lower():gsub(' ', '_')
+        end
+    else
+        value = tostring(t):gsub(' ', '_')
+    end
+
+    if value == nil then
+        value = str
+    end
+
+    return string.lower(value)
+end
+
+local function stringify_symbolic_clause(i, story, clause, knowledge, config, symbolic_names)
+    text = ' '
+    if torch.isTypeOf(clause, 'babi.Question') then
+        text = text .. clause.kind .. ' '
+        local loaded_templates = Set.map(
+            template_set,
+            function(template)
+                return template(i, i, story, knowledge, config, List(), {})
+            end
+        )
+        local valid_templates = tablex.filter(
+            Set.values(loaded_templates),
+            function(template)
+                return template:is_valid()
+            end
+        )
+        local options = valid_templates[1]:render_symbolic(symbolic_names)
+        --print("--> options=", options)
+        text = text .. options[math.random(#options)]
+        text = text .. '\t'
+        for _, support_clause in ipairs(tablex.keys(clause.support)) do
+            text = text .. story:index(support_clause) .. ' '
+        end
+        text = text:sub(1, -2)
+    elseif torch.isTypeOf(clause, 'babi.Rule') then
+        -- TODO Symbolic rule here
+        text = text .. 'rule'
+    else
+        local elements = {unpack(clause.args)}
+        if not torch.isTypeOf(clause.action, 'babi.SetProperty') then
+            table.insert(elements, 1, clause.action)
+        end
+        if clause.actor.name ~= 'god' then
+            table.insert(elements, 1, clause.actor)
+        end
+
+        text = text .. stringx.join(' ', tablex.map(to_string, elements, symbolic_names))
+    end
+    text = text .. '\n'
+    return text
+end
+
+local function stringify_symbolic_clause_triples(i, story, clause, knowledge, config)
+    text = ' '
+    if torch.isTypeOf(clause, 'babi.Question') then
+        
+        --text = text .. clause.kind .. ' '
+        local loaded_templates = Set.map(
+            template_set,
+            function(template)
+                return template(i, i, story, knowledge, config, List(), {})
+            end
+        )
+        local valid_templates = tablex.filter(
+            Set.values(loaded_templates),
+            function(template)
+                return template:is_valid()
+            end
+        )
+        local options = valid_templates[1]:render_symbolic(symbolic_names)
+        --print("--> options=", options)
+
+        -- choose a fact to ask about (from those generated in this session)
+        option = options[math.random(#options)]
+        --print("--> option=", option)
+
+        -- reformat to fit into triples style
+        option = string.gsub(option, ' ', ':', 1)
+        option = string.gsub(option, '\t', ':*\t', 1)
+
+        text = text .. option 
+
+        text = text .. '\t'
+        for _, support_clause in ipairs(tablex.keys(clause.support)) do
+            text = text .. story:index(support_clause) .. ' '
+        end
+        text = text:sub(1, -2)
+         
+    elseif torch.isTypeOf(clause, 'babi.Rule') then
+        -- TODO Symbolic rule here
+        text = text .. 'rule'
+    else
+        local elements = {unpack(clause.args)}
+        if not torch.isTypeOf(clause.action, 'babi.SetProperty') then
+            table.insert(elements, 1, clause.action)
+        end
+        if clause.actor.name ~= 'god' then
+            table.insert(elements, 1, clause.actor)
+        end
+
+        --print("stringifying FACT: #elements #2=", #elements)
+        text = text .. stringx.join(':', tablex.map(to_string_triple_item, elements))
+    end
+
+    --text = text .. '\n'
+    return text
+end
+
 local function stringify_symbolic(story, knowledge, config)
     local symbolic_names = {}
     local world
@@ -1598,44 +1737,7 @@ local function stringify_symbolic(story, knowledge, config)
     end
     local text = ''
     for i, clause in ipairs(story) do
-        text = text .. i .. ' '
-        if torch.isTypeOf(clause, 'babi.Question') then
-            text = text .. clause.kind .. ' '
-            local loaded_templates = Set.map(
-                template_set,
-                function(template)
-                    return template(i, i, story, knowledge, config, List(), {})
-                end
-            )
-            local valid_templates = tablex.filter(
-                Set.values(loaded_templates),
-                function(template)
-                    return template:is_valid()
-                end
-            )
-            local options = valid_templates[1]:render_symbolic(symbolic_names)
-            text = text .. options[math.random(#options)]
-            text = text .. '\t'
-            for _, support_clause in ipairs(tablex.keys(clause.support)) do
-                text = text .. story:index(support_clause) .. ' '
-            end
-            text = text:sub(1, -2)
-        elseif torch.isTypeOf(clause, 'babi.Rule') then
-            -- TODO Symbolic rule here
-            text = text .. 'rule'
-        else
-            local elements = {unpack(clause.args)}
-            if not torch.isTypeOf(clause.action, 'babi.SetProperty') then
-                table.insert(elements, 1, clause.action)
-            end
-            if clause.actor.name ~= 'god' then
-                table.insert(elements, 1, clause.actor)
-            end
-            text = text .. stringx.join(' ', tablex.map(
-                to_string, elements, symbolic_names
-            ))
-        end
-        text = text .. '\n'
+        text = text .. i .. stringify_symbolic_clause(i, story, clause, knowledge, config, symbolic_names)
     end
     return text:sub(1, -2)
 end
@@ -1667,39 +1769,52 @@ local function stringify(story, knowledge, config)
             end
         )
 
+        -- pick a template at random to use
         local template
         if #valid_templates == 0 then
             return
         else
             template = utilities.choice(valid_templates)[1]
         end
+
+        -- render the template as a list of similiar sentences
         template:add_coreferences()
         template:add_mentions()
         local options = template:render()
+
+        -- choose one of the sentences to use
         local line = options[math.random(#options)]
 
         if torch.isTypeOf(story[i], 'babi.Question') then
-            -- Multi-word outputs must be separated by commas
-            local answer_start, answer_end = line:find('\t.*')
-            local answer = line:sub(answer_start + 1, answer_end)
-            local multi_answer = answer:gsub(' ', ',')
-            line = line:sub(1, answer_start) .. multi_answer
-            -- Add supporting line numebrs
-            line = line .. '\t'
-            if not story[i].support then
-                error('no support found')
-            else
-                local support_lines = List()
-                for _, support in pairs(Set.values(story[i].support)) do
-                    support_lines:append(clause_lines[support])
-                    if coreferences[support] then
-                        support_lines:append(
-                            clause_lines[coreferences[support]]
-                        )
-                    end
+            if config.genboth then
+                -- remove answer word(s) from line 
+                index = string.find(line, '\t')
+                if index ~= nil then
+                    line = string.sub(line, 1, index-1)
                 end
-                local support = stringx.join(' ', support_lines:sort())
-                line = line .. support
+            else
+                -- Multi-word outputs must be separated by commas
+                local answer_start, answer_end = line:find('\t.*')
+                local answer = line:sub(answer_start + 1, answer_end)
+                local multi_answer = answer:gsub(' ', ',')
+                line = line:sub(1, answer_start) .. multi_answer
+                -- Add supporting line numebrs
+                line = line .. '\t'
+                if not story[i].support then
+                    error('no support found')
+                else
+                    local support_lines = List()
+                    for _, support in pairs(Set.values(story[i].support)) do
+                        support_lines:append(clause_lines[support])
+                        if coreferences[support] then
+                            support_lines:append(
+                                clause_lines[coreferences[support]]
+                            )
+                        end
+                    end
+                    local support = stringx.join(' ', support_lines:sort())
+                    line = line .. support
+                end
             end
         else
             -- Add a period
@@ -1707,6 +1822,13 @@ local function stringify(story, knowledge, config)
                 line = line .. '.'
             end
         end
+
+        -- add symbolic to line, if specified
+        --print("config.genboth=", config.genboth)
+        if config.genboth then
+            line = line .. "\t" .. stringify_symbolic_clause_triples(i, story, story[i], knowledge, config)
+        end
+
         lines:append(line)
 
         -- Keep track of where clauses were rendered
