@@ -1667,7 +1667,7 @@ local function stringify_symbolic_clause(i, story, clause, knowledge, config, sy
 end
 
 local function stringify_symbolic_clause_triples(i, story, clause, knowledge, config)
-    text = ' '
+    text = ''
     if torch.isTypeOf(clause, 'babi.Question') then
         
         --text = text .. clause.kind .. ' '
@@ -1688,11 +1688,30 @@ local function stringify_symbolic_clause_triples(i, story, clause, knowledge, co
 
         -- choose a fact to ask about (from those generated in this session)
         option = options[math.random(#options)]
-        --print("--> option=", option)
 
-        -- reformat to fit into triples style
-        option = string.gsub(option, ' ', ':', 1)
-        option = string.gsub(option, '\t', ':*\t', 1)
+        -- remove tab char
+        print("option=", option)
+        option = string.gsub(option, "\t", " ")
+
+        -- split into list of words
+        words = {}
+        for word in option:gmatch("%S+") do table.insert(words, word) end
+        print("--> question choosen - #words=", #words)
+        for i, word in pairs(words) do
+            print("  word=", word)
+        end
+        
+        -- reformat QUESTION to fit into triples style
+        if config.parens == 1 then
+            if #words == 4 then
+                option = '((' .. words[1] .. ' ' .. words[2] .. ' *) before (' .. words[1] .. ' ' .. words[2] .. ' ' .. words[3] .. '))\t' .. words[4]
+            else
+                option = '(' .. words[1] .. ' ' .. words[2] .. ' *)\t' .. words[3]
+            end
+        else
+            option = string.gsub(option, ' ', ':', 1)
+            option = string.gsub(option, '\t', ':*\t', 1)
+        end
 
         text = text .. option 
 
@@ -1715,7 +1734,11 @@ local function stringify_symbolic_clause_triples(i, story, clause, knowledge, co
         end
 
         --print("stringifying FACT: #elements #2=", #elements)
-        text = text .. stringx.join(':', tablex.map(to_string_triple_item, elements))
+        if config.parens == 1 then
+            text = '(' .. text .. stringx.join(' ', tablex.map(to_string_triple_item, elements)) .. ')'
+        else
+            text = text .. stringx.join(':', tablex.map(to_string_triple_item, elements))
+        end
     end
 
     --text = text .. '\n'

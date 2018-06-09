@@ -1,0 +1,725 @@
+option=	yellow triangle w pink sphere	true
+--> question choosen - #words=	6
+  word=	yellow
+  word=	triangle
+  word=	w
+  word=	pink
+  word=	sphere
+  word=	true
+option=	yellow triangle e red sphere	false
+--> question choosen - #words=	6
+  word=	yellow
+  word=	triangle
+  word=	e
+  word=	red
+  word=	sphere
+  word=	false
+option=	yellow triangle w red sphere	true
+--> question choosen - #words=	6
+  word=	yellow
+  word=	triangle
+  word=	w
+  word=	red
+  word=	sphere
+  word=	true
+option=	yellow triangle w red sphere	true
+--> question choosen - #words=	6
+  word=	yellow
+  word=	triangle
+  word=	w
+  word=	red
+  word=	sphere
+  word=	true
+option=	yellow triangle w pink sphere	true
+--> question choosen - #words=	6
+  word=	yellow
+  word=	triangle
+  word=	w
+  word=	pink
+  word=	sphere
+  word=	true
+option=	yellow triangle e red sphere	false
+--> question choosen - #words=	6
+  word=	yellow
+  word=	triangle
+  word=	e
+  word=	red
+  word=	sphere
+  word=	false
+option=	red sphere e pink sphere	false
+--> question choosen - #words=	6
+  word=	red
+  word=	sphere
+  word=	e
+  word=	pink
+  word=	sphere
+  word=	false
+option=	yellow triangle e red sphere	false
+--> question choosen - #words=	6
+  word=	yellow
+  word=	triangle
+  word=	e
+  word=	red
+  word=	sphere
+  word=	false
+1 The red sphere is to the left of the pink sphere.	(pink sphere e red sphere)
+2 The red sphere is to the right of the yellow triangle.	(red sphere e yellow triangle)
+3 Is the yellow triangle to the left of the pink sphere?	(yellow triangle *)	w	2 1
+4 Is the yellow triangle to the right of the red sphere?	(yellow triangle *)	e	2 1
+5 Is the yellow triangle to the left of the red sphere?	(yellow triangle *)	w	2 1
+6 Is the yellow triangle to the left of the red sphere?	(yellow triangle *)	w	2 1
+7 Is the yellow triangle to the left of the pink sphere?	(yellow triangle *)	w	2 1
+8 Is the yellow triangle to the right of the red sphere?	(yellow triangle *)	e	2 1
+9 Is the red sphere to the right of the pink sphere?	(red sphere *)	e	2 1
+10 Is the yellow triangle to the right of the red sphere?	(yellow triangle *)	e	2 1
+option=	yellow square s triangle	false
+--> question choosen - #words=	5
+  word=	yellow
+  word=	square
+  word=	s
+  word=	triangle
+  word=	false
+option=	rectangle s triangle	false
+--> question choosen - #words=	4
+  word=	rectangle
+  word=	s
+  word=	triangle
+  word=	false
+option=	rectangle e triangle	false
+--> question choosen - #words=	4
+  word=	rectangle
+  word=	e
+  word=	triangle
+  word=	false
+option=	yellow square n triangle	true
+--> question choosen - #words=	5
+  word=	yellow
+  word=	square
+  word=	n
+  word=	triangle
+  word=	true
+option=	yellow square e rectangle	true
+--> question choosen - #words=	5
+  word=	yellow
+  word=	square
+  word=	e
+  word=	rectangle
+  word=	true
+option=	triangle s yellow square	true
+--> question choosen - #words=	5
+  word=	triangle
+  word=	s
+  word=	yellow
+  word=	square
+  word=	true
+option=	triangle n yellow square	false
+--> question choosen - #words=	5
+  word=	triangle
+  word=	n
+  word=	yellow
+  word=	square
+  word=	false
+option=	rectangle e yellow square	false
+--> question choosen - #words=	5
+  word=	rectangle
+  word=	e
+  word=	yellow
+  word=	square
+  word=	false
+1 The yellow square is to the right of the rectangle.	(rectangle w yellow square)
+2 The triangle is below the yellow square.	(yellow square n triangle)
+3 Is the yellow square below the triangle?	(yellow square *)	s	1 2
+4 Is the rectangle below the triangle?	((rectangle s *) before (rectangle s triangle))	false	1 2
+5 Is the rectangle to the right of the triangle?	((rectangle e *) before (rectangle e triangle))	false	1 2
+6 Is the yellow square above the triangle?	(yellow square *)	n	1 2
+7 Is the yellow square to the right of the rectangle?	(yellow square *)	e	1 2
+8 Is the triangle below the yellow square?	(triangle s *)	yellow	1 2
+9 Is the triangle above the yellow square?	(triangle n *)	yellow	1 2
+10 Is the rectangle to the right of the yellow square?	(rectangle e *)	yellow	1 2
+option=	red rectangle n red triangle	true
+--> question choosen - #words=	6
+  word=	red
+  word=	rectangle
+  word=	n
+  word=	red
+  word=	triangle
+  word=	true
+option=	red rectangle s square	false
+--> question choosen - #words=	5
+  word=	red
+  word=	rectangle
+  word=	s
+  word=	square
+  word=	false
+option=	square e red triangle	true
+--> question choosen - #words=	5
+  word=	square
+  word=	e
+  word=	red
+  word=	triangle
+  word=	true
+option=	red triangle e square	false
+--> question choosen - #words=	5
+  word=	red
+  word=	triangle
+  word=	e
+  word=	square
+  word=	false
+option=	red rectangle n red triangle	true
+--> question choosen - #words=	6
+  word=	red
+  word=	rectangle
+  word=	n
+  word=	red
+  word=	triangle
+  word=	true
+option=	red rectangle s red triangle	false
+--> question choosen - #words=	6
+  word=	red
+  word=	rectangle
+  word=	s
+  word=	red
+  word=	triangle
+  word=	false
+option=	red triangle w square	true
+--> question choosen - #words=	5
+  word=	red
+  word=	triangle
+  word=	w
+  word=	square
+  word=	true
+option=	square e red triangle	true
+--> question choosen - #words=	5
+  word=	square
+  word=	e
+  word=	red
+  word=	triangle
+  word=	true
+1 The red rectangle is above the red triangle.	(red rectangle n red triangle)
+2 The red triangle is to the left of the square.	(red triangle w square)
+3 Is the red rectangle above the red triangle?	(red rectangle *)	n	2 1
+4 Is the red rectangle below the square?	(red rectangle *)	s	2 1
+5 Is the square to the right of the red triangle?	(square e *)	red	2 1
+6 Is the red triangle to the right of the square?	(red triangle *)	e	2 1
+7 Is the red rectangle above the red triangle?	(red rectangle *)	n	2 1
+8 Is the red rectangle below the red triangle?	(red rectangle *)	s	2 1
+9 Is the red triangle to the left of the square?	(red triangle *)	w	2 1
+10 Is the square to the right of the red triangle?	(square e *)	red	2 1
+option=	yellow triangle e pink sphere	true
+--> question choosen - #words=	6
+  word=	yellow
+  word=	triangle
+  word=	e
+  word=	pink
+  word=	sphere
+  word=	true
+option=	pink square w yellow triangle	true
+--> question choosen - #words=	6
+  word=	pink
+  word=	square
+  word=	w
+  word=	yellow
+  word=	triangle
+  word=	true
+option=	yellow triangle e pink sphere	true
+--> question choosen - #words=	6
+  word=	yellow
+  word=	triangle
+  word=	e
+  word=	pink
+  word=	sphere
+  word=	true
+option=	yellow triangle e pink sphere	true
+--> question choosen - #words=	6
+  word=	yellow
+  word=	triangle
+  word=	e
+  word=	pink
+  word=	sphere
+  word=	true
+option=	pink sphere w pink square	false
+--> question choosen - #words=	6
+  word=	pink
+  word=	sphere
+  word=	w
+  word=	pink
+  word=	square
+  word=	false
+option=	pink sphere w pink square	false
+--> question choosen - #words=	6
+  word=	pink
+  word=	sphere
+  word=	w
+  word=	pink
+  word=	square
+  word=	false
+option=	pink sphere w yellow triangle	true
+--> question choosen - #words=	6
+  word=	pink
+  word=	sphere
+  word=	w
+  word=	yellow
+  word=	triangle
+  word=	true
+option=	yellow triangle w pink square	false
+--> question choosen - #words=	6
+  word=	yellow
+  word=	triangle
+  word=	w
+  word=	pink
+  word=	square
+  word=	false
+1 The pink sphere is to the right of the pink square.	(pink square w pink sphere)
+2 The yellow triangle is to the right of the pink sphere.	(pink sphere w yellow triangle)
+3 Is the yellow triangle to the right of the pink sphere?	(yellow triangle *)	e	1 2
+4 Is the pink square to the left of the yellow triangle?	(pink square *)	w	1 2
+5 Is the yellow triangle to the right of the pink sphere?	(yellow triangle *)	e	1 2
+6 Is the yellow triangle to the right of the pink sphere?	(yellow triangle *)	e	1 2
+7 Is the pink sphere to the left of the pink square?	(pink sphere *)	w	1 2
+8 Is the pink sphere to the left of the pink square?	(pink sphere *)	w	1 2
+9 Is the pink sphere to the left of the yellow triangle?	(pink sphere *)	w	1 2
+10 Is the yellow triangle to the left of the pink square?	(yellow triangle *)	w	1 2
+option=	red sphere w blue triangle	true
+--> question choosen - #words=	6
+  word=	red
+  word=	sphere
+  word=	w
+  word=	blue
+  word=	triangle
+  word=	true
+option=	red rectangle e blue triangle	false
+--> question choosen - #words=	6
+  word=	red
+  word=	rectangle
+  word=	e
+  word=	blue
+  word=	triangle
+  word=	false
+option=	red rectangle e blue triangle	false
+--> question choosen - #words=	6
+  word=	red
+  word=	rectangle
+  word=	e
+  word=	blue
+  word=	triangle
+  word=	false
+option=	red sphere n red rectangle	false
+--> question choosen - #words=	6
+  word=	red
+  word=	sphere
+  word=	n
+  word=	red
+  word=	rectangle
+  word=	false
+option=	red rectangle w blue triangle	true
+--> question choosen - #words=	6
+  word=	red
+  word=	rectangle
+  word=	w
+  word=	blue
+  word=	triangle
+  word=	true
+option=	blue triangle w red rectangle	false
+--> question choosen - #words=	6
+  word=	blue
+  word=	triangle
+  word=	w
+  word=	red
+  word=	rectangle
+  word=	false
+option=	red sphere e blue triangle	false
+--> question choosen - #words=	6
+  word=	red
+  word=	sphere
+  word=	e
+  word=	blue
+  word=	triangle
+  word=	false
+option=	red sphere s red rectangle	true
+--> question choosen - #words=	6
+  word=	red
+  word=	sphere
+  word=	s
+  word=	red
+  word=	rectangle
+  word=	true
+1 The blue triangle is to the right of the red rectangle.	(blue triangle e red rectangle)
+2 The red rectangle is above the red sphere.	(red rectangle n red sphere)
+3 Is the red sphere to the left of the blue triangle?	(red sphere *)	w	2 1
+4 Is the red rectangle to the right of the blue triangle?	(red rectangle *)	e	2 1
+5 Is the red rectangle to the right of the blue triangle?	(red rectangle *)	e	2 1
+6 Is the red sphere above the red rectangle?	(red sphere *)	n	2 1
+7 Is the red rectangle to the left of the blue triangle?	(red rectangle *)	w	2 1
+8 Is the blue triangle to the left of the red rectangle?	(blue triangle *)	w	2 1
+9 Is the red sphere to the right of the blue triangle?	(red sphere *)	e	2 1
+10 Is the red sphere below the red rectangle?	(red sphere *)	s	2 1
+option=	blue square s red square	true
+--> question choosen - #words=	6
+  word=	blue
+  word=	square
+  word=	s
+  word=	red
+  word=	square
+  word=	true
+option=	blue square s blue sphere	false
+--> question choosen - #words=	6
+  word=	blue
+  word=	square
+  word=	s
+  word=	blue
+  word=	sphere
+  word=	false
+option=	blue sphere n blue square	false
+--> question choosen - #words=	6
+  word=	blue
+  word=	sphere
+  word=	n
+  word=	blue
+  word=	square
+  word=	false
+option=	blue square s blue sphere	false
+--> question choosen - #words=	6
+  word=	blue
+  word=	square
+  word=	s
+  word=	blue
+  word=	sphere
+  word=	false
+option=	red square s blue sphere	false
+--> question choosen - #words=	6
+  word=	red
+  word=	square
+  word=	s
+  word=	blue
+  word=	sphere
+  word=	false
+option=	red square s blue square	false
+--> question choosen - #words=	6
+  word=	red
+  word=	square
+  word=	s
+  word=	blue
+  word=	square
+  word=	false
+option=	red square s blue square	false
+--> question choosen - #words=	6
+  word=	red
+  word=	square
+  word=	s
+  word=	blue
+  word=	square
+  word=	false
+option=	blue sphere n red square	false
+--> question choosen - #words=	6
+  word=	blue
+  word=	sphere
+  word=	n
+  word=	red
+  word=	square
+  word=	false
+1 The blue square is above the blue sphere.	(blue sphere s blue square)
+2 The blue square is below the red square.	(blue square s red square)
+3 Is the blue square below the red square?	(blue square *)	s	2 1
+4 Is the blue square below the blue sphere?	(blue square *)	s	2 1
+5 Is the blue sphere above the blue square?	(blue sphere *)	n	2 1
+6 Is the blue square below the blue sphere?	(blue square *)	s	2 1
+7 Is the red square below the blue sphere?	(red square *)	s	2 1
+8 Is the red square below the blue square?	(red square *)	s	2 1
+9 Is the red square below the blue square?	(red square *)	s	2 1
+10 Is the blue sphere above the red square?	(blue sphere *)	n	2 1
+option=	red rectangle w blue square	false
+--> question choosen - #words=	6
+  word=	red
+  word=	rectangle
+  word=	w
+  word=	blue
+  word=	square
+  word=	false
+option=	blue square w red rectangle	true
+--> question choosen - #words=	6
+  word=	blue
+  word=	square
+  word=	w
+  word=	red
+  word=	rectangle
+  word=	true
+option=	blue square e red rectangle	false
+--> question choosen - #words=	6
+  word=	blue
+  word=	square
+  word=	e
+  word=	red
+  word=	rectangle
+  word=	false
+option=	pink square n blue square	true
+--> question choosen - #words=	6
+  word=	pink
+  word=	square
+  word=	n
+  word=	blue
+  word=	square
+  word=	true
+option=	pink square n blue square	true
+--> question choosen - #words=	6
+  word=	pink
+  word=	square
+  word=	n
+  word=	blue
+  word=	square
+  word=	true
+option=	pink square n blue square	true
+--> question choosen - #words=	6
+  word=	pink
+  word=	square
+  word=	n
+  word=	blue
+  word=	square
+  word=	true
+option=	red rectangle w blue square	false
+--> question choosen - #words=	6
+  word=	red
+  word=	rectangle
+  word=	w
+  word=	blue
+  word=	square
+  word=	false
+option=	pink square e red rectangle	false
+--> question choosen - #words=	6
+  word=	pink
+  word=	square
+  word=	e
+  word=	red
+  word=	rectangle
+  word=	false
+1 The red rectangle is to the right of the blue square.	(red rectangle e blue square)
+2 The blue square is below the pink square.	(blue square s pink square)
+3 Is the red rectangle to the left of the blue square?	(red rectangle *)	w	2 1
+4 Is the blue square to the left of the red rectangle?	(blue square *)	w	2 1
+5 Is the blue square to the right of the red rectangle?	(blue square *)	e	2 1
+6 Is the pink square above the blue square?	(pink square *)	n	2 1
+7 Is the pink square above the blue square?	(pink square *)	n	2 1
+8 Is the pink square above the blue square?	(pink square *)	n	2 1
+9 Is the red rectangle to the left of the blue square?	(red rectangle *)	w	2 1
+10 Is the pink square to the right of the red rectangle?	(pink square *)	e	2 1
+option=	yellow triangle n yellow rectangle	true
+--> question choosen - #words=	6
+  word=	yellow
+  word=	triangle
+  word=	n
+  word=	yellow
+  word=	rectangle
+  word=	true
+option=	yellow rectangle w yellow triangle	true
+--> question choosen - #words=	6
+  word=	yellow
+  word=	rectangle
+  word=	w
+  word=	yellow
+  word=	triangle
+  word=	true
+option=	blue sphere s yellow triangle	true
+--> question choosen - #words=	6
+  word=	blue
+  word=	sphere
+  word=	s
+  word=	yellow
+  word=	triangle
+  word=	true
+option=	yellow rectangle n yellow triangle	false
+--> question choosen - #words=	6
+  word=	yellow
+  word=	rectangle
+  word=	n
+  word=	yellow
+  word=	triangle
+  word=	false
+option=	yellow rectangle e blue sphere	false
+--> question choosen - #words=	6
+  word=	yellow
+  word=	rectangle
+  word=	e
+  word=	blue
+  word=	sphere
+  word=	false
+option=	blue sphere s yellow triangle	true
+--> question choosen - #words=	6
+  word=	blue
+  word=	sphere
+  word=	s
+  word=	yellow
+  word=	triangle
+  word=	true
+option=	blue sphere e yellow rectangle	true
+--> question choosen - #words=	6
+  word=	blue
+  word=	sphere
+  word=	e
+  word=	yellow
+  word=	rectangle
+  word=	true
+option=	yellow rectangle w yellow triangle	true
+--> question choosen - #words=	6
+  word=	yellow
+  word=	rectangle
+  word=	w
+  word=	yellow
+  word=	triangle
+  word=	true
+1 The blue sphere is below the yellow triangle.	(yellow triangle n blue sphere)
+2 The yellow rectangle is to the left of the blue sphere.	(blue sphere e yellow rectangle)
+3 Is the yellow triangle above the yellow rectangle?	(yellow triangle *)	n	2 1
+4 Is the yellow rectangle to the left of the yellow triangle?	(yellow rectangle *)	w	2 1
+5 Is the blue sphere below the yellow triangle?	(blue sphere *)	s	2 1
+6 Is the yellow rectangle above the yellow triangle?	(yellow rectangle *)	n	2 1
+7 Is the yellow rectangle to the right of the blue sphere?	(yellow rectangle *)	e	2 1
+8 Is the blue sphere below the yellow triangle?	(blue sphere *)	s	2 1
+9 Is the blue sphere to the right of the yellow rectangle?	(blue sphere *)	e	2 1
+10 Is the yellow rectangle to the left of the yellow triangle?	(yellow rectangle *)	w	2 1
+option=	pink rectangle e red sphere	true
+--> question choosen - #words=	6
+  word=	pink
+  word=	rectangle
+  word=	e
+  word=	red
+  word=	sphere
+  word=	true
+option=	pink rectangle w red sphere	false
+--> question choosen - #words=	6
+  word=	pink
+  word=	rectangle
+  word=	w
+  word=	red
+  word=	sphere
+  word=	false
+option=	red sphere w pink square	true
+--> question choosen - #words=	6
+  word=	red
+  word=	sphere
+  word=	w
+  word=	pink
+  word=	square
+  word=	true
+option=	red sphere e pink rectangle	false
+--> question choosen - #words=	6
+  word=	red
+  word=	sphere
+  word=	e
+  word=	pink
+  word=	rectangle
+  word=	false
+option=	pink rectangle w pink square	true
+--> question choosen - #words=	6
+  word=	pink
+  word=	rectangle
+  word=	w
+  word=	pink
+  word=	square
+  word=	true
+option=	red sphere e pink rectangle	false
+--> question choosen - #words=	6
+  word=	red
+  word=	sphere
+  word=	e
+  word=	pink
+  word=	rectangle
+  word=	false
+option=	pink square e pink rectangle	true
+--> question choosen - #words=	6
+  word=	pink
+  word=	square
+  word=	e
+  word=	pink
+  word=	rectangle
+  word=	true
+option=	red sphere e pink square	false
+--> question choosen - #words=	6
+  word=	red
+  word=	sphere
+  word=	e
+  word=	pink
+  word=	square
+  word=	false
+1 The red sphere is to the left of the pink rectangle.	(red sphere w pink rectangle)
+2 The pink square is to the right of the pink rectangle.	(pink rectangle w pink square)
+3 Is the pink rectangle to the right of the red sphere?	(pink rectangle *)	e	2 1
+4 Is the pink rectangle to the left of the red sphere?	(pink rectangle *)	w	2 1
+5 Is the red sphere to the left of the pink square?	(red sphere *)	w	2 1
+6 Is the red sphere to the right of the pink rectangle?	(red sphere *)	e	2 1
+7 Is the pink rectangle to the left of the pink square?	(pink rectangle *)	w	2 1
+8 Is the red sphere to the right of the pink rectangle?	(red sphere *)	e	2 1
+9 Is the pink square to the right of the pink rectangle?	(pink square *)	e	2 1
+10 Is the red sphere to the right of the pink square?	(red sphere *)	e	2 1
+option=	pink sphere w blue square	false
+--> question choosen - #words=	6
+  word=	pink
+  word=	sphere
+  word=	w
+  word=	blue
+  word=	square
+  word=	false
+option=	blue rectangle w blue square	false
+--> question choosen - #words=	6
+  word=	blue
+  word=	rectangle
+  word=	w
+  word=	blue
+  word=	square
+  word=	false
+option=	pink sphere w blue square	false
+--> question choosen - #words=	6
+  word=	pink
+  word=	sphere
+  word=	w
+  word=	blue
+  word=	square
+  word=	false
+option=	blue rectangle s pink sphere	false
+--> question choosen - #words=	6
+  word=	blue
+  word=	rectangle
+  word=	s
+  word=	pink
+  word=	sphere
+  word=	false
+option=	blue rectangle s pink sphere	false
+--> question choosen - #words=	6
+  word=	blue
+  word=	rectangle
+  word=	s
+  word=	pink
+  word=	sphere
+  word=	false
+option=	blue rectangle n pink sphere	true
+--> question choosen - #words=	6
+  word=	blue
+  word=	rectangle
+  word=	n
+  word=	pink
+  word=	sphere
+  word=	true
+option=	pink sphere n blue rectangle	false
+--> question choosen - #words=	6
+  word=	pink
+  word=	sphere
+  word=	n
+  word=	blue
+  word=	rectangle
+  word=	false
+option=	pink sphere w blue square	false
+--> question choosen - #words=	6
+  word=	pink
+  word=	sphere
+  word=	w
+  word=	blue
+  word=	square
+  word=	false
+1 The pink sphere is to the right of the blue square.	(blue square w pink sphere)
+2 The blue rectangle is above the pink sphere.	(pink sphere s blue rectangle)
+3 Is the pink sphere to the left of the blue square?	(pink sphere *)	w	2 1
+4 Is the blue rectangle to the left of the blue square?	(blue rectangle *)	w	2 1
+5 Is the pink sphere to the left of the blue square?	(pink sphere *)	w	2 1
+6 Is the blue rectangle below the pink sphere?	(blue rectangle *)	s	2 1
+7 Is the blue rectangle below the pink sphere?	(blue rectangle *)	s	2 1
+8 Is the blue rectangle above the pink sphere?	(blue rectangle *)	n	2 1
+9 Is the pink sphere above the blue rectangle?	(pink sphere *)	n	2 1
+10 Is the pink sphere to the left of the blue square?	(pink sphere *)	w	2 1

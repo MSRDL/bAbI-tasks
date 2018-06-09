@@ -1,0 +1,80 @@
+option=	office w	hallway
+--> question choosen - #words=	3
+  word=	office
+  word=	w
+  word=	hallway
+1 The bathroom is west the office.	(office e bathroom)
+2 The office is west the hallway.	(hallway e office)
+3 What is west the hallway?	(office w *)	hallway	2
+option=	garden s	kitchen
+--> question choosen - #words=	3
+  word=	garden
+  word=	s
+  word=	kitchen
+1 The garden is south the kitchen.	(kitchen n garden)
+2 The office is south the garden.	(garden n office)
+3 What is south the kitchen?	(garden s *)	kitchen	1
+option=	bedroom w	kitchen
+--> question choosen - #words=	3
+  word=	bedroom
+  word=	w
+  word=	kitchen
+1 The kitchen is east the bedroom.	(kitchen e bedroom)
+2 The bedroom is east the office.	(bedroom e office)
+3 What is the kitchen east?	(bedroom w *)	kitchen	1
+option=	hallway s	office
+--> question choosen - #words=	3
+  word=	hallway
+  word=	s
+  word=	office
+1 The bathroom is south the hallway.	(hallway n bathroom)
+2 The hallway is south the office.	(office n hallway)
+3 What is the office north?	(hallway s *)	office	2
+option=	bedroom e	bathroom
+--> question choosen - #words=	3
+  word=	bedroom
+  word=	e
+  word=	bathroom
+1 The bedroom is east the bathroom.	(bedroom e bathroom)
+2 The kitchen is east the bedroom.	(kitchen e bedroom)
+3 What is the bathroom west?	(bedroom e *)	bathroom	1
+option=	office w	bedroom
+--> question choosen - #words=	3
+  word=	office
+  word=	w
+  word=	bedroom
+1 The office is east the bathroom.	(office e bathroom)
+2 The bedroom is east the office.	(bedroom e office)
+3 What is the office west?	(office w *)	bedroom	2
+option=	bedroom n	kitchen
+--> question choosen - #words=	3
+  word=	bedroom
+  word=	n
+  word=	kitchen
+1 The kitchen is south the bedroom.	(bedroom n kitchen)
+2 The hallway is north the bedroom.	(hallway n bedroom)
+3 What is south the bedroom?	(bedroom n *)	kitchen	1
+option=	kitchen n	bedroom
+--> question choosen - #words=	3
+  word=	kitchen
+  word=	n
+  word=	bedroom
+1 The garden is north the kitchen.	(garden n kitchen)
+2 The kitchen is north the bedroom.	(kitchen n bedroom)
+3 What is north the bedroom?	(kitchen n *)	bedroom	2
+option=	hallway e	kitchen
+--> question choosen - #words=	3
+  word=	hallway
+  word=	e
+  word=	kitchen
+1 The kitchen is west the hallway.	(hallway e kitchen)
+2 The hallway is west the garden.	(garden e hallway)
+3 What is the hallway east?	(hallway e *)	kitchen	1
+option=	bathroom e	garden
+--> question choosen - #words=	3
+  word=	bathroom
+  word=	e
+  word=	garden
+1 The bathroom is west the office.	(office e bathroom)
+2 The garden is west the bathroom.	(bathroom e garden)
+3 What is the garden west?	(bathroom e *)	garden	2

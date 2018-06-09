@@ -1,0 +1,110 @@
+option=	path kitchen hallway	e,s
+--> question choosen - #words=	4
+  word=	path
+  word=	kitchen
+  word=	hallway
+  word=	e,s
+1 The bedroom is west the hallway.	(hallway e bedroom)
+2 The hallway is south the office.	(hallway s office)
+3 The garden is west the kitchen.	(kitchen e garden)
+4 The hallway is north the garden.	(garden s hallway)
+5 What is the path from kitchen to hallway?	((path kitchen *) before (path kitchen hallway))	e,s	3 4
+option=	path kitchen hallway	n,e
+--> question choosen - #words=	4
+  word=	path
+  word=	kitchen
+  word=	hallway
+  word=	n,e
+1 The kitchen is north the garden.	(kitchen n garden)
+2 The bathroom is east the kitchen.	(kitchen w bathroom)
+3 The garden is east the hallway.	(garden e hallway)
+4 The hallway is east the office.	(hallway e office)
+5 What is the path from kitchen to hallway?	((path kitchen *) before (path kitchen hallway))	n,e	1 3
+option=	path bedroom hallway	s,e
+--> question choosen - #words=	4
+  word=	path
+  word=	bedroom
+  word=	hallway
+  word=	s,e
+1 The kitchen is north the hallway.	(hallway s kitchen)
+2 The hallway is west the garden.	(garden e hallway)
+3 The garden is north the bedroom.	(bedroom s garden)
+4 The garden is west the bathroom.	(garden w bathroom)
+5 What is the path from bedroom to hallway?	((path bedroom *) before (path bedroom hallway))	s,e	2 3
+option=	path bathroom hallway	n,w
+--> question choosen - #words=	4
+  word=	path
+  word=	bathroom
+  word=	hallway
+  word=	n,w
+1 The office is south the bathroom.	(bathroom n office)
+2 The hallway is east the office.	(office w hallway)
+3 The hallway is north the garden.	(hallway n garden)
+4 The bathroom is east the bedroom.	(bathroom e bedroom)
+5 What is the path from bathroom to hallway?	((path bathroom *) before (path bathroom hallway))	n,w	2 1
+option=	path bedroom bathroom	s,e
+--> question choosen - #words=	4
+  word=	path
+  word=	bedroom
+  word=	bathroom
+  word=	s,e
+1 The kitchen is north the bedroom.	(bedroom s kitchen)
+2 The office is north the kitchen.	(kitchen s office)
+3 The hallway is north the office.	(office s hallway)
+4 The kitchen is east the bathroom.	(kitchen e bathroom)
+5 What is the path from bedroom to bathroom?	((path bedroom *) before (path bedroom bathroom))	s,e	1 4
+option=	path office bathroom	s,s
+--> question choosen - #words=	4
+  word=	path
+  word=	office
+  word=	bathroom
+  word=	s,s
+1 The hallway is south the bathroom.	(hallway s bathroom)
+2 The bathroom is south the bedroom.	(bathroom s bedroom)
+3 The bathroom is west the kitchen.	(bathroom w kitchen)
+4 The office is south the hallway.	(office s hallway)
+5 What is the path from office to bathroom?	((path office *) before (path office bathroom))	s,s	1 4
+option=	path bathroom office	e,n
+--> question choosen - #words=	4
+  word=	path
+  word=	bathroom
+  word=	office
+  word=	e,n
+1 The bathroom is east the garden.	(bathroom e garden)
+2 The garden is north the office.	(garden n office)
+3 The bathroom is south the hallway.	(bathroom s hallway)
+4 The kitchen is east the hallway.	(hallway w kitchen)
+5 What is the path from bathroom to office?	((path bathroom *) before (path bathroom office))	e,n	1 2
+option=	path bedroom garden	s,e
+--> question choosen - #words=	4
+  word=	path
+  word=	bedroom
+  word=	garden
+  word=	s,e
+1 The garden is east the kitchen.	(garden e kitchen)
+2 The garden is west the hallway.	(hallway e garden)
+3 The hallway is north the bedroom.	(bedroom s hallway)
+4 The office is east the bedroom.	(bedroom w office)
+5 What is the path from bedroom to garden?	((path bedroom *) before (path bedroom garden))	s,e	2 3
+option=	path hallway bedroom	e,s
+--> question choosen - #words=	4
+  word=	path
+  word=	hallway
+  word=	bedroom
+  word=	e,s
+1 The garden is east the bathroom.	(garden e bathroom)
+2 The bedroom is north the kitchen.	(kitchen s bedroom)
+3 The kitchen is west the hallway.	(hallway e kitchen)
+4 The kitchen is north the garden.	(kitchen n garden)
+5 What is the path from hallway to bedroom?	((path hallway *) before (path hallway bedroom))	e,s	3 2
+option=	path garden office	s,s
+--> question choosen - #words=	4
+  word=	path
+  word=	garden
+  word=	office
+  word=	s,s
+1 The office is north the bedroom.	(bedroom s office)
+2 The hallway is north the kitchen.	(hallway n kitchen)
+3 The bedroom is north the garden.	(garden s bedroom)
+4 The hallway is east the garden.	(garden w hallway)
+5 What is the path from garden to office?	((path garden *) before (path garden office))	s,s	1 3

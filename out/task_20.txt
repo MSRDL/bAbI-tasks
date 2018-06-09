@@ -1,0 +1,920 @@
+option=	teleport Sumit	garden
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Sumit
+  word=	garden
+option=	Sumit teleport garden	bored
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	teleport
+  word=	garden
+  word=	bored
+option=	teleport Jason	bedroom
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Jason
+  word=	bedroom
+option=	Sumit get football	bored
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	get
+  word=	football
+  word=	bored
+option=	teleport Yann	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Yann
+  word=	kitchen
+option=	teleport Antoine	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Antoine
+  word=	kitchen
+option=	Antoine teleport kitchen	thirsty
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	teleport
+  word=	kitchen
+  word=	thirsty
+option=	Yann teleport kitchen	hungry
+--> question choosen - #words=	4
+  word=	Yann
+  word=	teleport
+  word=	kitchen
+  word=	hungry
+option=	Yann get apple	hungry
+--> question choosen - #words=	4
+  word=	Yann
+  word=	get
+  word=	apple
+  word=	hungry
+option=	Antoine get milk	thirsty
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	get
+  word=	milk
+  word=	thirsty
+option=	Jason teleport bedroom	tired
+--> question choosen - #words=	4
+  word=	Jason
+  word=	teleport
+  word=	bedroom
+  word=	tired
+option=	Jason get pajamas	tired
+--> question choosen - #words=	4
+  word=	Jason
+  word=	get
+  word=	pajamas
+  word=	tired
+1 Sumit is bored.	(sumit is bored)
+2 Where will Sumit go?	(teleport Sumit *)	garden	1
+3 Sumit travelled to the garden.	(sumit teleport garden)
+4 Why did Sumit go to the garden?	((Sumit teleport *) before (Sumit teleport garden))	bored	1
+5 Jason is tired.	(jason is tired)
+6 Where will Jason go?	(teleport Jason *)	bedroom	5
+7 Sumit took the football.	(sumit get football)
+8 Why did Sumit get the football?	((Sumit get *) before (Sumit get football))	bored	1
+9 Yann is hungry.	(yann is hungry)
+10 Where will Yann go?	(teleport Yann *)	kitchen	9
+11 Antoine is thirsty.	(antoine is thirsty)
+12 Where will Antoine go?	(teleport Antoine *)	kitchen	11
+13 Antoine went to the kitchen.	(antoine teleport kitchen)
+14 Why did Antoine go to the kitchen?	((Antoine teleport *) before (Antoine teleport kitchen))	thirsty	11
+15 Yann journeyed to the kitchen.	(yann teleport kitchen)
+16 Why did Yann go to the kitchen?	((Yann teleport *) before (Yann teleport kitchen))	hungry	9
+17 Yann took the apple.	(yann get apple)
+18 Why did Yann get the apple?	((Yann get *) before (Yann get apple))	hungry	9
+19 Antoine got the milk.	(antoine get milk)
+20 Why did Antoine get the milk?	((Antoine get *) before (Antoine get milk))	thirsty	11
+21 Jason went to the bedroom.	(jason teleport bedroom)
+22 Why did Jason go to the bedroom?	((Jason teleport *) before (Jason teleport bedroom))	tired	5
+23 Jason grabbed the pajamas.	(jason get pajamas)
+24 Why did Jason get the pajamas?	((Jason get *) before (Jason get pajamas))	tired	5
+option=	teleport Sumit	bedroom
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Sumit
+  word=	bedroom
+option=	Sumit teleport bedroom	tired
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	teleport
+  word=	bedroom
+  word=	tired
+option=	teleport Antoine	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Antoine
+  word=	kitchen
+option=	Sumit get pajamas	tired
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	get
+  word=	pajamas
+  word=	tired
+option=	Antoine teleport kitchen	hungry
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	teleport
+  word=	kitchen
+  word=	hungry
+option=	teleport Yann	garden
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Yann
+  word=	garden
+option=	teleport Jason	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Jason
+  word=	kitchen
+option=	Jason teleport kitchen	thirsty
+--> question choosen - #words=	4
+  word=	Jason
+  word=	teleport
+  word=	kitchen
+  word=	thirsty
+option=	Yann teleport garden	bored
+--> question choosen - #words=	4
+  word=	Yann
+  word=	teleport
+  word=	garden
+  word=	bored
+option=	Antoine get apple	hungry
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	get
+  word=	apple
+  word=	hungry
+option=	Jason get milk	thirsty
+--> question choosen - #words=	4
+  word=	Jason
+  word=	get
+  word=	milk
+  word=	thirsty
+option=	Yann get football	bored
+--> question choosen - #words=	4
+  word=	Yann
+  word=	get
+  word=	football
+  word=	bored
+1 Sumit is tired.	(sumit is tired)
+2 Where will Sumit go?	(teleport Sumit *)	bedroom	1
+3 Sumit journeyed to the bedroom.	(sumit teleport bedroom)
+4 Why did Sumit go to the bedroom?	((Sumit teleport *) before (Sumit teleport bedroom))	tired	1
+5 Antoine is hungry.	(antoine is hungry)
+6 Where will Antoine go?	(teleport Antoine *)	kitchen	5
+7 Sumit got the pajamas.	(sumit get pajamas)
+8 Why did Sumit get the pajamas?	((Sumit get *) before (Sumit get pajamas))	tired	1
+9 Antoine moved to the kitchen.	(antoine teleport kitchen)
+10 Why did Antoine go to the kitchen?	((Antoine teleport *) before (Antoine teleport kitchen))	hungry	5
+11 Yann is bored.	(yann is bored)
+12 Where will Yann go?	(teleport Yann *)	garden	11
+13 Jason is thirsty.	(jason is thirsty)
+14 Where will Jason go?	(teleport Jason *)	kitchen	13
+15 Jason journeyed to the kitchen.	(jason teleport kitchen)
+16 Why did Jason go to the kitchen?	((Jason teleport *) before (Jason teleport kitchen))	thirsty	13
+17 Yann went to the garden.	(yann teleport garden)
+18 Why did Yann go to the garden?	((Yann teleport *) before (Yann teleport garden))	bored	11
+19 Antoine got the apple.	(antoine get apple)
+20 Why did Antoine get the apple?	((Antoine get *) before (Antoine get apple))	hungry	5
+21 Jason took the milk.	(jason get milk)
+22 Why did Jason get the milk?	((Jason get *) before (Jason get milk))	thirsty	13
+23 Yann got the football.	(yann get football)
+24 Why did Yann get the football?	((Yann get *) before (Yann get football))	bored	11
+option=	teleport Jason	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Jason
+  word=	kitchen
+option=	teleport Antoine	garden
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Antoine
+  word=	garden
+option=	teleport Yann	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Yann
+  word=	kitchen
+option=	teleport Sumit	bedroom
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Sumit
+  word=	bedroom
+option=	Yann teleport kitchen	thirsty
+--> question choosen - #words=	4
+  word=	Yann
+  word=	teleport
+  word=	kitchen
+  word=	thirsty
+option=	Antoine teleport garden	bored
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	teleport
+  word=	garden
+  word=	bored
+option=	Jason teleport kitchen	hungry
+--> question choosen - #words=	4
+  word=	Jason
+  word=	teleport
+  word=	kitchen
+  word=	hungry
+option=	Sumit teleport bedroom	tired
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	teleport
+  word=	bedroom
+  word=	tired
+option=	Jason get apple	hungry
+--> question choosen - #words=	4
+  word=	Jason
+  word=	get
+  word=	apple
+  word=	hungry
+option=	Antoine get football	bored
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	get
+  word=	football
+  word=	bored
+option=	Sumit get pajamas	tired
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	get
+  word=	pajamas
+  word=	tired
+option=	Yann get milk	thirsty
+--> question choosen - #words=	4
+  word=	Yann
+  word=	get
+  word=	milk
+  word=	thirsty
+1 Jason is hungry.	(jason is hungry)
+2 Where will Jason go?	(teleport Jason *)	kitchen	1
+3 Antoine is bored.	(antoine is bored)
+4 Where will Antoine go?	(teleport Antoine *)	garden	3
+5 Yann is thirsty.	(yann is thirsty)
+6 Where will Yann go?	(teleport Yann *)	kitchen	5
+7 Sumit is tired.	(sumit is tired)
+8 Where will Sumit go?	(teleport Sumit *)	bedroom	7
+9 Yann went to the kitchen.	(yann teleport kitchen)
+10 Why did Yann go to the kitchen?	((Yann teleport *) before (Yann teleport kitchen))	thirsty	5
+11 Antoine moved to the garden.	(antoine teleport garden)
+12 Why did Antoine go to the garden?	((Antoine teleport *) before (Antoine teleport garden))	bored	3
+13 Jason moved to the kitchen.	(jason teleport kitchen)
+14 Why did Jason go to the kitchen?	((Jason teleport *) before (Jason teleport kitchen))	hungry	1
+15 Sumit moved to the bedroom.	(sumit teleport bedroom)
+16 Why did Sumit go to the bedroom?	((Sumit teleport *) before (Sumit teleport bedroom))	tired	7
+17 Jason took the apple.	(jason get apple)
+18 Why did Jason get the apple?	((Jason get *) before (Jason get apple))	hungry	1
+19 Antoine took the football.	(antoine get football)
+20 Why did Antoine get the football?	((Antoine get *) before (Antoine get football))	bored	3
+21 Sumit grabbed the pajamas.	(sumit get pajamas)
+22 Why did Sumit get the pajamas?	((Sumit get *) before (Sumit get pajamas))	tired	7
+23 Yann got the milk.	(yann get milk)
+24 Why did Yann get the milk?	((Yann get *) before (Yann get milk))	thirsty	5
+option=	teleport Sumit	garden
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Sumit
+  word=	garden
+option=	teleport Jason	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Jason
+  word=	kitchen
+option=	teleport Yann	bedroom
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Yann
+  word=	bedroom
+option=	Sumit teleport garden	bored
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	teleport
+  word=	garden
+  word=	bored
+option=	teleport Antoine	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Antoine
+  word=	kitchen
+option=	Yann teleport bedroom	tired
+--> question choosen - #words=	4
+  word=	Yann
+  word=	teleport
+  word=	bedroom
+  word=	tired
+option=	Antoine teleport kitchen	hungry
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	teleport
+  word=	kitchen
+  word=	hungry
+option=	Yann get pajamas	tired
+--> question choosen - #words=	4
+  word=	Yann
+  word=	get
+  word=	pajamas
+  word=	tired
+option=	Sumit get football	bored
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	get
+  word=	football
+  word=	bored
+option=	Antoine get apple	hungry
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	get
+  word=	apple
+  word=	hungry
+option=	Jason teleport kitchen	thirsty
+--> question choosen - #words=	4
+  word=	Jason
+  word=	teleport
+  word=	kitchen
+  word=	thirsty
+option=	Jason get milk	thirsty
+--> question choosen - #words=	4
+  word=	Jason
+  word=	get
+  word=	milk
+  word=	thirsty
+1 Sumit is bored.	(sumit is bored)
+2 Where will Sumit go?	(teleport Sumit *)	garden	1
+3 Jason is thirsty.	(jason is thirsty)
+4 Where will Jason go?	(teleport Jason *)	kitchen	3
+5 Yann is tired.	(yann is tired)
+6 Where will Yann go?	(teleport Yann *)	bedroom	5
+7 Sumit moved to the garden.	(sumit teleport garden)
+8 Why did Sumit go to the garden?	((Sumit teleport *) before (Sumit teleport garden))	bored	1
+9 Antoine is hungry.	(antoine is hungry)
+10 Where will Antoine go?	(teleport Antoine *)	kitchen	9
+11 Yann moved to the bedroom.	(yann teleport bedroom)
+12 Why did Yann go to the bedroom?	((Yann teleport *) before (Yann teleport bedroom))	tired	5
+13 Antoine journeyed to the kitchen.	(antoine teleport kitchen)
+14 Why did Antoine go to the kitchen?	((Antoine teleport *) before (Antoine teleport kitchen))	hungry	9
+15 Yann took the pajamas.	(yann get pajamas)
+16 Why did Yann get the pajamas?	((Yann get *) before (Yann get pajamas))	tired	5
+17 Sumit took the football.	(sumit get football)
+18 Why did Sumit get the football?	((Sumit get *) before (Sumit get football))	bored	1
+19 Antoine got the apple.	(antoine get apple)
+20 Why did Antoine get the apple?	((Antoine get *) before (Antoine get apple))	hungry	9
+21 Jason went to the kitchen.	(jason teleport kitchen)
+22 Why did Jason go to the kitchen?	((Jason teleport *) before (Jason teleport kitchen))	thirsty	3
+23 Jason took the milk.	(jason get milk)
+24 Why did Jason get the milk?	((Jason get *) before (Jason get milk))	thirsty	3
+option=	teleport Antoine	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Antoine
+  word=	kitchen
+option=	Antoine teleport kitchen	hungry
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	teleport
+  word=	kitchen
+  word=	hungry
+option=	teleport Sumit	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Sumit
+  word=	kitchen
+option=	Sumit teleport kitchen	thirsty
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	teleport
+  word=	kitchen
+  word=	thirsty
+option=	teleport Jason	bedroom
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Jason
+  word=	bedroom
+option=	Jason teleport bedroom	tired
+--> question choosen - #words=	4
+  word=	Jason
+  word=	teleport
+  word=	bedroom
+  word=	tired
+option=	Sumit get milk	thirsty
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	get
+  word=	milk
+  word=	thirsty
+option=	Antoine get apple	hungry
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	get
+  word=	apple
+  word=	hungry
+option=	teleport Yann	garden
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Yann
+  word=	garden
+option=	Jason get pajamas	tired
+--> question choosen - #words=	4
+  word=	Jason
+  word=	get
+  word=	pajamas
+  word=	tired
+option=	Yann teleport garden	bored
+--> question choosen - #words=	4
+  word=	Yann
+  word=	teleport
+  word=	garden
+  word=	bored
+option=	Yann get football	bored
+--> question choosen - #words=	4
+  word=	Yann
+  word=	get
+  word=	football
+  word=	bored
+1 Antoine is hungry.	(antoine is hungry)
+2 Where will Antoine go?	(teleport Antoine *)	kitchen	1
+3 Antoine moved to the kitchen.	(antoine teleport kitchen)
+4 Why did Antoine go to the kitchen?	((Antoine teleport *) before (Antoine teleport kitchen))	hungry	1
+5 Sumit is thirsty.	(sumit is thirsty)
+6 Where will Sumit go?	(teleport Sumit *)	kitchen	5
+7 Sumit went to the kitchen.	(sumit teleport kitchen)
+8 Why did Sumit go to the kitchen?	((Sumit teleport *) before (Sumit teleport kitchen))	thirsty	5
+9 Jason is tired.	(jason is tired)
+10 Where will Jason go?	(teleport Jason *)	bedroom	9
+11 Jason moved to the bedroom.	(jason teleport bedroom)
+12 Why did Jason go to the bedroom?	((Jason teleport *) before (Jason teleport bedroom))	tired	9
+13 Sumit grabbed the milk.	(sumit get milk)
+14 Why did Sumit get the milk?	((Sumit get *) before (Sumit get milk))	thirsty	5
+15 Antoine grabbed the apple.	(antoine get apple)
+16 Why did Antoine get the apple?	((Antoine get *) before (Antoine get apple))	hungry	1
+17 Yann is bored.	(yann is bored)
+18 Where will Yann go?	(teleport Yann *)	garden	17
+19 Jason grabbed the pajamas.	(jason get pajamas)
+20 Why did Jason get the pajamas?	((Jason get *) before (Jason get pajamas))	tired	9
+21 Yann moved to the garden.	(yann teleport garden)
+22 Why did Yann go to the garden?	((Yann teleport *) before (Yann teleport garden))	bored	17
+23 Yann got the football.	(yann get football)
+24 Why did Yann get the football?	((Yann get *) before (Yann get football))	bored	17
+option=	teleport Antoine	garden
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Antoine
+  word=	garden
+option=	Antoine teleport garden	bored
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	teleport
+  word=	garden
+  word=	bored
+option=	teleport Sumit	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Sumit
+  word=	kitchen
+option=	Antoine get football	bored
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	get
+  word=	football
+  word=	bored
+option=	teleport Yann	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Yann
+  word=	kitchen
+option=	teleport Jason	bedroom
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Jason
+  word=	bedroom
+option=	Jason teleport bedroom	tired
+--> question choosen - #words=	4
+  word=	Jason
+  word=	teleport
+  word=	bedroom
+  word=	tired
+option=	Sumit teleport kitchen	hungry
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	teleport
+  word=	kitchen
+  word=	hungry
+option=	Sumit get apple	hungry
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	get
+  word=	apple
+  word=	hungry
+option=	Yann teleport kitchen	thirsty
+--> question choosen - #words=	4
+  word=	Yann
+  word=	teleport
+  word=	kitchen
+  word=	thirsty
+option=	Jason get pajamas	tired
+--> question choosen - #words=	4
+  word=	Jason
+  word=	get
+  word=	pajamas
+  word=	tired
+option=	Yann get milk	thirsty
+--> question choosen - #words=	4
+  word=	Yann
+  word=	get
+  word=	milk
+  word=	thirsty
+1 Antoine is bored.	(antoine is bored)
+2 Where will Antoine go?	(teleport Antoine *)	garden	1
+3 Antoine went to the garden.	(antoine teleport garden)
+4 Why did Antoine go to the garden?	((Antoine teleport *) before (Antoine teleport garden))	bored	1
+5 Sumit is hungry.	(sumit is hungry)
+6 Where will Sumit go?	(teleport Sumit *)	kitchen	5
+7 Antoine got the football.	(antoine get football)
+8 Why did Antoine get the football?	((Antoine get *) before (Antoine get football))	bored	1
+9 Yann is thirsty.	(yann is thirsty)
+10 Where will Yann go?	(teleport Yann *)	kitchen	9
+11 Jason is tired.	(jason is tired)
+12 Where will Jason go?	(teleport Jason *)	bedroom	11
+13 Jason went to the bedroom.	(jason teleport bedroom)
+14 Why did Jason go to the bedroom?	((Jason teleport *) before (Jason teleport bedroom))	tired	11
+15 Sumit journeyed to the kitchen.	(sumit teleport kitchen)
+16 Why did Sumit go to the kitchen?	((Sumit teleport *) before (Sumit teleport kitchen))	hungry	5
+17 Sumit got the apple.	(sumit get apple)
+18 Why did Sumit get the apple?	((Sumit get *) before (Sumit get apple))	hungry	5
+19 Yann travelled to the kitchen.	(yann teleport kitchen)
+20 Why did Yann go to the kitchen?	((Yann teleport *) before (Yann teleport kitchen))	thirsty	9
+21 Jason got the pajamas.	(jason get pajamas)
+22 Why did Jason get the pajamas?	((Jason get *) before (Jason get pajamas))	tired	11
+23 Yann grabbed the milk.	(yann get milk)
+24 Why did Yann get the milk?	((Yann get *) before (Yann get milk))	thirsty	9
+option=	teleport Sumit	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Sumit
+  word=	kitchen
+option=	teleport Antoine	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Antoine
+  word=	kitchen
+option=	teleport Yann	bedroom
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Yann
+  word=	bedroom
+option=	Yann teleport bedroom	tired
+--> question choosen - #words=	4
+  word=	Yann
+  word=	teleport
+  word=	bedroom
+  word=	tired
+option=	Antoine teleport kitchen	thirsty
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	teleport
+  word=	kitchen
+  word=	thirsty
+option=	Yann get pajamas	tired
+--> question choosen - #words=	4
+  word=	Yann
+  word=	get
+  word=	pajamas
+  word=	tired
+option=	Sumit teleport kitchen	hungry
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	teleport
+  word=	kitchen
+  word=	hungry
+option=	Antoine get milk	thirsty
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	get
+  word=	milk
+  word=	thirsty
+option=	Sumit get apple	hungry
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	get
+  word=	apple
+  word=	hungry
+option=	teleport Jason	garden
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Jason
+  word=	garden
+option=	Jason teleport garden	bored
+--> question choosen - #words=	4
+  word=	Jason
+  word=	teleport
+  word=	garden
+  word=	bored
+option=	Jason get football	bored
+--> question choosen - #words=	4
+  word=	Jason
+  word=	get
+  word=	football
+  word=	bored
+1 Sumit is hungry.	(sumit is hungry)
+2 Where will Sumit go?	(teleport Sumit *)	kitchen	1
+3 Antoine is thirsty.	(antoine is thirsty)
+4 Where will Antoine go?	(teleport Antoine *)	kitchen	3
+5 Yann is tired.	(yann is tired)
+6 Where will Yann go?	(teleport Yann *)	bedroom	5
+7 Yann went to the bedroom.	(yann teleport bedroom)
+8 Why did Yann go to the bedroom?	((Yann teleport *) before (Yann teleport bedroom))	tired	5
+9 Antoine went to the kitchen.	(antoine teleport kitchen)
+10 Why did Antoine go to the kitchen?	((Antoine teleport *) before (Antoine teleport kitchen))	thirsty	3
+11 Yann took the pajamas.	(yann get pajamas)
+12 Why did Yann get the pajamas?	((Yann get *) before (Yann get pajamas))	tired	5
+13 Sumit travelled to the kitchen.	(sumit teleport kitchen)
+14 Why did Sumit go to the kitchen?	((Sumit teleport *) before (Sumit teleport kitchen))	hungry	1
+15 Antoine got the milk.	(antoine get milk)
+16 Why did Antoine get the milk?	((Antoine get *) before (Antoine get milk))	thirsty	3
+17 Sumit grabbed the apple.	(sumit get apple)
+18 Why did Sumit get the apple?	((Sumit get *) before (Sumit get apple))	hungry	1
+19 Jason is bored.	(jason is bored)
+20 Where will Jason go?	(teleport Jason *)	garden	19
+21 Jason moved to the garden.	(jason teleport garden)
+22 Why did Jason go to the garden?	((Jason teleport *) before (Jason teleport garden))	bored	19
+23 Jason grabbed the football.	(jason get football)
+24 Why did Jason get the football?	((Jason get *) before (Jason get football))	bored	19
+option=	teleport Yann	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Yann
+  word=	kitchen
+option=	Yann teleport kitchen	hungry
+--> question choosen - #words=	4
+  word=	Yann
+  word=	teleport
+  word=	kitchen
+  word=	hungry
+option=	teleport Sumit	garden
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Sumit
+  word=	garden
+option=	teleport Jason	bedroom
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Jason
+  word=	bedroom
+option=	Yann get apple	hungry
+--> question choosen - #words=	4
+  word=	Yann
+  word=	get
+  word=	apple
+  word=	hungry
+option=	Sumit teleport garden	bored
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	teleport
+  word=	garden
+  word=	bored
+option=	teleport Antoine	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Antoine
+  word=	kitchen
+option=	Sumit get football	bored
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	get
+  word=	football
+  word=	bored
+option=	Antoine teleport kitchen	thirsty
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	teleport
+  word=	kitchen
+  word=	thirsty
+option=	Jason teleport bedroom	tired
+--> question choosen - #words=	4
+  word=	Jason
+  word=	teleport
+  word=	bedroom
+  word=	tired
+option=	Jason get pajamas	tired
+--> question choosen - #words=	4
+  word=	Jason
+  word=	get
+  word=	pajamas
+  word=	tired
+option=	Antoine get milk	thirsty
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	get
+  word=	milk
+  word=	thirsty
+1 Yann is hungry.	(yann is hungry)
+2 Where will Yann go?	(teleport Yann *)	kitchen	1
+3 Yann journeyed to the kitchen.	(yann teleport kitchen)
+4 Why did Yann go to the kitchen?	((Yann teleport *) before (Yann teleport kitchen))	hungry	1
+5 Sumit is bored.	(sumit is bored)
+6 Where will Sumit go?	(teleport Sumit *)	garden	5
+7 Jason is tired.	(jason is tired)
+8 Where will Jason go?	(teleport Jason *)	bedroom	7
+9 Yann took the apple.	(yann get apple)
+10 Why did Yann get the apple?	((Yann get *) before (Yann get apple))	hungry	1
+11 Sumit travelled to the garden.	(sumit teleport garden)
+12 Why did Sumit go to the garden?	((Sumit teleport *) before (Sumit teleport garden))	bored	5
+13 Antoine is thirsty.	(antoine is thirsty)
+14 Where will Antoine go?	(teleport Antoine *)	kitchen	13
+15 Sumit took the football.	(sumit get football)
+16 Why did Sumit get the football?	((Sumit get *) before (Sumit get football))	bored	5
+17 Antoine went to the kitchen.	(antoine teleport kitchen)
+18 Why did Antoine go to the kitchen?	((Antoine teleport *) before (Antoine teleport kitchen))	thirsty	13
+19 Jason went to the bedroom.	(jason teleport bedroom)
+20 Why did Jason go to the bedroom?	((Jason teleport *) before (Jason teleport bedroom))	tired	7
+21 Jason took the pajamas.	(jason get pajamas)
+22 Why did Jason get the pajamas?	((Jason get *) before (Jason get pajamas))	tired	7
+23 Antoine took the milk.	(antoine get milk)
+24 Why did Antoine get the milk?	((Antoine get *) before (Antoine get milk))	thirsty	13
+option=	teleport Jason	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Jason
+  word=	kitchen
+option=	teleport Yann	garden
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Yann
+  word=	garden
+option=	teleport Sumit	bedroom
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Sumit
+  word=	bedroom
+option=	Yann teleport garden	bored
+--> question choosen - #words=	4
+  word=	Yann
+  word=	teleport
+  word=	garden
+  word=	bored
+option=	Sumit teleport bedroom	tired
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	teleport
+  word=	bedroom
+  word=	tired
+option=	Yann get football	bored
+--> question choosen - #words=	4
+  word=	Yann
+  word=	get
+  word=	football
+  word=	bored
+option=	Sumit get pajamas	tired
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	get
+  word=	pajamas
+  word=	tired
+option=	teleport Antoine	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Antoine
+  word=	kitchen
+option=	Antoine teleport kitchen	thirsty
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	teleport
+  word=	kitchen
+  word=	thirsty
+option=	Jason teleport kitchen	hungry
+--> question choosen - #words=	4
+  word=	Jason
+  word=	teleport
+  word=	kitchen
+  word=	hungry
+option=	Jason get apple	hungry
+--> question choosen - #words=	4
+  word=	Jason
+  word=	get
+  word=	apple
+  word=	hungry
+option=	Antoine get milk	thirsty
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	get
+  word=	milk
+  word=	thirsty
+1 Jason is hungry.	(jason is hungry)
+2 Where will Jason go?	(teleport Jason *)	kitchen	1
+3 Yann is bored.	(yann is bored)
+4 Where will Yann go?	(teleport Yann *)	garden	3
+5 Sumit is tired.	(sumit is tired)
+6 Where will Sumit go?	(teleport Sumit *)	bedroom	5
+7 Yann journeyed to the garden.	(yann teleport garden)
+8 Why did Yann go to the garden?	((Yann teleport *) before (Yann teleport garden))	bored	3
+9 Sumit travelled to the bedroom.	(sumit teleport bedroom)
+10 Why did Sumit go to the bedroom?	((Sumit teleport *) before (Sumit teleport bedroom))	tired	5
+11 Yann grabbed the football.	(yann get football)
+12 Why did Yann get the football?	((Yann get *) before (Yann get football))	bored	3
+13 Sumit grabbed the pajamas.	(sumit get pajamas)
+14 Why did Sumit get the pajamas?	((Sumit get *) before (Sumit get pajamas))	tired	5
+15 Antoine is thirsty.	(antoine is thirsty)
+16 Where will Antoine go?	(teleport Antoine *)	kitchen	15
+17 Antoine moved to the kitchen.	(antoine teleport kitchen)
+18 Why did Antoine go to the kitchen?	((Antoine teleport *) before (Antoine teleport kitchen))	thirsty	15
+19 Jason went to the kitchen.	(jason teleport kitchen)
+20 Why did Jason go to the kitchen?	((Jason teleport *) before (Jason teleport kitchen))	hungry	1
+21 Jason grabbed the apple.	(jason get apple)
+22 Why did Jason get the apple?	((Jason get *) before (Jason get apple))	hungry	1
+23 Antoine took the milk.	(antoine get milk)
+24 Why did Antoine get the milk?	((Antoine get *) before (Antoine get milk))	thirsty	15
+option=	teleport Antoine	garden
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Antoine
+  word=	garden
+option=	teleport Sumit	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Sumit
+  word=	kitchen
+option=	Antoine teleport garden	bored
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	teleport
+  word=	garden
+  word=	bored
+option=	teleport Jason	kitchen
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Jason
+  word=	kitchen
+option=	Sumit teleport kitchen	hungry
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	teleport
+  word=	kitchen
+  word=	hungry
+option=	teleport Yann	bedroom
+--> question choosen - #words=	3
+  word=	teleport
+  word=	Yann
+  word=	bedroom
+option=	Sumit get apple	hungry
+--> question choosen - #words=	4
+  word=	Sumit
+  word=	get
+  word=	apple
+  word=	hungry
+option=	Jason teleport kitchen	thirsty
+--> question choosen - #words=	4
+  word=	Jason
+  word=	teleport
+  word=	kitchen
+  word=	thirsty
+option=	Yann teleport bedroom	tired
+--> question choosen - #words=	4
+  word=	Yann
+  word=	teleport
+  word=	bedroom
+  word=	tired
+option=	Yann get pajamas	tired
+--> question choosen - #words=	4
+  word=	Yann
+  word=	get
+  word=	pajamas
+  word=	tired
+option=	Antoine get football	bored
+--> question choosen - #words=	4
+  word=	Antoine
+  word=	get
+  word=	football
+  word=	bored
+option=	Jason get milk	thirsty
+--> question choosen - #words=	4
+  word=	Jason
+  word=	get
+  word=	milk
+  word=	thirsty
+1 Antoine is bored.	(antoine is bored)
+2 Where will Antoine go?	(teleport Antoine *)	garden	1
+3 Sumit is hungry.	(sumit is hungry)
+4 Where will Sumit go?	(teleport Sumit *)	kitchen	3
+5 Antoine journeyed to the garden.	(antoine teleport garden)
+6 Why did Antoine go to the garden?	((Antoine teleport *) before (Antoine teleport garden))	bored	1
+7 Jason is thirsty.	(jason is thirsty)
+8 Where will Jason go?	(teleport Jason *)	kitchen	7
+9 Sumit travelled to the kitchen.	(sumit teleport kitchen)
+10 Why did Sumit go to the kitchen?	((Sumit teleport *) before (Sumit teleport kitchen))	hungry	3
+11 Yann is tired.	(yann is tired)
+12 Where will Yann go?	(teleport Yann *)	bedroom	11
+13 Sumit took the apple.	(sumit get apple)
+14 Why did Sumit get the apple?	((Sumit get *) before (Sumit get apple))	hungry	3
+15 Jason went to the kitchen.	(jason teleport kitchen)
+16 Why did Jason go to the kitchen?	((Jason teleport *) before (Jason teleport kitchen))	thirsty	7
+17 Yann journeyed to the bedroom.	(yann teleport bedroom)
+18 Why did Yann go to the bedroom?	((Yann teleport *) before (Yann teleport bedroom))	tired	11
+19 Yann took the pajamas.	(yann get pajamas)
+20 Why did Yann get the pajamas?	((Yann get *) before (Yann get pajamas))	tired	11
+21 Antoine took the football.	(antoine get football)
+22 Why did Antoine get the football?	((Antoine get *) before (Antoine get football))	bored	1
+23 Jason got the milk.	(jason get milk)
+24 Why did Jason get the milk?	((Jason get *) before (Jason get milk))	thirsty	7

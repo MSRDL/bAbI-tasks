@@ -1,9 +1,0 @@
-1 The suitcase is bigger than the box of chocolates.	 suitcase:>:box of chocolates
-2 The container is bigger than the box of chocolates.	 container:>:box of chocolates
-3 The suitcase is bigger than the container.	 suitcase:>:container
-4 The treasure chest is bigger than the box of chocolates.	 treasure chest:>:box of chocolates
-5 The container is bigger than the box.	 container:>:box
-6 The treasure chest is bigger than the box.	 treasure chest:>:box
-7 The box is bigger than the box of chocolates.	 box:>:box of chocolates
-8 The suitcase is bigger than the treasure chest.	 suitcase:>:treasure chest
-9 Does the suitcase fit in the box?	 suitcase:> box:*	true	6 8

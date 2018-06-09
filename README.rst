@@ -19,6 +19,14 @@ is by following the installation instructions at `torch/distro`__.  To use the
 library, install it with LuaRocks by running the following command from the
 root directory.
 
+---------------------------------------------------
+From Roland: 
+    a good docker image to run this with:
+        docker run kaixhin/torch
+    to generate all tasks with triples:
+        for i in `seq 1 20`; do babi-tasks $i 1000 --genboth true > out/task_$i.txt; done
+---------------------------------------------------
+
 .. code:: bash
 
    luarocks make babitasks-scm-1.rockspec

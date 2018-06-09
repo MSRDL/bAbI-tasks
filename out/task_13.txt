@@ -1,0 +1,400 @@
+option=	Mary is_in	bathroom
+--> question choosen - #words=	3
+  word=	Mary
+  word=	is_in
+  word=	bathroom
+option=	Daniel is_in	kitchen
+--> question choosen - #words=	3
+  word=	Daniel
+  word=	is_in
+  word=	kitchen
+option=	Daniel is_in	kitchen
+--> question choosen - #words=	3
+  word=	Daniel
+  word=	is_in
+  word=	kitchen
+option=	Mary is_in	bedroom
+--> question choosen - #words=	3
+  word=	Mary
+  word=	is_in
+  word=	bedroom
+option=	Sandra is_in	office
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	office
+1 Mary and Daniel went to the garden.	(daniel teleport garden)
+2 Then they moved to the bathroom.	(daniel teleport bathroom)
+3 Where is Mary?	(Mary is_in *)	bathroom	4
+4 Sandra and Daniel journeyed to the bedroom.	(sandra teleport bedroom)
+5 Following that they moved to the kitchen.	(sandra teleport kitchen)
+6 Where is Daniel?	(Daniel is_in *)	kitchen	9
+7 Mary and Daniel travelled to the office.	(daniel teleport office)
+8 Then they journeyed to the kitchen.	(daniel teleport kitchen)
+9 Where is Daniel?	(Daniel is_in *)	kitchen	9
+10 Sandra and Mary moved to the hallway.	(sandra teleport hallway)
+11 Then they travelled to the bedroom.	(sandra teleport bedroom)
+12 Where is Mary?	(Mary is_in *)	bedroom	19
+13 Sandra and Mary travelled to the kitchen.	(mary teleport kitchen)
+14 Following that they moved to the office.	(mary teleport office)
+15 Where is Sandra?	(Sandra is_in *)	office	24
+option=	Daniel is_in	bathroom
+--> question choosen - #words=	3
+  word=	Daniel
+  word=	is_in
+  word=	bathroom
+option=	John is_in	bathroom
+--> question choosen - #words=	3
+  word=	John
+  word=	is_in
+  word=	bathroom
+option=	Sandra is_in	hallway
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	hallway
+option=	John is_in	garden
+--> question choosen - #words=	3
+  word=	John
+  word=	is_in
+  word=	garden
+option=	Sandra is_in	garden
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	garden
+1 Daniel and John went to the office.	(john teleport office)
+2 Following that they journeyed to the bathroom.	(john teleport bathroom)
+3 Where is Daniel?	(Daniel is_in *)	bathroom	4
+4 Daniel and John journeyed to the garden.	(daniel teleport garden)
+5 Following that they travelled to the bathroom.	(daniel teleport bathroom)
+6 Where is John?	(John is_in *)	bathroom	3
+7 Sandra and Mary journeyed to the office.	(mary teleport office)
+8 Following that they moved to the hallway.	(mary teleport hallway)
+9 Where is Sandra?	(Sandra is_in *)	hallway	14
+10 John and Sandra journeyed to the office.	(sandra teleport office)
+11 Then they moved to the garden.	(sandra teleport garden)
+12 Where is John?	(John is_in *)	garden	7
+13 Daniel and Sandra moved to the hallway.	(sandra teleport hallway)
+14 After that they moved to the garden.	(sandra teleport garden)
+15 Where is Sandra?	(Sandra is_in *)	garden	18
+option=	Daniel is_in	kitchen
+--> question choosen - #words=	3
+  word=	Daniel
+  word=	is_in
+  word=	kitchen
+option=	John is_in	garden
+--> question choosen - #words=	3
+  word=	John
+  word=	is_in
+  word=	garden
+option=	Sandra is_in	bedroom
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	bedroom
+option=	Sandra is_in	bathroom
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	bathroom
+option=	Mary is_in	bathroom
+--> question choosen - #words=	3
+  word=	Mary
+  word=	is_in
+  word=	bathroom
+1 Mary and Daniel moved to the office.	(daniel teleport office)
+2 After that they travelled to the kitchen.	(daniel teleport kitchen)
+3 Where is Daniel?	(Daniel is_in *)	kitchen	3
+4 John and Sandra went to the bedroom.	(sandra teleport bedroom)
+5 Following that they moved to the garden.	(sandra teleport garden)
+6 Where is John?	(John is_in *)	garden	9
+7 Sandra and John travelled to the garden.	(sandra teleport garden)
+8 After that they journeyed to the bedroom.	(sandra teleport bedroom)
+9 Where is Sandra?	(Sandra is_in *)	bedroom	6
+10 Sandra and Daniel moved to the kitchen.	(sandra teleport kitchen)
+11 After that they travelled to the bathroom.	(sandra teleport bathroom)
+12 Where is Sandra?	(Sandra is_in *)	bathroom	18
+13 Sandra and Mary went to the hallway.	(mary teleport hallway)
+14 Following that they travelled to the bathroom.	(mary teleport bathroom)
+15 Where is Mary?	(Mary is_in *)	bathroom	23
+option=	Mary is_in	bedroom
+--> question choosen - #words=	3
+  word=	Mary
+  word=	is_in
+  word=	bedroom
+option=	John is_in	hallway
+--> question choosen - #words=	3
+  word=	John
+  word=	is_in
+  word=	hallway
+option=	Daniel is_in	bedroom
+--> question choosen - #words=	3
+  word=	Daniel
+  word=	is_in
+  word=	bedroom
+option=	John is_in	hallway
+--> question choosen - #words=	3
+  word=	John
+  word=	is_in
+  word=	hallway
+option=	Daniel is_in	kitchen
+--> question choosen - #words=	3
+  word=	Daniel
+  word=	is_in
+  word=	kitchen
+1 Daniel and Mary moved to the kitchen.	(mary teleport kitchen)
+2 Then they moved to the bedroom.	(mary teleport bedroom)
+3 Where is Mary?	(Mary is_in *)	bedroom	3
+4 Daniel and John went to the bathroom.	(john teleport bathroom)
+5 Following that they moved to the hallway.	(john teleport hallway)
+6 Where is John?	(John is_in *)	hallway	8
+7 Daniel and Sandra moved to the office.	(daniel teleport office)
+8 Then they travelled to the bedroom.	(daniel teleport bedroom)
+9 Where is Daniel?	(Daniel is_in *)	bedroom	4
+10 John and Daniel moved to the kitchen.	(john teleport kitchen)
+11 Following that they went to the hallway.	(john teleport hallway)
+12 Where is John?	(John is_in *)	hallway	8
+13 Daniel and Sandra went to the bedroom.	(sandra teleport bedroom)
+14 Then they travelled to the kitchen.	(sandra teleport kitchen)
+15 Where is Daniel?	(Daniel is_in *)	kitchen	2
+option=	Sandra is_in	kitchen
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	kitchen
+option=	Daniel is_in	garden
+--> question choosen - #words=	3
+  word=	Daniel
+  word=	is_in
+  word=	garden
+option=	John is_in	office
+--> question choosen - #words=	3
+  word=	John
+  word=	is_in
+  word=	office
+option=	Mary is_in	bathroom
+--> question choosen - #words=	3
+  word=	Mary
+  word=	is_in
+  word=	bathroom
+option=	Mary is_in	bathroom
+--> question choosen - #words=	3
+  word=	Mary
+  word=	is_in
+  word=	bathroom
+1 Sandra and John moved to the garden.	(sandra teleport garden)
+2 Then they journeyed to the kitchen.	(sandra teleport kitchen)
+3 Where is Sandra?	(Sandra is_in *)	kitchen	3
+4 Daniel and Sandra journeyed to the bedroom.	(sandra teleport bedroom)
+5 Following that they travelled to the garden.	(sandra teleport garden)
+6 Where is Daniel?	(Daniel is_in *)	garden	9
+7 Sandra and John moved to the bathroom.	(john teleport bathroom)
+8 Following that they travelled to the office.	(john teleport office)
+9 Where is John?	(John is_in *)	office	13
+10 John and Mary journeyed to the hallway.	(mary teleport hallway)
+11 Then they journeyed to the bathroom.	(mary teleport bathroom)
+12 Where is Mary?	(Mary is_in *)	bathroom	18
+13 Mary and Sandra travelled to the garden.	(sandra teleport garden)
+14 Then they travelled to the bathroom.	(sandra teleport bathroom)
+15 Where is Mary?	(Mary is_in *)	bathroom	18
+option=	Daniel is_in	office
+--> question choosen - #words=	3
+  word=	Daniel
+  word=	is_in
+  word=	office
+option=	Sandra is_in	office
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	office
+option=	Mary is_in	garden
+--> question choosen - #words=	3
+  word=	Mary
+  word=	is_in
+  word=	garden
+option=	Mary is_in	bathroom
+--> question choosen - #words=	3
+  word=	Mary
+  word=	is_in
+  word=	bathroom
+option=	John is_in	office
+--> question choosen - #words=	3
+  word=	John
+  word=	is_in
+  word=	office
+1 Daniel and John journeyed to the garden.	(john teleport garden)
+2 After that they travelled to the office.	(john teleport office)
+3 Where is Daniel?	(Daniel is_in *)	office	4
+4 Daniel and Sandra journeyed to the bedroom.	(sandra teleport bedroom)
+5 After that they moved to the office.	(sandra teleport office)
+6 Where is Sandra?	(Sandra is_in *)	office	8
+7 Mary and Sandra moved to the bathroom.	(mary teleport bathroom)
+8 Then they travelled to the garden.	(mary teleport garden)
+9 Where is Mary?	(Mary is_in *)	garden	13
+10 Sandra and Mary moved to the bedroom.	(sandra teleport bedroom)
+11 Following that they moved to the bathroom.	(sandra teleport bathroom)
+12 Where is Mary?	(Mary is_in *)	bathroom	11
+13 Sandra and John moved to the kitchen.	(sandra teleport kitchen)
+14 After that they went to the office.	(sandra teleport office)
+15 Where is John?	(John is_in *)	office	3
+option=	Sandra is_in	garden
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	garden
+option=	Sandra is_in	garden
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	garden
+option=	Mary is_in	garden
+--> question choosen - #words=	3
+  word=	Mary
+  word=	is_in
+  word=	garden
+option=	John is_in	bedroom
+--> question choosen - #words=	3
+  word=	John
+  word=	is_in
+  word=	bedroom
+option=	John is_in	kitchen
+--> question choosen - #words=	3
+  word=	John
+  word=	is_in
+  word=	kitchen
+1 Daniel and Sandra moved to the kitchen.	(sandra teleport kitchen)
+2 Following that they went to the garden.	(sandra teleport garden)
+3 Where is Sandra?	(Sandra is_in *)	garden	3
+4 John and Sandra travelled to the office.	(john teleport office)
+5 After that they moved to the garden.	(john teleport garden)
+6 Where is Sandra?	(Sandra is_in *)	garden	3
+7 John and Mary went to the bedroom.	(mary teleport bedroom)
+8 Following that they went to the garden.	(mary teleport garden)
+9 Where is Mary?	(Mary is_in *)	garden	13
+10 John and Sandra went to the office.	(john teleport office)
+11 After that they travelled to the bedroom.	(john teleport bedroom)
+12 Where is John?	(John is_in *)	bedroom	12
+13 Sandra and John moved to the office.	(sandra teleport office)
+14 Following that they moved to the kitchen.	(sandra teleport kitchen)
+15 Where is John?	(John is_in *)	kitchen	24
+option=	Sandra is_in	kitchen
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	kitchen
+option=	Sandra is_in	hallway
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	hallway
+option=	John is_in	hallway
+--> question choosen - #words=	3
+  word=	John
+  word=	is_in
+  word=	hallway
+option=	Sandra is_in	kitchen
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	kitchen
+option=	Sandra is_in	kitchen
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	kitchen
+1 Mary and Sandra journeyed to the bedroom.	(mary teleport bedroom)
+2 Then they journeyed to the kitchen.	(mary teleport kitchen)
+3 Where is Sandra?	(Sandra is_in *)	kitchen	4
+4 John and Sandra travelled to the bedroom.	(sandra teleport bedroom)
+5 Then they travelled to the hallway.	(sandra teleport hallway)
+6 Where is Sandra?	(Sandra is_in *)	hallway	8
+7 Daniel and John moved to the bathroom.	(daniel teleport bathroom)
+8 After that they moved to the hallway.	(daniel teleport hallway)
+9 Where is John?	(John is_in *)	hallway	9
+10 Daniel and Sandra travelled to the garden.	(daniel teleport garden)
+11 Then they went to the kitchen.	(daniel teleport kitchen)
+12 Where is Sandra?	(Sandra is_in *)	kitchen	4
+13 Daniel and Sandra moved to the office.	(sandra teleport office)
+14 Then they journeyed to the kitchen.	(sandra teleport kitchen)
+15 Where is Sandra?	(Sandra is_in *)	kitchen	4
+option=	John is_in	office
+--> question choosen - #words=	3
+  word=	John
+  word=	is_in
+  word=	office
+option=	Sandra is_in	hallway
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	hallway
+option=	Daniel is_in	garden
+--> question choosen - #words=	3
+  word=	Daniel
+  word=	is_in
+  word=	garden
+option=	Mary is_in	office
+--> question choosen - #words=	3
+  word=	Mary
+  word=	is_in
+  word=	office
+option=	Daniel is_in	garden
+--> question choosen - #words=	3
+  word=	Daniel
+  word=	is_in
+  word=	garden
+1 John and Mary moved to the bedroom.	(mary teleport bedroom)
+2 Then they journeyed to the office.	(mary teleport office)
+3 Where is John?	(John is_in *)	office	4
+4 Daniel and Sandra moved to the garden.	(daniel teleport garden)
+5 Following that they went to the hallway.	(daniel teleport hallway)
+6 Where is Sandra?	(Sandra is_in *)	hallway	9
+7 Daniel and John moved to the bedroom.	(john teleport bedroom)
+8 Then they went to the garden.	(john teleport garden)
+9 Where is Daniel?	(Daniel is_in *)	garden	6
+10 Mary and John moved to the kitchen.	(john teleport kitchen)
+11 Then they moved to the office.	(john teleport office)
+12 Where is Mary?	(Mary is_in *)	office	3
+13 Sandra and Daniel travelled to the bedroom.	(sandra teleport bedroom)
+14 Then they moved to the garden.	(sandra teleport garden)
+15 Where is Daniel?	(Daniel is_in *)	garden	6
+option=	Mary is_in	hallway
+--> question choosen - #words=	3
+  word=	Mary
+  word=	is_in
+  word=	hallway
+option=	Mary is_in	garden
+--> question choosen - #words=	3
+  word=	Mary
+  word=	is_in
+  word=	garden
+option=	Daniel is_in	bedroom
+--> question choosen - #words=	3
+  word=	Daniel
+  word=	is_in
+  word=	bedroom
+option=	Sandra is_in	kitchen
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	is_in
+  word=	kitchen
+option=	John is_in	office
+--> question choosen - #words=	3
+  word=	John
+  word=	is_in
+  word=	office
+1 Daniel and Mary went to the bedroom.	(daniel teleport bedroom)
+2 After that they travelled to the hallway.	(daniel teleport hallway)
+3 Where is Mary?	(Mary is_in *)	hallway	4
+4 Mary and Sandra went to the hallway.	(mary teleport hallway)
+5 Then they travelled to the garden.	(mary teleport garden)
+6 Where is Mary?	(Mary is_in *)	garden	8
+7 Daniel and Mary travelled to the bathroom.	(mary teleport bathroom)
+8 After that they went to the bedroom.	(mary teleport bedroom)
+9 Where is Daniel?	(Daniel is_in *)	bedroom	1
+10 Sandra and Daniel travelled to the garden.	(sandra teleport garden)
+11 After that they moved to the kitchen.	(sandra teleport kitchen)
+12 Where is Sandra?	(Sandra is_in *)	kitchen	18
+13 Daniel and John went to the hallway.	(john teleport hallway)
+14 Following that they travelled to the office.	(john teleport office)
+15 Where is John?	(John is_in *)	office	23

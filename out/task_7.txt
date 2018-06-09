@@ -1,0 +1,400 @@
+option=	John hold	2
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	2
+option=	John hold	2
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	2
+option=	John hold	0
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	0
+option=	John hold	0
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	0
+option=	Sandra hold	2
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	2
+1 John took the milk.	(john get milk)
+2 John grabbed the apple.	(john get apple)
+3 How many objects is John holding?	(John hold *)	2	1 2
+4 Sandra travelled to the bedroom.	(sandra teleport bedroom)
+5 Sandra journeyed to the kitchen.	(sandra teleport kitchen)
+6 How many objects is John holding?	(John hold *)	2	1 2
+7 John gave Sandra the apple.	(john give apple sandra)
+8 John gave Sandra the milk.	(john give milk sandra)
+9 How many objects is John holding?	(John hold *)	0	2 1 7 8
+10 Sandra gave John the apple.	(sandra give apple john)
+11 John gave Sandra the apple.	(john give apple sandra)
+12 How many objects is John holding?	(John hold *)	0	11 2 1 7 8
+13 Sandra gave John the apple.	(sandra give apple john)
+14 John gave Sandra the apple.	(john give apple sandra)
+15 How many objects is Sandra holding?	(Sandra hold *)	2	10 13
+option=	Sandra hold	1
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	1
+option=	Sandra hold	0
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	0
+option=	Sandra hold	0
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	0
+option=	Sandra hold	0
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	0
+option=	John hold	0
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	0
+1 John moved to the office.	(john teleport office)
+2 Sandra took the football.	(sandra get football)
+3 How many objects is Sandra holding?	(Sandra hold *)	1	2
+4 Sandra let go of the football.	(sandra drop football)
+5 John travelled to the bathroom.	(john teleport bathroom)
+6 How many objects is Sandra holding?	(Sandra hold *)	0	2 4
+7 Sandra grabbed the football.	(sandra get football)
+8 Sandra let go of the football.	(sandra drop football)
+9 How many objects is Sandra holding?	(Sandra hold *)	0	7 4 8 2
+10 John journeyed to the garden.	(john teleport garden)
+11 Sandra moved to the bathroom.	(sandra teleport bathroom)
+12 How many objects is Sandra holding?	(Sandra hold *)	0	7 4 8 2
+13 John grabbed the football.	(john get football)
+14 John put down the football.	(john drop football)
+15 How many objects is John holding?	(John hold *)	0	14 13
+option=	John hold	1
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	1
+option=	John hold	1
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	1
+option=	John hold	0
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	0
+option=	John hold	0
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	0
+option=	John hold	0
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	0
+1 Sandra journeyed to the hallway.	(sandra teleport hallway)
+2 John took the apple.	(john get apple)
+3 How many objects is John holding?	(John hold *)	1	2
+4 John travelled to the office.	(john teleport office)
+5 John journeyed to the bedroom.	(john teleport bedroom)
+6 How many objects is John holding?	(John hold *)	1	2
+7 John journeyed to the garden.	(john teleport garden)
+8 John put down the apple.	(john drop apple)
+9 How many objects is John holding?	(John hold *)	0	2 8
+10 Sandra went to the bathroom.	(sandra teleport bathroom)
+11 John moved to the office.	(john teleport office)
+12 How many objects is John holding?	(John hold *)	0	2 8
+13 Mary journeyed to the garden.	(mary teleport garden)
+14 Mary journeyed to the bedroom.	(mary teleport bedroom)
+15 How many objects is John holding?	(John hold *)	0	2 8
+option=	John hold	1
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	1
+option=	John hold	0
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	0
+option=	John hold	0
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	0
+option=	John hold	0
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	0
+option=	Mary hold	0
+--> question choosen - #words=	3
+  word=	Mary
+  word=	hold
+  word=	0
+1 Daniel journeyed to the bedroom.	(daniel teleport bedroom)
+2 John grabbed the milk.	(john get milk)
+3 How many objects is John holding?	(John hold *)	1	2
+4 John moved to the office.	(john teleport office)
+5 John dropped the milk.	(john drop milk)
+6 How many objects is John holding?	(John hold *)	0	2 5
+7 Mary journeyed to the bathroom.	(mary teleport bathroom)
+8 Mary went to the kitchen.	(mary teleport kitchen)
+9 How many objects is John holding?	(John hold *)	0	2 5
+10 John moved to the hallway.	(john teleport hallway)
+11 Mary moved to the garden.	(mary teleport garden)
+12 How many objects is John holding?	(John hold *)	0	2 5
+13 Mary grabbed the football.	(mary get football)
+14 Mary gave Sandra the football.	(mary give football sandra)
+15 How many objects is Mary holding?	(Mary hold *)	0	13 14
+option=	Sandra hold	1
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	1
+option=	Sandra hold	0
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	0
+option=	Sandra hold	1
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	1
+option=	Sandra hold	0
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	0
+option=	Sandra hold	1
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	1
+1 John journeyed to the hallway.	(john teleport hallway)
+2 Sandra got the football.	(sandra get football)
+3 How many objects is Sandra holding?	(Sandra hold *)	1	2
+4 Sandra put down the football.	(sandra drop football)
+5 Mary went to the office.	(mary teleport office)
+6 How many objects is Sandra holding?	(Sandra hold *)	0	2 4
+7 Sandra grabbed the football.	(sandra get football)
+8 Mary went to the bedroom.	(mary teleport bedroom)
+9 How many objects is Sandra holding?	(Sandra hold *)	1	2 7 4
+10 Daniel moved to the office.	(daniel teleport office)
+11 Sandra let go of the football.	(sandra drop football)
+12 How many objects is Sandra holding?	(Sandra hold *)	0	7 11 2 4
+13 Sandra got the football.	(sandra get football)
+14 John travelled to the office.	(john teleport office)
+15 How many objects is Sandra holding?	(Sandra hold *)	1	7 11 2 13 4
+option=	Sandra hold	1
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	1
+option=	Sandra hold	1
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	1
+option=	Sandra hold	0
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	0
+option=	Sandra hold	1
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	1
+option=	Sandra hold	2
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	2
+1 John went to the hallway.	(john teleport hallway)
+2 Sandra took the football.	(sandra get football)
+3 How many objects is Sandra holding?	(Sandra hold *)	1	2
+4 John moved to the kitchen.	(john teleport kitchen)
+5 Mary moved to the bathroom.	(mary teleport bathroom)
+6 How many objects is Sandra holding?	(Sandra hold *)	1	2
+7 John moved to the bathroom.	(john teleport bathroom)
+8 Sandra put down the football.	(sandra drop football)
+9 How many objects is Sandra holding?	(Sandra hold *)	0	2 8
+10 John journeyed to the hallway.	(john teleport hallway)
+11 Sandra grabbed the football.	(sandra get football)
+12 How many objects is Sandra holding?	(Sandra hold *)	1	2 11 8
+13 Sandra went to the kitchen.	(sandra teleport kitchen)
+14 Sandra got the apple.	(sandra get apple)
+15 How many objects is Sandra holding?	(Sandra hold *)	2	11 2 14 8
+option=	John hold	1
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	1
+option=	John hold	1
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	1
+option=	John hold	1
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	1
+option=	Daniel hold	1
+--> question choosen - #words=	3
+  word=	Daniel
+  word=	hold
+  word=	1
+option=	John hold	0
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	0
+1 John grabbed the apple.	(john get apple)
+2 Daniel travelled to the garden.	(daniel teleport garden)
+3 How many objects is John holding?	(John hold *)	1	1
+4 Sandra went to the bedroom.	(sandra teleport bedroom)
+5 Sandra journeyed to the office.	(sandra teleport office)
+6 How many objects is John holding?	(John hold *)	1	1
+7 Daniel grabbed the football.	(daniel get football)
+8 John moved to the garden.	(john teleport garden)
+9 How many objects is John holding?	(John hold *)	1	1
+10 Daniel journeyed to the hallway.	(daniel teleport hallway)
+11 Mary went to the kitchen.	(mary teleport kitchen)
+12 How many objects is Daniel holding?	(Daniel hold *)	1	7
+13 John dropped the apple.	(john drop apple)
+14 Mary moved to the garden.	(mary teleport garden)
+15 How many objects is John holding?	(John hold *)	0	13 1
+option=	John hold	1
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	1
+option=	John hold	0
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	0
+option=	John hold	1
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	1
+option=	Sandra hold	1
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	1
+option=	Sandra hold	1
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	1
+1 Mary journeyed to the bathroom.	(mary teleport bathroom)
+2 John got the apple.	(john get apple)
+3 How many objects is John holding?	(John hold *)	1	2
+4 John let go of the apple.	(john drop apple)
+5 Daniel moved to the bedroom.	(daniel teleport bedroom)
+6 How many objects is John holding?	(John hold *)	0	2 4
+7 Sandra took the football.	(sandra get football)
+8 John took the milk.	(john get milk)
+9 How many objects is John holding?	(John hold *)	1	2 8 4
+10 John got the apple.	(john get apple)
+11 Daniel moved to the garden.	(daniel teleport garden)
+12 How many objects is Sandra holding?	(Sandra hold *)	1	7
+13 John put down the apple.	(john drop apple)
+14 John let go of the milk.	(john drop milk)
+15 How many objects is Sandra holding?	(Sandra hold *)	1	7
+option=	Sandra hold	1
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	1
+option=	Sandra hold	0
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	0
+option=	Sandra hold	0
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	0
+option=	Sandra hold	0
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	0
+option=	Daniel hold	1
+--> question choosen - #words=	3
+  word=	Daniel
+  word=	hold
+  word=	1
+1 John went to the hallway.	(john teleport hallway)
+2 Sandra got the football.	(sandra get football)
+3 How many objects is Sandra holding?	(Sandra hold *)	1	2
+4 Daniel travelled to the bathroom.	(daniel teleport bathroom)
+5 Sandra dropped the football.	(sandra drop football)
+6 How many objects is Sandra holding?	(Sandra hold *)	0	5 2
+7 Daniel journeyed to the office.	(daniel teleport office)
+8 Daniel moved to the garden.	(daniel teleport garden)
+9 How many objects is Sandra holding?	(Sandra hold *)	0	5 2
+10 Sandra got the football.	(sandra get football)
+11 Sandra gave Daniel the football.	(sandra give football daniel)
+12 How many objects is Sandra holding?	(Sandra hold *)	0	10 11 5 2
+13 Daniel gave Sandra the football.	(daniel give football sandra)
+14 Sandra gave Daniel the football.	(sandra give football daniel)
+15 How many objects is Daniel holding?	(Daniel hold *)	1	13
+option=	John hold	1
+--> question choosen - #words=	3
+  word=	John
+  word=	hold
+  word=	1
+option=	Sandra hold	1
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	1
+option=	Sandra hold	1
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	1
+option=	Mary hold	0
+--> question choosen - #words=	3
+  word=	Mary
+  word=	hold
+  word=	0
+option=	Sandra hold	1
+--> question choosen - #words=	3
+  word=	Sandra
+  word=	hold
+  word=	1
+1 John got the milk.	(john get milk)
+2 John moved to the bedroom.	(john teleport bedroom)
+3 How many objects is John holding?	(John hold *)	1	1
+4 Sandra grabbed the football.	(sandra get football)
+5 John put down the milk.	(john drop milk)
+6 How many objects is Sandra holding?	(Sandra hold *)	1	4
+7 Daniel journeyed to the kitchen.	(daniel teleport kitchen)
+8 John got the milk.	(john get milk)
+9 How many objects is Sandra holding?	(Sandra hold *)	1	4
+10 John gave Mary the milk.	(john give milk mary)
+11 Mary gave John the milk.	(mary give milk john)
+12 How many objects is Mary holding?	(Mary hold *)	0	11
+13 John let go of the milk.	(john drop milk)
+14 John travelled to the kitchen.	(john teleport kitchen)
+15 How many objects is Sandra holding?	(Sandra hold *)	1	4

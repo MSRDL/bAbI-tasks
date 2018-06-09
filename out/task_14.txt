@@ -1,0 +1,520 @@
+option=	Mary is_in before bathroom	garden
+--> question choosen - #words=	5
+  word=	Mary
+  word=	is_in
+  word=	before
+  word=	bathroom
+  word=	garden
+option=	Mary is_in before bathroom	garden
+--> question choosen - #words=	5
+  word=	Mary
+  word=	is_in
+  word=	before
+  word=	bathroom
+  word=	garden
+option=	John is_in before kitchen	office
+--> question choosen - #words=	5
+  word=	John
+  word=	is_in
+  word=	before
+  word=	kitchen
+  word=	office
+option=	Sandra is_in before hallway	bathroom
+--> question choosen - #words=	5
+  word=	Sandra
+  word=	is_in
+  word=	before
+  word=	hallway
+  word=	bathroom
+option=	John is_in before hallway	kitchen
+--> question choosen - #words=	5
+  word=	John
+  word=	is_in
+  word=	before
+  word=	hallway
+  word=	kitchen
+1 This evening Mary travelled to the bathroom.	(mary teleport bathroom when this_evening)
+2 Yesterday Sandra travelled to the bathroom.	(sandra teleport bathroom when yesterday)
+3 John travelled to the kitchen this morning.	(john teleport kitchen when this_morning)
+4 Mary moved to the garden yesterday.	(mary teleport garden when yesterday)
+5 Where was Mary before the bathroom?	(Mary is_in *)	before	1 4
+6 John moved to the office yesterday.	(john teleport office when yesterday)
+7 Daniel journeyed to the kitchen yesterday.	(daniel teleport kitchen when yesterday)
+8 Where was Mary before the bathroom?	(Mary is_in *)	before	1 4
+9 This afternoon John travelled to the hallway.	(john teleport hallway when this_afternoon)
+10 This afternoon Sandra travelled to the hallway.	(sandra teleport hallway when this_afternoon)
+11 Where was John before the kitchen?	(John is_in *)	before	6 3
+12 Daniel moved to the garden this morning.	(daniel teleport garden when this_morning)
+13 This afternoon Mary went to the office.	(mary teleport office when this_afternoon)
+14 Where was Sandra before the hallway?	(Sandra is_in *)	before	2 10
+15 This evening Daniel went to the office.	(daniel teleport office when this_evening)
+16 This afternoon Daniel moved to the hallway.	(daniel teleport hallway when this_afternoon)
+17 Where was John before the hallway?	(John is_in *)	before	9 3
+option=	Daniel is_in before garden	hallway
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	garden
+  word=	hallway
+option=	Mary is_in before hallway	office
+--> question choosen - #words=	5
+  word=	Mary
+  word=	is_in
+  word=	before
+  word=	hallway
+  word=	office
+option=	Daniel is_in before garden	hallway
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	garden
+  word=	hallway
+option=	Daniel is_in before hallway	office
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	hallway
+  word=	office
+option=	John is_in before garden	office
+--> question choosen - #words=	5
+  word=	John
+  word=	is_in
+  word=	before
+  word=	garden
+  word=	office
+1 Daniel travelled to the office yesterday.	(daniel teleport office when yesterday)
+2 Daniel moved to the garden this evening.	(daniel teleport garden when this_evening)
+3 This morning Daniel journeyed to the hallway.	(daniel teleport hallway when this_morning)
+4 This evening Mary journeyed to the hallway.	(mary teleport hallway when this_evening)
+5 Where was Daniel before the garden?	(Daniel is_in *)	before	2 3
+6 Mary journeyed to the office this morning.	(mary teleport office when this_morning)
+7 This afternoon Sandra went to the kitchen.	(sandra teleport kitchen when this_afternoon)
+8 Where was Mary before the hallway?	(Mary is_in *)	before	4 6
+9 Sandra journeyed to the bedroom this morning.	(sandra teleport bedroom when this_morning)
+10 Sandra went to the office yesterday.	(sandra teleport office when yesterday)
+11 Where was Daniel before the garden?	(Daniel is_in *)	before	2 3
+12 This afternoon John went to the garden.	(john teleport garden when this_afternoon)
+13 John moved to the office this morning.	(john teleport office when this_morning)
+14 Where was Daniel before the hallway?	(Daniel is_in *)	before	3 1
+15 Yesterday Mary travelled to the kitchen.	(mary teleport kitchen when yesterday)
+16 Yesterday John went to the bathroom.	(john teleport bathroom when yesterday)
+17 Where was John before the garden?	(John is_in *)	before	12 13
+option=	John is_in before bedroom	garden
+--> question choosen - #words=	5
+  word=	John
+  word=	is_in
+  word=	before
+  word=	bedroom
+  word=	garden
+option=	John is_in before bedroom	garden
+--> question choosen - #words=	5
+  word=	John
+  word=	is_in
+  word=	before
+  word=	bedroom
+  word=	garden
+option=	Daniel is_in before kitchen	bathroom
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	kitchen
+  word=	bathroom
+option=	Mary is_in before office	hallway
+--> question choosen - #words=	5
+  word=	Mary
+  word=	is_in
+  word=	before
+  word=	office
+  word=	hallway
+option=	Sandra is_in before bedroom	hallway
+--> question choosen - #words=	5
+  word=	Sandra
+  word=	is_in
+  word=	before
+  word=	bedroom
+  word=	hallway
+1 This evening John went to the bedroom.	(john teleport bedroom when this_evening)
+2 This morning Sandra went to the hallway.	(sandra teleport hallway when this_morning)
+3 Mary went to the hallway yesterday.	(mary teleport hallway when yesterday)
+4 John moved to the garden yesterday.	(john teleport garden when yesterday)
+5 Where was John before the bedroom?	(John is_in *)	before	1 4
+6 Daniel journeyed to the bathroom this morning.	(daniel teleport bathroom when this_morning)
+7 This afternoon Daniel travelled to the kitchen.	(daniel teleport kitchen when this_afternoon)
+8 Where was John before the bedroom?	(John is_in *)	before	1 4
+9 Mary moved to the office this morning.	(mary teleport office when this_morning)
+10 This morning John went to the hallway.	(john teleport hallway when this_morning)
+11 Where was Daniel before the kitchen?	(Daniel is_in *)	before	6 7
+12 Yesterday Daniel journeyed to the garden.	(daniel teleport garden when yesterday)
+13 Sandra journeyed to the bedroom this afternoon.	(sandra teleport bedroom when this_afternoon)
+14 Where was Mary before the office?	(Mary is_in *)	before	3 9
+15 Mary moved to the bathroom this evening.	(mary teleport bathroom when this_evening)
+16 Sandra journeyed to the garden this evening.	(sandra teleport garden when this_evening)
+17 Where was Sandra before the bedroom?	(Sandra is_in *)	before	2 13
+option=	Daniel is_in before garden	office
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	garden
+  word=	office
+option=	Daniel is_in before garden	office
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	garden
+  word=	office
+option=	Mary is_in before kitchen	garden
+--> question choosen - #words=	5
+  word=	Mary
+  word=	is_in
+  word=	before
+  word=	kitchen
+  word=	garden
+option=	John is_in before bedroom	bathroom
+--> question choosen - #words=	5
+  word=	John
+  word=	is_in
+  word=	before
+  word=	bedroom
+  word=	bathroom
+option=	Sandra is_in before bathroom	office
+--> question choosen - #words=	5
+  word=	Sandra
+  word=	is_in
+  word=	before
+  word=	bathroom
+  word=	office
+1 This morning Mary travelled to the garden.	(mary teleport garden when this_morning)
+2 This afternoon Daniel journeyed to the office.	(daniel teleport office when this_afternoon)
+3 Daniel moved to the garden this evening.	(daniel teleport garden when this_evening)
+4 Daniel moved to the bedroom yesterday.	(daniel teleport bedroom when yesterday)
+5 Where was Daniel before the garden?	(Daniel is_in *)	before	2 3
+6 Yesterday Sandra moved to the garden.	(sandra teleport garden when yesterday)
+7 John went to the bedroom this afternoon.	(john teleport bedroom when this_afternoon)
+8 Where was Daniel before the garden?	(Daniel is_in *)	before	2 3
+9 This afternoon Mary journeyed to the kitchen.	(mary teleport kitchen when this_afternoon)
+10 Yesterday John went to the bathroom.	(john teleport bathroom when yesterday)
+11 Where was Mary before the kitchen?	(Mary is_in *)	before	9 1
+12 Mary went to the hallway this evening.	(mary teleport hallway when this_evening)
+13 Sandra went to the office this afternoon.	(sandra teleport office when this_afternoon)
+14 Where was John before the bedroom?	(John is_in *)	before	7 10
+15 This evening Sandra travelled to the bathroom.	(sandra teleport bathroom when this_evening)
+16 John went to the hallway this morning.	(john teleport hallway when this_morning)
+17 Where was Sandra before the bathroom?	(Sandra is_in *)	before	15 13
+option=	John is_in before kitchen	office
+--> question choosen - #words=	5
+  word=	John
+  word=	is_in
+  word=	before
+  word=	kitchen
+  word=	office
+option=	John is_in before kitchen	office
+--> question choosen - #words=	5
+  word=	John
+  word=	is_in
+  word=	before
+  word=	kitchen
+  word=	office
+option=	Mary is_in before office	hallway
+--> question choosen - #words=	5
+  word=	Mary
+  word=	is_in
+  word=	before
+  word=	office
+  word=	hallway
+option=	Mary is_in before office	hallway
+--> question choosen - #words=	5
+  word=	Mary
+  word=	is_in
+  word=	before
+  word=	office
+  word=	hallway
+option=	Daniel is_in before bedroom	garden
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	bedroom
+  word=	garden
+1 This evening John journeyed to the kitchen.	(john teleport kitchen when this_evening)
+2 This evening Mary moved to the office.	(mary teleport office when this_evening)
+3 John travelled to the office this afternoon.	(john teleport office when this_afternoon)
+4 Daniel moved to the bedroom this evening.	(daniel teleport bedroom when this_evening)
+5 Where was John before the kitchen?	(John is_in *)	before	3 1
+6 This morning Mary went to the hallway.	(mary teleport hallway when this_morning)
+7 Daniel travelled to the hallway this morning.	(daniel teleport hallway when this_morning)
+8 Where was John before the kitchen?	(John is_in *)	before	3 1
+9 This evening Sandra journeyed to the kitchen.	(sandra teleport kitchen when this_evening)
+10 John went to the hallway this morning.	(john teleport hallway when this_morning)
+11 Where was Mary before the office?	(Mary is_in *)	before	2 6
+12 Yesterday Mary travelled to the bedroom.	(mary teleport bedroom when yesterday)
+13 Sandra travelled to the office this afternoon.	(sandra teleport office when this_afternoon)
+14 Where was Mary before the office?	(Mary is_in *)	before	2 6
+15 Yesterday Daniel moved to the office.	(daniel teleport office when yesterday)
+16 Daniel moved to the garden this afternoon.	(daniel teleport garden when this_afternoon)
+17 Where was Daniel before the bedroom?	(Daniel is_in *)	before	4 16
+option=	Daniel is_in before hallway	kitchen
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	hallway
+  word=	kitchen
+option=	Daniel is_in before kitchen	bathroom
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	kitchen
+  word=	bathroom
+option=	Mary is_in before garden	kitchen
+--> question choosen - #words=	5
+  word=	Mary
+  word=	is_in
+  word=	before
+  word=	garden
+  word=	kitchen
+option=	John is_in before kitchen	office
+--> question choosen - #words=	5
+  word=	John
+  word=	is_in
+  word=	before
+  word=	kitchen
+  word=	office
+option=	Mary is_in before bathroom	kitchen
+--> question choosen - #words=	5
+  word=	Mary
+  word=	is_in
+  word=	before
+  word=	bathroom
+  word=	kitchen
+1 This morning Sandra went to the kitchen.	(sandra teleport kitchen when this_morning)
+2 Daniel travelled to the hallway this afternoon.	(daniel teleport hallway when this_afternoon)
+3 Daniel travelled to the kitchen this morning.	(daniel teleport kitchen when this_morning)
+4 This morning John went to the office.	(john teleport office when this_morning)
+5 Where was Daniel before the hallway?	(Daniel is_in *)	before	2 3
+6 Daniel travelled to the bathroom yesterday.	(daniel teleport bathroom when yesterday)
+7 Yesterday Mary travelled to the kitchen.	(mary teleport kitchen when yesterday)
+8 Where was Daniel before the kitchen?	(Daniel is_in *)	before	3 6
+9 John went to the kitchen this evening.	(john teleport kitchen when this_evening)
+10 This afternoon Mary moved to the garden.	(mary teleport garden when this_afternoon)
+11 Where was Mary before the garden?	(Mary is_in *)	before	7 10
+12 Mary went to the bathroom this morning.	(mary teleport bathroom when this_morning)
+13 Sandra travelled to the office this evening.	(sandra teleport office when this_evening)
+14 Where was John before the kitchen?	(John is_in *)	before	9 4
+15 Yesterday John moved to the bedroom.	(john teleport bedroom when yesterday)
+16 This afternoon John went to the garden.	(john teleport garden when this_afternoon)
+17 Where was Mary before the bathroom?	(Mary is_in *)	before	7 12
+option=	Daniel is_in before hallway	bedroom
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	hallway
+  word=	bedroom
+option=	Mary is_in before bathroom	kitchen
+--> question choosen - #words=	5
+  word=	Mary
+  word=	is_in
+  word=	before
+  word=	bathroom
+  word=	kitchen
+option=	Daniel is_in before bathroom	hallway
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	bathroom
+  word=	hallway
+option=	Sandra is_in before garden	office
+--> question choosen - #words=	5
+  word=	Sandra
+  word=	is_in
+  word=	before
+  word=	garden
+  word=	office
+option=	Sandra is_in before hallway	garden
+--> question choosen - #words=	5
+  word=	Sandra
+  word=	is_in
+  word=	before
+  word=	hallway
+  word=	garden
+1 Mary went to the kitchen yesterday.	(mary teleport kitchen when yesterday)
+2 Daniel went to the hallway this afternoon.	(daniel teleport hallway when this_afternoon)
+3 Daniel journeyed to the bedroom yesterday.	(daniel teleport bedroom when yesterday)
+4 This evening Daniel travelled to the bathroom.	(daniel teleport bathroom when this_evening)
+5 Where was Daniel before the hallway?	(Daniel is_in *)	before	2 3
+6 Mary travelled to the bathroom this morning.	(mary teleport bathroom when this_morning)
+7 Mary moved to the bedroom this afternoon.	(mary teleport bedroom when this_afternoon)
+8 Where was Mary before the bathroom?	(Mary is_in *)	before	6 1
+9 John went to the bathroom this afternoon.	(john teleport bathroom when this_afternoon)
+10 Yesterday Sandra went to the office.	(sandra teleport office when yesterday)
+11 Where was Daniel before the bathroom?	(Daniel is_in *)	before	2 4
+12 John moved to the garden this morning.	(john teleport garden when this_morning)
+13 Sandra went to the garden this morning.	(sandra teleport garden when this_morning)
+14 Where was Sandra before the garden?	(Sandra is_in *)	before	10 13
+15 This evening Sandra moved to the kitchen.	(sandra teleport kitchen when this_evening)
+16 This afternoon Sandra travelled to the hallway.	(sandra teleport hallway when this_afternoon)
+17 Where was Sandra before the hallway?	(Sandra is_in *)	before	13 16
+option=	Daniel is_in before bathroom	garden
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	bathroom
+  word=	garden
+option=	Daniel is_in before bathroom	garden
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	bathroom
+  word=	garden
+option=	Mary is_in before garden	bedroom
+--> question choosen - #words=	5
+  word=	Mary
+  word=	is_in
+  word=	before
+  word=	garden
+  word=	bedroom
+option=	John is_in before garden	office
+--> question choosen - #words=	5
+  word=	John
+  word=	is_in
+  word=	before
+  word=	garden
+  word=	office
+option=	Sandra is_in before hallway	garden
+--> question choosen - #words=	5
+  word=	Sandra
+  word=	is_in
+  word=	before
+  word=	hallway
+  word=	garden
+1 Mary moved to the garden this afternoon.	(mary teleport garden when this_afternoon)
+2 Mary went to the bedroom this morning.	(mary teleport bedroom when this_morning)
+3 Daniel moved to the garden yesterday.	(daniel teleport garden when yesterday)
+4 Daniel travelled to the bathroom this evening.	(daniel teleport bathroom when this_evening)
+5 Where was Daniel before the bathroom?	(Daniel is_in *)	before	4 3
+6 John went to the kitchen yesterday.	(john teleport kitchen when yesterday)
+7 Sandra went to the bathroom this evening.	(sandra teleport bathroom when this_evening)
+8 Where was Daniel before the bathroom?	(Daniel is_in *)	before	4 3
+9 Yesterday Sandra journeyed to the garden.	(sandra teleport garden when yesterday)
+10 John went to the garden this evening.	(john teleport garden when this_evening)
+11 Where was Mary before the garden?	(Mary is_in *)	before	2 1
+12 John journeyed to the office this afternoon.	(john teleport office when this_afternoon)
+13 Yesterday Mary travelled to the kitchen.	(mary teleport kitchen when yesterday)
+14 Where was John before the garden?	(John is_in *)	before	10 12
+15 This morning Sandra went to the hallway.	(sandra teleport hallway when this_morning)
+16 This afternoon Daniel journeyed to the bedroom.	(daniel teleport bedroom when this_afternoon)
+17 Where was Sandra before the hallway?	(Sandra is_in *)	before	15 9
+option=	Sandra is_in before bedroom	office
+--> question choosen - #words=	5
+  word=	Sandra
+  word=	is_in
+  word=	before
+  word=	bedroom
+  word=	office
+option=	Sandra is_in before bedroom	office
+--> question choosen - #words=	5
+  word=	Sandra
+  word=	is_in
+  word=	before
+  word=	bedroom
+  word=	office
+option=	Daniel is_in before office	kitchen
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	office
+  word=	kitchen
+option=	Mary is_in before kitchen	garden
+--> question choosen - #words=	5
+  word=	Mary
+  word=	is_in
+  word=	before
+  word=	kitchen
+  word=	garden
+option=	John is_in before bathroom	bedroom
+--> question choosen - #words=	5
+  word=	John
+  word=	is_in
+  word=	before
+  word=	bathroom
+  word=	bedroom
+1 Daniel moved to the kitchen this morning.	(daniel teleport kitchen when this_morning)
+2 Sandra moved to the bedroom this morning.	(sandra teleport bedroom when this_morning)
+3 Sandra went to the office yesterday.	(sandra teleport office when yesterday)
+4 Mary moved to the kitchen this afternoon.	(mary teleport kitchen when this_afternoon)
+5 Where was Sandra before the bedroom?	(Sandra is_in *)	before	2 3
+6 This afternoon John travelled to the bedroom.	(john teleport bedroom when this_afternoon)
+7 Mary went to the garden this morning.	(mary teleport garden when this_morning)
+8 Where was Sandra before the bedroom?	(Sandra is_in *)	before	2 3
+9 Daniel travelled to the office this afternoon.	(daniel teleport office when this_afternoon)
+10 Daniel went to the garden this evening.	(daniel teleport garden when this_evening)
+11 Where was Daniel before the office?	(Daniel is_in *)	before	1 9
+12 Sandra went to the hallway this evening.	(sandra teleport hallway when this_evening)
+13 John moved to the bathroom this evening.	(john teleport bathroom when this_evening)
+14 Where was Mary before the kitchen?	(Mary is_in *)	before	4 7
+15 John moved to the garden yesterday.	(john teleport garden when yesterday)
+16 Yesterday Mary travelled to the office.	(mary teleport office when yesterday)
+17 Where was John before the bathroom?	(John is_in *)	before	13 6
+option=	Daniel is_in before garden	hallway
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	garden
+  word=	hallway
+option=	Daniel is_in before garden	hallway
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	garden
+  word=	hallway
+option=	Mary is_in before garden	hallway
+--> question choosen - #words=	5
+  word=	Mary
+  word=	is_in
+  word=	before
+  word=	garden
+  word=	hallway
+option=	Daniel is_in before garden	hallway
+--> question choosen - #words=	5
+  word=	Daniel
+  word=	is_in
+  word=	before
+  word=	garden
+  word=	hallway
+option=	Mary is_in before garden	hallway
+--> question choosen - #words=	5
+  word=	Mary
+  word=	is_in
+  word=	before
+  word=	garden
+  word=	hallway
+1 Daniel travelled to the garden this morning.	(daniel teleport garden when this_morning)
+2 This evening Sandra travelled to the kitchen.	(sandra teleport kitchen when this_evening)
+3 Daniel moved to the kitchen this afternoon.	(daniel teleport kitchen when this_afternoon)
+4 Yesterday Daniel travelled to the hallway.	(daniel teleport hallway when yesterday)
+5 Where was Daniel before the garden?	(Daniel is_in *)	before	4 1
+6 This afternoon John went to the office.	(john teleport office when this_afternoon)
+7 This morning Sandra journeyed to the bedroom.	(sandra teleport bedroom when this_morning)
+8 Where was Daniel before the garden?	(Daniel is_in *)	before	4 1
+9 Yesterday Mary journeyed to the hallway.	(mary teleport hallway when yesterday)
+10 Mary moved to the garden this afternoon.	(mary teleport garden when this_afternoon)
+11 Where was Mary before the garden?	(Mary is_in *)	before	9 10
+12 This evening Mary travelled to the bathroom.	(mary teleport bathroom when this_evening)
+13 This morning John journeyed to the kitchen.	(john teleport kitchen when this_morning)
+14 Where was Daniel before the garden?	(Daniel is_in *)	before	4 1
+15 This evening John travelled to the garden.	(john teleport garden when this_evening)
+16 Yesterday Sandra moved to the garden.	(sandra teleport garden when yesterday)
+17 Where was Mary before the garden?	(Mary is_in *)	before	9 10

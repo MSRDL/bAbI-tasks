@@ -54,11 +54,14 @@ local task_names = {
 }
 
 local generate_arg = {
-    tonumber(arg[1]) and assert(task_names[tonumber(arg[1])]) or arg[1],
-    1,
+    tonumber(arg[1]) and assert(task_names[tonumber(arg[1])]) or arg[1],    -- task number/name
+    1,   
     io.stdout,
     {}
 }
+
+-- default parens option to true
+generate_arg[4]['parens'] = 1 
 
 for i = 2, #arg do
     if arg[i]:sub(1,2) == '--' then

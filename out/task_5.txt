@@ -1,0 +1,725 @@
+option=	milk receive	Mary
+--> question choosen - #words=	3
+  word=	milk
+  word=	receive
+  word=	Mary
+option=	Sandra give apple	Mary
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	give
+  word=	apple
+  word=	Mary
+option=	apple receive	Mary
+--> question choosen - #words=	3
+  word=	apple
+  word=	receive
+  word=	Mary
+option=	Mary give_what Sandra	milk
+--> question choosen - #words=	4
+  word=	Mary
+  word=	give_what
+  word=	Sandra
+  word=	milk
+option=	Sandra give apple	Mary
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	give
+  word=	apple
+  word=	Mary
+1 Sandra went to the office.	(sandra teleport office)
+2 John travelled to the hallway.	(john teleport hallway)
+3 Sandra moved to the kitchen.	(sandra teleport kitchen)
+4 Sandra got the milk.	(sandra get milk)
+5 Sandra grabbed the apple.	(sandra get apple)
+6 Daniel moved to the bedroom.	(daniel teleport bedroom)
+7 Daniel travelled to the office.	(daniel teleport office)
+8 John moved to the office.	(john teleport office)
+9 Daniel travelled to the bathroom.	(daniel teleport bathroom)
+10 Daniel moved to the hallway.	(daniel teleport hallway)
+11 Mary journeyed to the kitchen.	(mary teleport kitchen)
+12 Sandra gave Mary the milk.	(sandra give milk mary)
+13 Mary moved to the garden.	(mary teleport garden)
+14 John moved to the bathroom.	(john teleport bathroom)
+15 Mary moved to the bedroom.	(mary teleport bedroom)
+16 Sandra moved to the bathroom.	(sandra teleport bathroom)
+17 John travelled to the garden.	(john teleport garden)
+18 What did Sandra give to Mary last?	(milk receive *)	Mary	12
+19 Daniel moved to the garden.	(daniel teleport garden)
+20 Sandra gave Mary the apple.	(sandra give apple mary)
+21 Daniel moved to the hallway.	(daniel teleport hallway)
+22 Mary went to the office.	(mary teleport office)
+23 Daniel took the football.	(daniel get football)
+24 Mary gave Sandra the milk.	(mary give milk sandra)
+25 Who received the apple last?	((Sandra give *) before (Sandra give apple))	Mary	20
+26 Mary gave Sandra the apple.	(mary give apple sandra)
+27 Sandra gave Mary the apple.	(sandra give apple mary)
+28 Daniel journeyed to the hallway.	(daniel teleport hallway)
+29 Mary journeyed to the bathroom.	(mary teleport bathroom)
+30 Mary gave Sandra the milk.	(mary give milk sandra)
+31 Daniel grabbed the football.	(daniel get football)
+32 Mary moved to the bathroom.	(mary teleport bathroom)
+33 Who did Sandra give the apple to last?	(apple receive *)	Mary	27
+34 Mary gave Sandra the apple.	(mary give apple sandra)
+35 Daniel travelled to the bedroom.	(daniel teleport bedroom)
+36 Mary gave Sandra the milk.	(mary give milk sandra)
+37 Mary moved to the garden.	(mary teleport garden)
+38 Daniel moved to the hallway.	(daniel teleport hallway)
+39 Sandra gave Mary the apple.	(sandra give apple mary)
+40 Sandra gave Mary the apple.	(sandra give apple mary)
+41 What did Mary give to Sandra last?	((Mary give_what *) before (Mary give_what Sandra))	milk	36
+42 Daniel journeyed to the hallway.	(daniel teleport hallway)
+43 John moved to the hallway.	(john teleport hallway)
+44 Sandra gave Mary the apple.	(sandra give apple mary)
+45 John went to the office.	(john teleport office)
+46 John travelled to the office.	(john teleport office)
+47 Who did Sandra give the apple to last?	((Sandra give *) before (Sandra give apple))	Mary	44
+option=	Mary give milk	Daniel
+--> question choosen - #words=	4
+  word=	Mary
+  word=	give
+  word=	milk
+  word=	Daniel
+option=	Mary give milk	Daniel
+--> question choosen - #words=	4
+  word=	Mary
+  word=	give
+  word=	milk
+  word=	Daniel
+option=	Daniel give_what Mary	milk
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	give_what
+  word=	Mary
+  word=	milk
+option=	Daniel give_what Sandra	milk
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	give_what
+  word=	Sandra
+  word=	milk
+option=	Daniel give milk	Mary
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	give
+  word=	milk
+  word=	Mary
+1 John journeyed to the bathroom.	(john teleport bathroom)
+2 Sandra went to the bedroom.	(sandra teleport bedroom)
+3 Daniel went to the kitchen.	(daniel teleport kitchen)
+4 Mary went to the office.	(mary teleport office)
+5 Daniel moved to the bathroom.	(daniel teleport bathroom)
+6 Mary travelled to the kitchen.	(mary teleport kitchen)
+7 John moved to the office.	(john teleport office)
+8 Mary got the milk.	(mary get milk)
+9 Mary travelled to the hallway.	(mary teleport hallway)
+10 Sandra travelled to the office.	(sandra teleport office)
+11 Mary moved to the bathroom.	(mary teleport bathroom)
+12 Mary gave Daniel the milk.	(mary give milk daniel)
+13 Who received the milk last?	((Mary give *) before (Mary give milk))	Daniel	12
+14 Daniel gave Mary the milk.	(daniel give milk mary)
+15 John travelled to the kitchen.	(john teleport kitchen)
+16 Mary gave Daniel the milk.	(mary give milk daniel)
+17 John got the apple.	(john get apple)
+18 Daniel journeyed to the kitchen.	(daniel teleport kitchen)
+19 Daniel went to the garden.	(daniel teleport garden)
+20 John grabbed the apple.	(john get apple)
+21 Sandra moved to the bedroom.	(sandra teleport bedroom)
+22 Who received the milk last?	((Mary give *) before (Mary give milk))	Daniel	16
+23 John took the apple.	(john get apple)
+24 Daniel gave Mary the milk.	(daniel give milk mary)
+25 Sandra moved to the garden.	(sandra teleport garden)
+26 Daniel journeyed to the bedroom.	(daniel teleport bedroom)
+27 Sandra went to the kitchen.	(sandra teleport kitchen)
+28 What did Daniel give to Mary last?	((Daniel give_what *) before (Daniel give_what Mary))	milk	24
+29 Mary gave Daniel the milk.	(mary give milk daniel)
+30 Sandra went to the bathroom.	(sandra teleport bathroom)
+31 Mary travelled to the bedroom.	(mary teleport bedroom)
+32 Daniel gave Sandra the milk.	(daniel give milk sandra)
+33 Who did Daniel give the milk to last?	((Daniel give_what *) before (Daniel give_what Sandra))	milk	32
+34 Sandra gave Daniel the milk.	(sandra give milk daniel)
+35 Daniel moved to the bedroom.	(daniel teleport bedroom)
+36 Sandra moved to the kitchen.	(sandra teleport kitchen)
+37 Daniel gave Mary the milk.	(daniel give milk mary)
+38 Who received the milk last?	((Daniel give *) before (Daniel give milk))	Mary	37
+option=	football receive	Daniel
+--> question choosen - #words=	3
+  word=	football
+  word=	receive
+  word=	Daniel
+option=	Daniel give football	John
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	give
+  word=	football
+  word=	John
+option=	John give_what Daniel	milk
+--> question choosen - #words=	4
+  word=	John
+  word=	give_what
+  word=	Daniel
+  word=	milk
+option=	Daniel give_what John	milk
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	give_what
+  word=	John
+  word=	milk
+option=	apple receive	John
+--> question choosen - #words=	3
+  word=	apple
+  word=	receive
+  word=	John
+1 Sandra grabbed the football.	(sandra get football)
+2 John got the apple.	(john get apple)
+3 John took the milk.	(john get milk)
+4 Daniel journeyed to the bedroom.	(daniel teleport bedroom)
+5 Sandra journeyed to the bedroom.	(sandra teleport bedroom)
+6 Mary travelled to the office.	(mary teleport office)
+7 Sandra gave Daniel the football.	(sandra give football daniel)
+8 Daniel journeyed to the bathroom.	(daniel teleport bathroom)
+9 John went to the bedroom.	(john teleport bedroom)
+10 Mary moved to the kitchen.	(mary teleport kitchen)
+11 Daniel travelled to the kitchen.	(daniel teleport kitchen)
+12 Who received the football last?	(football receive *)	Daniel	7
+13 Daniel journeyed to the bathroom.	(daniel teleport bathroom)
+14 John went to the hallway.	(john teleport hallway)
+15 Daniel went to the bedroom.	(daniel teleport bedroom)
+16 Daniel moved to the kitchen.	(daniel teleport kitchen)
+17 John went to the kitchen.	(john teleport kitchen)
+18 Daniel gave John the football.	(daniel give football john)
+19 Sandra journeyed to the bathroom.	(sandra teleport bathroom)
+20 John gave Daniel the apple.	(john give apple daniel)
+21 John journeyed to the office.	(john teleport office)
+22 What did Daniel give to John last?	((Daniel give *) before (Daniel give football))	John	18
+23 John gave Daniel the apple.	(john give apple daniel)
+24 John gave Daniel the milk.	(john give milk daniel)
+25 Who did John give the milk to last?	((John give_what *) before (John give_what Daniel))	milk	24
+26 John gave Daniel the football.	(john give football daniel)
+27 Daniel gave John the milk.	(daniel give milk john)
+28 Mary moved to the hallway.	(mary teleport hallway)
+29 John moved to the hallway.	(john teleport hallway)
+30 Daniel journeyed to the hallway.	(daniel teleport hallway)
+31 Mary moved to the bathroom.	(mary teleport bathroom)
+32 Sandra journeyed to the garden.	(sandra teleport garden)
+33 Who did Daniel give the milk to last?	((Daniel give_what *) before (Daniel give_what John))	milk	27
+34 Daniel gave John the football.	(daniel give football john)
+35 Daniel gave John the apple.	(daniel give apple john)
+36 Mary travelled to the kitchen.	(mary teleport kitchen)
+37 Who received the apple last?	(apple receive *)	John	35
+option=	John give_what Daniel	football
+--> question choosen - #words=	4
+  word=	John
+  word=	give_what
+  word=	Daniel
+  word=	football
+option=	John give football	Sandra
+--> question choosen - #words=	4
+  word=	John
+  word=	give
+  word=	football
+  word=	Sandra
+option=	Sandra give football	John
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	give
+  word=	football
+  word=	John
+option=	Sandra give_what John	football
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	give_what
+  word=	John
+  word=	football
+option=	John give football	Sandra
+--> question choosen - #words=	4
+  word=	John
+  word=	give
+  word=	football
+  word=	Sandra
+1 Sandra went to the bedroom.	(sandra teleport bedroom)
+2 Mary travelled to the hallway.	(mary teleport hallway)
+3 John journeyed to the garden.	(john teleport garden)
+4 Mary journeyed to the kitchen.	(mary teleport kitchen)
+5 Mary got the apple.	(mary get apple)
+6 Mary took the milk.	(mary get milk)
+7 John got the football.	(john get football)
+8 Sandra went to the hallway.	(sandra teleport hallway)
+9 John travelled to the hallway.	(john teleport hallway)
+10 John gave Daniel the football.	(john give football daniel)
+11 Daniel moved to the kitchen.	(daniel teleport kitchen)
+12 Mary travelled to the bathroom.	(mary teleport bathroom)
+13 Daniel journeyed to the garden.	(daniel teleport garden)
+14 Sandra travelled to the bedroom.	(sandra teleport bedroom)
+15 Who received the football last?	((John give_what *) before (John give_what Daniel))	football	10
+16 Daniel gave John the football.	(daniel give football john)
+17 Daniel moved to the bathroom.	(daniel teleport bathroom)
+18 John gave Sandra the football.	(john give football sandra)
+19 Daniel went to the kitchen.	(daniel teleport kitchen)
+20 Daniel moved to the office.	(daniel teleport office)
+21 Daniel moved to the garden.	(daniel teleport garden)
+22 Mary moved to the bedroom.	(mary teleport bedroom)
+23 Who did John give the football to last?	((John give *) before (John give football))	Sandra	18
+24 John went to the bathroom.	(john teleport bathroom)
+25 Daniel moved to the garden.	(daniel teleport garden)
+26 Daniel travelled to the bedroom.	(daniel teleport bedroom)
+27 John travelled to the hallway.	(john teleport hallway)
+28 Sandra gave John the football.	(sandra give football john)
+29 Sandra journeyed to the kitchen.	(sandra teleport kitchen)
+30 Who received the football last?	((Sandra give *) before (Sandra give football))	John	28
+31 John gave Sandra the football.	(john give football sandra)
+32 Sandra gave John the football.	(sandra give football john)
+33 Mary moved to the bathroom.	(mary teleport bathroom)
+34 Mary travelled to the hallway.	(mary teleport hallway)
+35 John went to the bathroom.	(john teleport bathroom)
+36 Mary went to the hallway.	(mary teleport hallway)
+37 John went to the kitchen.	(john teleport kitchen)
+38 Who did Sandra give the football to last?	((Sandra give_what *) before (Sandra give_what John))	football	32
+39 Mary went to the garden.	(mary teleport garden)
+40 Mary journeyed to the bathroom.	(mary teleport bathroom)
+41 John gave Sandra the football.	(john give football sandra)
+42 Mary went to the garden.	(mary teleport garden)
+43 John travelled to the office.	(john teleport office)
+44 John journeyed to the office.	(john teleport office)
+45 Sandra moved to the kitchen.	(sandra teleport kitchen)
+46 John journeyed to the bedroom.	(john teleport bedroom)
+47 Who received the football last?	((John give *) before (John give football))	Sandra	41
+option=	Sandra give football	Mary
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	give
+  word=	football
+  word=	Mary
+option=	football receive	Mary
+--> question choosen - #words=	3
+  word=	football
+  word=	receive
+  word=	Mary
+option=	John give apple	Daniel
+--> question choosen - #words=	4
+  word=	John
+  word=	give
+  word=	apple
+  word=	Daniel
+option=	milk receive	John
+--> question choosen - #words=	3
+  word=	milk
+  word=	receive
+  word=	John
+option=	milk receive	Mary
+--> question choosen - #words=	3
+  word=	milk
+  word=	receive
+  word=	Mary
+1 Sandra took the football.	(sandra get football)
+2 Daniel went to the office.	(daniel teleport office)
+3 John got the apple.	(john get apple)
+4 Daniel journeyed to the hallway.	(daniel teleport hallway)
+5 Mary travelled to the garden.	(mary teleport garden)
+6 John got the milk.	(john get milk)
+7 Sandra gave Mary the football.	(sandra give football mary)
+8 Sandra journeyed to the bathroom.	(sandra teleport bathroom)
+9 John journeyed to the bathroom.	(john teleport bathroom)
+10 Who did Sandra give the football to last?	((Sandra give *) before (Sandra give football))	Mary	7
+11 Mary gave Sandra the football.	(mary give football sandra)
+12 Sandra gave Mary the football.	(sandra give football mary)
+13 John journeyed to the garden.	(john teleport garden)
+14 Sandra travelled to the hallway.	(sandra teleport hallway)
+15 Sandra went to the kitchen.	(sandra teleport kitchen)
+16 Mary moved to the kitchen.	(mary teleport kitchen)
+17 Sandra journeyed to the office.	(sandra teleport office)
+18 Who received the football last?	(football receive *)	Mary	12
+19 Mary gave Sandra the football.	(mary give football sandra)
+20 John moved to the office.	(john teleport office)
+21 John journeyed to the bathroom.	(john teleport bathroom)
+22 Sandra moved to the bathroom.	(sandra teleport bathroom)
+23 Daniel travelled to the bathroom.	(daniel teleport bathroom)
+24 Sandra travelled to the office.	(sandra teleport office)
+25 Mary moved to the bedroom.	(mary teleport bedroom)
+26 John gave Daniel the apple.	(john give apple daniel)
+27 Daniel moved to the kitchen.	(daniel teleport kitchen)
+28 Mary journeyed to the hallway.	(mary teleport hallway)
+29 Sandra moved to the bathroom.	(sandra teleport bathroom)
+30 What did John give to Daniel last?	((John give *) before (John give apple))	Daniel	26
+31 John gave Daniel the milk.	(john give milk daniel)
+32 Daniel gave John the milk.	(daniel give milk john)
+33 Daniel went to the office.	(daniel teleport office)
+34 Mary went to the bathroom.	(mary teleport bathroom)
+35 Sandra travelled to the bedroom.	(sandra teleport bedroom)
+36 John journeyed to the kitchen.	(john teleport kitchen)
+37 Mary moved to the kitchen.	(mary teleport kitchen)
+38 What did Daniel give to John last?	(milk receive *)	John	32
+39 John journeyed to the bedroom.	(john teleport bedroom)
+40 John gave Mary the milk.	(john give milk mary)
+41 Mary journeyed to the office.	(mary teleport office)
+42 Mary travelled to the office.	(mary teleport office)
+43 Daniel went to the kitchen.	(daniel teleport kitchen)
+44 Who received the milk last?	(milk receive *)	Mary	40
+option=	Sandra give football	Daniel
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	give
+  word=	football
+  word=	Daniel
+option=	football receive	Sandra
+--> question choosen - #words=	3
+  word=	football
+  word=	receive
+  word=	Sandra
+option=	Daniel give_what Mary	football
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	give_what
+  word=	Mary
+  word=	football
+option=	apple receive	Mary
+--> question choosen - #words=	3
+  word=	apple
+  word=	receive
+  word=	Mary
+option=	football receive	Sandra
+--> question choosen - #words=	3
+  word=	football
+  word=	receive
+  word=	Sandra
+1 John journeyed to the bathroom.	(john teleport bathroom)
+2 Sandra took the football.	(sandra get football)
+3 John went to the kitchen.	(john teleport kitchen)
+4 John got the milk.	(john get milk)
+5 Sandra moved to the hallway.	(sandra teleport hallway)
+6 Sandra gave Daniel the football.	(sandra give football daniel)
+7 John got the apple.	(john get apple)
+8 John grabbed the apple.	(john get apple)
+9 John got the apple.	(john get apple)
+10 John went to the hallway.	(john teleport hallway)
+11 Daniel travelled to the garden.	(daniel teleport garden)
+12 Who received the football last?	((Sandra give *) before (Sandra give football))	Daniel	6
+13 John took the apple.	(john get apple)
+14 Mary journeyed to the office.	(mary teleport office)
+15 Sandra travelled to the bedroom.	(sandra teleport bedroom)
+16 Daniel travelled to the bathroom.	(daniel teleport bathroom)
+17 Sandra went to the bathroom.	(sandra teleport bathroom)
+18 Daniel gave Sandra the football.	(daniel give football sandra)
+19 Mary travelled to the bathroom.	(mary teleport bathroom)
+20 Sandra went to the bedroom.	(sandra teleport bedroom)
+21 John travelled to the garden.	(john teleport garden)
+22 Who received the football last?	(football receive *)	Sandra	18
+23 Sandra gave Daniel the football.	(sandra give football daniel)
+24 Sandra travelled to the office.	(sandra teleport office)
+25 Mary moved to the bathroom.	(mary teleport bathroom)
+26 John travelled to the garden.	(john teleport garden)
+27 Daniel gave Mary the football.	(daniel give football mary)
+28 Mary journeyed to the bedroom.	(mary teleport bedroom)
+29 What did Daniel give to Mary last?	((Daniel give_what *) before (Daniel give_what Mary))	football	27
+30 Mary gave Daniel the football.	(mary give football daniel)
+31 John travelled to the bathroom.	(john teleport bathroom)
+32 John gave Mary the apple.	(john give apple mary)
+33 Sandra journeyed to the garden.	(sandra teleport garden)
+34 Daniel gave John the football.	(daniel give football john)
+35 John gave Daniel the milk.	(john give milk daniel)
+36 Daniel gave John the football.	(daniel give football john)
+37 Sandra moved to the kitchen.	(sandra teleport kitchen)
+38 Who did John give the apple to last?	(apple receive *)	Mary	32
+39 John travelled to the kitchen.	(john teleport kitchen)
+40 Mary travelled to the kitchen.	(mary teleport kitchen)
+41 Mary travelled to the hallway.	(mary teleport hallway)
+42 John travelled to the hallway.	(john teleport hallway)
+43 Mary went to the bedroom.	(mary teleport bedroom)
+44 Sandra moved to the garden.	(sandra teleport garden)
+45 Daniel went to the kitchen.	(daniel teleport kitchen)
+46 Daniel journeyed to the garden.	(daniel teleport garden)
+47 Daniel gave Sandra the football.	(daniel give football sandra)
+48 Sandra travelled to the hallway.	(sandra teleport hallway)
+49 Who did Daniel give the football to last?	(football receive *)	Sandra	47
+option=	Sandra give football	Mary
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	give
+  word=	football
+  word=	Mary
+option=	Mary give football	Daniel
+--> question choosen - #words=	4
+  word=	Mary
+  word=	give
+  word=	football
+  word=	Daniel
+option=	milk receive	John
+--> question choosen - #words=	3
+  word=	milk
+  word=	receive
+  word=	John
+option=	John give_what Sandra	apple
+--> question choosen - #words=	4
+  word=	John
+  word=	give_what
+  word=	Sandra
+  word=	apple
+option=	Mary give football	Daniel
+--> question choosen - #words=	4
+  word=	Mary
+  word=	give
+  word=	football
+  word=	Daniel
+1 John moved to the office.	(john teleport office)
+2 Sandra took the football.	(sandra get football)
+3 Sandra moved to the bathroom.	(sandra teleport bathroom)
+4 Mary moved to the bathroom.	(mary teleport bathroom)
+5 Sandra gave Mary the football.	(sandra give football mary)
+6 Daniel went to the kitchen.	(daniel teleport kitchen)
+7 Daniel moved to the office.	(daniel teleport office)
+8 Who received the football last?	((Sandra give *) before (Sandra give football))	Mary	5
+9 John journeyed to the garden.	(john teleport garden)
+10 Sandra journeyed to the office.	(sandra teleport office)
+11 John travelled to the kitchen.	(john teleport kitchen)
+12 Sandra went to the kitchen.	(sandra teleport kitchen)
+13 John grabbed the apple.	(john get apple)
+14 Daniel journeyed to the bathroom.	(daniel teleport bathroom)
+15 Sandra grabbed the milk.	(sandra get milk)
+16 Mary gave Daniel the football.	(mary give football daniel)
+17 Who received the football last?	((Mary give *) before (Mary give football))	Daniel	16
+18 Daniel gave Mary the football.	(daniel give football mary)
+19 Sandra gave John the milk.	(sandra give milk john)
+20 Daniel went to the hallway.	(daniel teleport hallway)
+21 John gave Sandra the apple.	(john give apple sandra)
+22 Mary travelled to the garden.	(mary teleport garden)
+23 John gave Sandra the apple.	(john give apple sandra)
+24 Daniel travelled to the kitchen.	(daniel teleport kitchen)
+25 What did Sandra give to John last?	(milk receive *)	John	19
+26 Mary gave Daniel the football.	(mary give football daniel)
+27 John gave Sandra the apple.	(john give apple sandra)
+28 Daniel went to the hallway.	(daniel teleport hallway)
+29 Mary went to the office.	(mary teleport office)
+30 Mary travelled to the garden.	(mary teleport garden)
+31 Daniel gave Mary the football.	(daniel give football mary)
+32 Sandra travelled to the office.	(sandra teleport office)
+33 What did John give to Sandra last?	((John give_what *) before (John give_what Sandra))	apple	27
+34 Daniel gave Mary the football.	(daniel give football mary)
+35 John moved to the office.	(john teleport office)
+36 Mary gave Daniel the football.	(mary give football daniel)
+37 Who received the football last?	((Mary give *) before (Mary give football))	Daniel	36
+option=	football receive	Mary
+--> question choosen - #words=	3
+  word=	football
+  word=	receive
+  word=	Mary
+option=	John give apple	Daniel
+--> question choosen - #words=	4
+  word=	John
+  word=	give
+  word=	apple
+  word=	Daniel
+option=	John give milk	Mary
+--> question choosen - #words=	4
+  word=	John
+  word=	give
+  word=	milk
+  word=	Mary
+option=	milk receive	Daniel
+--> question choosen - #words=	3
+  word=	milk
+  word=	receive
+  word=	Daniel
+option=	milk receive	Mary
+--> question choosen - #words=	3
+  word=	milk
+  word=	receive
+  word=	Mary
+1 Daniel travelled to the bedroom.	(daniel teleport bedroom)
+2 John got the milk.	(john get milk)
+3 John took the apple.	(john get apple)
+4 Sandra grabbed the football.	(sandra get football)
+5 Mary moved to the hallway.	(mary teleport hallway)
+6 Sandra moved to the hallway.	(sandra teleport hallway)
+7 Sandra gave Mary the football.	(sandra give football mary)
+8 Who did Sandra give the football to last?	(football receive *)	Mary	7
+9 Mary gave Sandra the football.	(mary give football sandra)
+10 Daniel moved to the kitchen.	(daniel teleport kitchen)
+11 John gave Daniel the apple.	(john give apple daniel)
+12 Mary journeyed to the office.	(mary teleport office)
+13 John moved to the office.	(john teleport office)
+14 Who received the apple last?	((John give *) before (John give apple))	Daniel	11
+15 Daniel gave John the apple.	(daniel give apple john)
+16 Sandra journeyed to the bedroom.	(sandra teleport bedroom)
+17 Mary went to the bedroom.	(mary teleport bedroom)
+18 Daniel went to the bathroom.	(daniel teleport bathroom)
+19 Sandra travelled to the hallway.	(sandra teleport hallway)
+20 Daniel went to the garden.	(daniel teleport garden)
+21 John moved to the office.	(john teleport office)
+22 Daniel went to the bedroom.	(daniel teleport bedroom)
+23 Daniel journeyed to the kitchen.	(daniel teleport kitchen)
+24 Mary travelled to the office.	(mary teleport office)
+25 Mary journeyed to the bedroom.	(mary teleport bedroom)
+26 Daniel travelled to the bathroom.	(daniel teleport bathroom)
+27 John went to the kitchen.	(john teleport kitchen)
+28 Daniel journeyed to the garden.	(daniel teleport garden)
+29 Mary journeyed to the office.	(mary teleport office)
+30 Sandra journeyed to the bedroom.	(sandra teleport bedroom)
+31 John went to the hallway.	(john teleport hallway)
+32 Mary travelled to the bathroom.	(mary teleport bathroom)
+33 Mary journeyed to the hallway.	(mary teleport hallway)
+34 John gave Mary the milk.	(john give milk mary)
+35 Sandra travelled to the garden.	(sandra teleport garden)
+36 Daniel moved to the office.	(daniel teleport office)
+37 Daniel journeyed to the bathroom.	(daniel teleport bathroom)
+38 John travelled to the kitchen.	(john teleport kitchen)
+39 Mary journeyed to the office.	(mary teleport office)
+40 Who received the milk last?	((John give *) before (John give milk))	Mary	34
+41 John gave Mary the apple.	(john give apple mary)
+42 John moved to the kitchen.	(john teleport kitchen)
+43 Daniel went to the hallway.	(daniel teleport hallway)
+44 Mary gave Daniel the milk.	(mary give milk daniel)
+45 Mary journeyed to the bathroom.	(mary teleport bathroom)
+46 Daniel went to the garden.	(daniel teleport garden)
+47 Daniel went to the bathroom.	(daniel teleport bathroom)
+48 Daniel moved to the kitchen.	(daniel teleport kitchen)
+49 Who received the milk last?	(milk receive *)	Daniel	44
+50 Sandra travelled to the kitchen.	(sandra teleport kitchen)
+51 Sandra moved to the garden.	(sandra teleport garden)
+52 Daniel gave Mary the milk.	(daniel give milk mary)
+53 Sandra moved to the office.	(sandra teleport office)
+54 Who did Daniel give the milk to last?	(milk receive *)	Mary	52
+option=	John give_what Mary	apple
+--> question choosen - #words=	4
+  word=	John
+  word=	give_what
+  word=	Mary
+  word=	apple
+option=	apple receive	Mary
+--> question choosen - #words=	3
+  word=	apple
+  word=	receive
+  word=	Mary
+option=	Sandra give_what Daniel	football
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	give_what
+  word=	Daniel
+  word=	football
+option=	John give apple	Sandra
+--> question choosen - #words=	4
+  word=	John
+  word=	give
+  word=	apple
+  word=	Sandra
+option=	John give_what Sandra	milk
+--> question choosen - #words=	4
+  word=	John
+  word=	give_what
+  word=	Sandra
+  word=	milk
+1 John got the milk.	(john get milk)
+2 John got the apple.	(john get apple)
+3 Mary journeyed to the kitchen.	(mary teleport kitchen)
+4 Sandra took the football.	(sandra get football)
+5 John gave Mary the apple.	(john give apple mary)
+6 John journeyed to the hallway.	(john teleport hallway)
+7 Mary moved to the garden.	(mary teleport garden)
+8 Who received the apple last?	((John give_what *) before (John give_what Mary))	apple	5
+9 Mary gave John the apple.	(mary give apple john)
+10 John gave Mary the apple.	(john give apple mary)
+11 Daniel travelled to the bathroom.	(daniel teleport bathroom)
+12 John moved to the bathroom.	(john teleport bathroom)
+13 Sandra went to the bathroom.	(sandra teleport bathroom)
+14 John moved to the garden.	(john teleport garden)
+15 Mary moved to the bathroom.	(mary teleport bathroom)
+16 What did John give to Mary last?	(apple receive *)	Mary	10
+17 Sandra journeyed to the hallway.	(sandra teleport hallway)
+18 Sandra gave Daniel the football.	(sandra give football daniel)
+19 Mary gave John the apple.	(mary give apple john)
+20 Mary gave John the apple.	(mary give apple john)
+21 John went to the bathroom.	(john teleport bathroom)
+22 Mary gave John the apple.	(mary give apple john)
+23 Daniel moved to the bathroom.	(daniel teleport bathroom)
+24 Who received the football last?	((Sandra give_what *) before (Sandra give_what Daniel))	football	18
+25 Mary gave John the apple.	(mary give apple john)
+26 Daniel journeyed to the garden.	(daniel teleport garden)
+27 Daniel moved to the bathroom.	(daniel teleport bathroom)
+28 Mary journeyed to the garden.	(mary teleport garden)
+29 John journeyed to the hallway.	(john teleport hallway)
+30 John gave Sandra the apple.	(john give apple sandra)
+31 Daniel travelled to the garden.	(daniel teleport garden)
+32 Mary travelled to the bedroom.	(mary teleport bedroom)
+33 Daniel went to the office.	(daniel teleport office)
+34 Mary moved to the bedroom.	(mary teleport bedroom)
+35 Who received the apple last?	((John give *) before (John give apple))	Sandra	30
+36 Sandra gave John the apple.	(sandra give apple john)
+37 John gave Sandra the milk.	(john give milk sandra)
+38 John moved to the bedroom.	(john teleport bedroom)
+39 John went to the bedroom.	(john teleport bedroom)
+40 Sandra went to the bedroom.	(sandra teleport bedroom)
+41 What did John give to Sandra last?	((John give_what *) before (John give_what Sandra))	milk	37
+option=	Sandra give_what Daniel	football
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	give_what
+  word=	Daniel
+  word=	football
+option=	Sandra give football	Daniel
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	give
+  word=	football
+  word=	Daniel
+option=	Sandra give_what Mary	football
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	give_what
+  word=	Mary
+  word=	football
+option=	football receive	Daniel
+--> question choosen - #words=	3
+  word=	football
+  word=	receive
+  word=	Daniel
+option=	Daniel give football	Sandra
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	give
+  word=	football
+  word=	Sandra
+1 Sandra took the football.	(sandra get football)
+2 John got the apple.	(john get apple)
+3 Daniel travelled to the office.	(daniel teleport office)
+4 Daniel journeyed to the hallway.	(daniel teleport hallway)
+5 John grabbed the milk.	(john get milk)
+6 Sandra travelled to the office.	(sandra teleport office)
+7 Daniel journeyed to the bedroom.	(daniel teleport bedroom)
+8 Daniel moved to the hallway.	(daniel teleport hallway)
+9 John travelled to the garden.	(john teleport garden)
+10 Sandra went to the hallway.	(sandra teleport hallway)
+11 Mary journeyed to the kitchen.	(mary teleport kitchen)
+12 Sandra gave Daniel the football.	(sandra give football daniel)
+13 Who received the football last?	((Sandra give_what *) before (Sandra give_what Daniel))	football	12
+14 Daniel gave Sandra the football.	(daniel give football sandra)
+15 Sandra gave Daniel the football.	(sandra give football daniel)
+16 John travelled to the hallway.	(john teleport hallway)
+17 Who received the football last?	((Sandra give *) before (Sandra give football))	Daniel	15
+18 Daniel gave Sandra the football.	(daniel give football sandra)
+19 Sandra moved to the bedroom.	(sandra teleport bedroom)
+20 Sandra travelled to the hallway.	(sandra teleport hallway)
+21 Daniel journeyed to the garden.	(daniel teleport garden)
+22 Daniel moved to the office.	(daniel teleport office)
+23 Daniel journeyed to the kitchen.	(daniel teleport kitchen)
+24 John journeyed to the bathroom.	(john teleport bathroom)
+25 Sandra travelled to the kitchen.	(sandra teleport kitchen)
+26 Sandra gave Mary the football.	(sandra give football mary)
+27 Daniel moved to the garden.	(daniel teleport garden)
+28 Mary went to the bedroom.	(mary teleport bedroom)
+29 Mary went to the bathroom.	(mary teleport bathroom)
+30 Daniel travelled to the garden.	(daniel teleport garden)
+31 Daniel travelled to the bedroom.	(daniel teleport bedroom)
+32 Who did Sandra give the football to last?	((Sandra give_what *) before (Sandra give_what Mary))	football	26
+33 Mary gave Sandra the football.	(mary give football sandra)
+34 Mary journeyed to the office.	(mary teleport office)
+35 Sandra gave Daniel the football.	(sandra give football daniel)
+36 Daniel moved to the bathroom.	(daniel teleport bathroom)
+37 Mary travelled to the kitchen.	(mary teleport kitchen)
+38 Who received the football last?	(football receive *)	Daniel	35
+39 John journeyed to the hallway.	(john teleport hallway)
+40 John journeyed to the bedroom.	(john teleport bedroom)
+41 Daniel gave Sandra the football.	(daniel give football sandra)
+42 Sandra went to the bathroom.	(sandra teleport bathroom)
+43 John moved to the kitchen.	(john teleport kitchen)
+44 Daniel moved to the garden.	(daniel teleport garden)
+45 Daniel moved to the bathroom.	(daniel teleport bathroom)
+46 Daniel journeyed to the garden.	(daniel teleport garden)
+47 Who received the football last?	((Daniel give *) before (Daniel give football))	Sandra	41

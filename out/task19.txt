@@ -1,5 +1,0 @@
-1 The bedroom is south the bathroom.	 bedroom:s:bathroom
-2 The bedroom is north the garden.	 bedroom:n:garden
-3 The bedroom is west the office.	 bedroom:w:office
-4 The garden is north the hallway.	 garden:n:hallway
-5 What is the path from bedroom to hallway?	 path:bedroom hallway:*	n,n	2 4

@@ -1,0 +1,150 @@
+option=	Brian has_color	gray
+--> question choosen - #words=	3
+  word=	Brian
+  word=	has_color
+  word=	gray
+1 Brian is a lion.	(brian is lion)
+2 Greg is a lion.	(greg is lion)
+3 Julius is white.	(julius has_color white)
+4 Greg is gray.	(greg has_color gray)
+5 Lily is a rhino.	(lily is rhino)
+6 Julius is a swan.	(julius is swan)
+7 Bernhard is a frog.	(bernhard is frog)
+8 Bernhard is green.	(bernhard has_color green)
+9 Lily is yellow.	(lily has_color yellow)
+10 What color is Brian?	(Brian has_color *)	gray	4 2 1
+option=	Greg has_color	white
+--> question choosen - #words=	3
+  word=	Greg
+  word=	has_color
+  word=	white
+1 Julius is a swan.	(julius is swan)
+2 Bernhard is white.	(bernhard has_color white)
+3 Lily is a lion.	(lily is lion)
+4 Brian is a swan.	(brian is swan)
+5 Greg is a rhino.	(greg is rhino)
+6 Brian is yellow.	(brian has_color yellow)
+7 Julius is yellow.	(julius has_color yellow)
+8 Lily is green.	(lily has_color green)
+9 Bernhard is a rhino.	(bernhard is rhino)
+10 What color is Greg?	(Greg has_color *)	white	2 9 5
+option=	Greg has_color	gray
+--> question choosen - #words=	3
+  word=	Greg
+  word=	has_color
+  word=	gray
+1 Julius is a frog.	(julius is frog)
+2 Bernhard is a lion.	(bernhard is lion)
+3 Brian is green.	(brian has_color green)
+4 Bernhard is white.	(bernhard has_color white)
+5 Greg is a rhino.	(greg is rhino)
+6 Julius is yellow.	(julius has_color yellow)
+7 Lily is gray.	(lily has_color gray)
+8 Lily is a rhino.	(lily is rhino)
+9 Brian is a swan.	(brian is swan)
+10 What color is Greg?	(Greg has_color *)	gray	7 5 8
+option=	Bernhard has_color	yellow
+--> question choosen - #words=	3
+  word=	Bernhard
+  word=	has_color
+  word=	yellow
+1 Lily is a swan.	(lily is swan)
+2 Bernhard is a rhino.	(bernhard is rhino)
+3 Greg is a frog.	(greg is frog)
+4 Lily is white.	(lily has_color white)
+5 Julius is a swan.	(julius is swan)
+6 Greg is gray.	(greg has_color gray)
+7 Julius is white.	(julius has_color white)
+8 Brian is yellow.	(brian has_color yellow)
+9 Brian is a rhino.	(brian is rhino)
+10 What color is Bernhard?	(Bernhard has_color *)	yellow	8 9 2
+option=	Julius has_color	yellow
+--> question choosen - #words=	3
+  word=	Julius
+  word=	has_color
+  word=	yellow
+1 Brian is a swan.	(brian is swan)
+2 Brian is yellow.	(brian has_color yellow)
+3 Bernhard is a swan.	(bernhard is swan)
+4 Lily is green.	(lily has_color green)
+5 Bernhard is yellow.	(bernhard has_color yellow)
+6 Julius is a swan.	(julius is swan)
+7 Greg is green.	(greg has_color green)
+8 Lily is a rhino.	(lily is rhino)
+9 Greg is a rhino.	(greg is rhino)
+10 What color is Julius?	(Julius has_color *)	yellow	3 5 1 2 6
+option=	Brian has_color	white
+--> question choosen - #words=	3
+  word=	Brian
+  word=	has_color
+  word=	white
+1 Lily is yellow.	(lily has_color yellow)
+2 Bernhard is white.	(bernhard has_color white)
+3 Julius is gray.	(julius has_color gray)
+4 Greg is green.	(greg has_color green)
+5 Lily is a rhino.	(lily is rhino)
+6 Julius is a lion.	(julius is lion)
+7 Brian is a swan.	(brian is swan)
+8 Bernhard is a swan.	(bernhard is swan)
+9 Greg is a frog.	(greg is frog)
+10 What color is Brian?	(Brian has_color *)	white	8 7 2
+option=	Lily has_color	yellow
+--> question choosen - #words=	3
+  word=	Lily
+  word=	has_color
+  word=	yellow
+1 Julius is gray.	(julius has_color gray)
+2 Bernhard is a lion.	(bernhard is lion)
+3 Bernhard is yellow.	(bernhard has_color yellow)
+4 Brian is a rhino.	(brian is rhino)
+5 Greg is green.	(greg has_color green)
+6 Brian is white.	(brian has_color white)
+7 Greg is a frog.	(greg is frog)
+8 Julius is a swan.	(julius is swan)
+9 Lily is a lion.	(lily is lion)
+10 What color is Lily?	(Lily has_color *)	yellow	3 9 2
+option=	Lily has_color	green
+--> question choosen - #words=	3
+  word=	Lily
+  word=	has_color
+  word=	green
+1 Brian is gray.	(brian has_color gray)
+2 Greg is a rhino.	(greg is rhino)
+3 Lily is a swan.	(lily is swan)
+4 Julius is a lion.	(julius is lion)
+5 Bernhard is green.	(bernhard has_color green)
+6 Julius is yellow.	(julius has_color yellow)
+7 Greg is white.	(greg has_color white)
+8 Bernhard is a swan.	(bernhard is swan)
+9 Brian is a frog.	(brian is frog)
+10 What color is Lily?	(Lily has_color *)	green	5 8 3
+option=	Bernhard has_color	white
+--> question choosen - #words=	3
+  word=	Bernhard
+  word=	has_color
+  word=	white
+1 Brian is white.	(brian has_color white)
+2 Brian is a swan.	(brian is swan)
+3 Greg is gray.	(greg has_color gray)
+4 Bernhard is a swan.	(bernhard is swan)
+5 Greg is a frog.	(greg is frog)
+6 Julius is gray.	(julius has_color gray)
+7 Julius is a frog.	(julius is frog)
+8 Lily is a rhino.	(lily is rhino)
+9 Lily is yellow.	(lily has_color yellow)
+10 What color is Bernhard?	(Bernhard has_color *)	white	1 4 2
+option=	Bernhard has_color	yellow
+--> question choosen - #words=	3
+  word=	Bernhard
+  word=	has_color
+  word=	yellow
+1 Julius is a swan.	(julius is swan)
+2 Greg is yellow.	(greg has_color yellow)
+3 Brian is a lion.	(brian is lion)
+4 Julius is yellow.	(julius has_color yellow)
+5 Lily is gray.	(lily has_color gray)
+6 Bernhard is a swan.	(bernhard is swan)
+7 Greg is a swan.	(greg is swan)
+8 Lily is a lion.	(lily is lion)
+9 Brian is gray.	(brian has_color gray)
+10 What color is Bernhard?	(Bernhard has_color *)	yellow	2 1 4 7 6

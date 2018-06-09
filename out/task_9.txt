@@ -1,0 +1,450 @@
+option=	Sandra is_in kitchen	false
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	kitchen
+  word=	false
+option=	Sandra is_in bedroom	true
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	bedroom
+  word=	true
+option=	John is_in kitchen	true
+--> question choosen - #words=	4
+  word=	John
+  word=	is_in
+  word=	kitchen
+  word=	true
+option=	Mary is_in hallway	false
+--> question choosen - #words=	4
+  word=	Mary
+  word=	is_in
+  word=	hallway
+  word=	false
+option=	Sandra is_in bathroom	false
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	bathroom
+  word=	false
+1 Sandra is no longer in the kitchen.	(sandra is_in kitchen)
+2 Sandra is no longer in the kitchen.	(sandra is_in kitchen)
+3 Is Sandra in the kitchen?	((Sandra is_in *) before (Sandra is_in kitchen))	false	1
+4 Daniel is no longer in the office.	(daniel is_in office)
+5 Sandra moved to the bedroom.	(sandra teleport bedroom)
+6 Is Sandra in the bedroom?	((Sandra is_in *) before (Sandra is_in bedroom))	true	5
+7 Sandra moved to the kitchen.	(sandra teleport kitchen)
+8 John is in the kitchen.	(john is_in kitchen)
+9 Is John in the kitchen?	((John is_in *) before (John is_in kitchen))	true	8
+10 John travelled to the garden.	(john teleport garden)
+11 Mary went to the office.	(mary teleport office)
+12 Is Mary in the hallway?	((Mary is_in *) before (Mary is_in hallway))	false	11
+13 John travelled to the bedroom.	(john teleport bedroom)
+14 Sandra is in the kitchen.	(sandra is_in kitchen)
+15 Is Sandra in the bathroom?	((Sandra is_in *) before (Sandra is_in bathroom))	false	1
+option=	John is_in bathroom	true
+--> question choosen - #words=	4
+  word=	John
+  word=	is_in
+  word=	bathroom
+  word=	true
+option=	John is_in hallway	true
+--> question choosen - #words=	4
+  word=	John
+  word=	is_in
+  word=	hallway
+  word=	true
+option=	Sandra is_in bathroom	false
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	bathroom
+  word=	false
+option=	John is_in hallway	true
+--> question choosen - #words=	4
+  word=	John
+  word=	is_in
+  word=	hallway
+  word=	true
+option=	Mary is_in bathroom	false
+--> question choosen - #words=	4
+  word=	Mary
+  word=	is_in
+  word=	bathroom
+  word=	false
+1 John moved to the garden.	(john teleport garden)
+2 John travelled to the bathroom.	(john teleport bathroom)
+3 Is John in the bathroom?	((John is_in *) before (John is_in bathroom))	true	2
+4 Sandra is no longer in the bathroom.	(sandra is_in bathroom)
+5 John journeyed to the hallway.	(john teleport hallway)
+6 Is John in the hallway?	((John is_in *) before (John is_in hallway))	true	5
+7 Mary moved to the hallway.	(mary teleport hallway)
+8 Mary is in the hallway.	(mary is_in hallway)
+9 Is Sandra in the bathroom?	((Sandra is_in *) before (Sandra is_in bathroom))	false	4
+10 Sandra is in the garden.	(sandra is_in garden)
+11 Sandra moved to the hallway.	(sandra teleport hallway)
+12 Is John in the hallway?	((John is_in *) before (John is_in hallway))	true	5
+13 Mary moved to the bedroom.	(mary teleport bedroom)
+14 John travelled to the office.	(john teleport office)
+15 Is Mary in the bathroom?	((Mary is_in *) before (Mary is_in bathroom))	false	13
+option=	Sandra is_in office	false
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	office
+  word=	false
+option=	Sandra is_in garden	true
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	garden
+  word=	true
+option=	Sandra is_in garden	true
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	garden
+  word=	true
+option=	Sandra is_in office	false
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	office
+  word=	false
+option=	John is_in garden	false
+--> question choosen - #words=	4
+  word=	John
+  word=	is_in
+  word=	garden
+  word=	false
+1 Sandra is in the garden.	(sandra is_in garden)
+2 Mary moved to the garden.	(mary teleport garden)
+3 Is Sandra in the office?	((Sandra is_in *) before (Sandra is_in office))	false	1
+4 Mary went to the bathroom.	(mary teleport bathroom)
+5 Daniel is in the hallway.	(daniel is_in hallway)
+6 Is Sandra in the garden?	((Sandra is_in *) before (Sandra is_in garden))	true	1
+7 John went to the bathroom.	(john teleport bathroom)
+8 Mary is in the bathroom.	(mary is_in bathroom)
+9 Is Sandra in the garden?	((Sandra is_in *) before (Sandra is_in garden))	true	1
+10 Mary is in the bathroom.	(mary is_in bathroom)
+11 Sandra is in the garden.	(sandra is_in garden)
+12 Is Sandra in the office?	((Sandra is_in *) before (Sandra is_in office))	false	1
+13 Sandra moved to the bedroom.	(sandra teleport bedroom)
+14 John journeyed to the office.	(john teleport office)
+15 Is John in the garden?	((John is_in *) before (John is_in garden))	false	14
+option=	Sandra is_in office	false
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	office
+  word=	false
+option=	John is_in bedroom	true
+--> question choosen - #words=	4
+  word=	John
+  word=	is_in
+  word=	bedroom
+  word=	true
+option=	Daniel is_in garden	false
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	is_in
+  word=	garden
+  word=	false
+option=	John is_in office	false
+--> question choosen - #words=	4
+  word=	John
+  word=	is_in
+  word=	office
+  word=	false
+option=	John is_in kitchen	false
+--> question choosen - #words=	4
+  word=	John
+  word=	is_in
+  word=	kitchen
+  word=	false
+1 Sandra is no longer in the office.	(sandra is_in office)
+2 John is in the kitchen.	(john is_in kitchen)
+3 Is Sandra in the office?	((Sandra is_in *) before (Sandra is_in office))	false	1
+4 John journeyed to the bedroom.	(john teleport bedroom)
+5 Mary is in the bedroom.	(mary is_in bedroom)
+6 Is John in the bedroom?	((John is_in *) before (John is_in bedroom))	true	4
+7 Daniel is in the hallway.	(daniel is_in hallway)
+8 John journeyed to the garden.	(john teleport garden)
+9 Is Daniel in the garden?	((Daniel is_in *) before (Daniel is_in garden))	false	7
+10 John is in the garden.	(john is_in garden)
+11 Mary journeyed to the office.	(mary teleport office)
+12 Is John in the office?	((John is_in *) before (John is_in office))	false	10
+13 John travelled to the bathroom.	(john teleport bathroom)
+14 Mary moved to the hallway.	(mary teleport hallway)
+15 Is John in the kitchen?	((John is_in *) before (John is_in kitchen))	false	13
+option=	Daniel is_in office	false
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	is_in
+  word=	office
+  word=	false
+option=	John is_in kitchen	true
+--> question choosen - #words=	4
+  word=	John
+  word=	is_in
+  word=	kitchen
+  word=	true
+option=	Sandra is_in bathroom	false
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	bathroom
+  word=	false
+option=	Sandra is_in bathroom	false
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	bathroom
+  word=	false
+option=	Mary is_in kitchen	false
+--> question choosen - #words=	4
+  word=	Mary
+  word=	is_in
+  word=	kitchen
+  word=	false
+1 Daniel is no longer in the office.	(daniel is_in office)
+2 John is in the kitchen.	(john is_in kitchen)
+3 Is Daniel in the office?	((Daniel is_in *) before (Daniel is_in office))	false	1
+4 Mary moved to the hallway.	(mary teleport hallway)
+5 Sandra is not in the bathroom.	(sandra is_in bathroom)
+6 Is John in the kitchen?	((John is_in *) before (John is_in kitchen))	true	2
+7 Mary is in the hallway.	(mary is_in hallway)
+8 John went to the garden.	(john teleport garden)
+9 Is Sandra in the bathroom?	((Sandra is_in *) before (Sandra is_in bathroom))	false	5
+10 Mary is no longer in the kitchen.	(mary is_in kitchen)
+11 John journeyed to the kitchen.	(john teleport kitchen)
+12 Is Sandra in the bathroom?	((Sandra is_in *) before (Sandra is_in bathroom))	false	5
+13 Sandra is not in the bedroom.	(sandra is_in bedroom)
+14 Sandra went to the hallway.	(sandra teleport hallway)
+15 Is Mary in the kitchen?	((Mary is_in *) before (Mary is_in kitchen))	false	10
+option=	Daniel is_in bedroom	false
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	is_in
+  word=	bedroom
+  word=	false
+option=	Mary is_in hallway	false
+--> question choosen - #words=	4
+  word=	Mary
+  word=	is_in
+  word=	hallway
+  word=	false
+option=	Mary is_in hallway	false
+--> question choosen - #words=	4
+  word=	Mary
+  word=	is_in
+  word=	hallway
+  word=	false
+option=	Sandra is_in office	true
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	office
+  word=	true
+option=	Mary is_in hallway	false
+--> question choosen - #words=	4
+  word=	Mary
+  word=	is_in
+  word=	hallway
+  word=	false
+1 Mary travelled to the kitchen.	(mary teleport kitchen)
+2 Daniel is not in the bedroom.	(daniel is_in bedroom)
+3 Is Daniel in the bedroom?	((Daniel is_in *) before (Daniel is_in bedroom))	false	2
+4 Mary is no longer in the hallway.	(mary is_in hallway)
+5 John travelled to the bathroom.	(john teleport bathroom)
+6 Is Mary in the hallway?	((Mary is_in *) before (Mary is_in hallway))	false	4
+7 Sandra moved to the bathroom.	(sandra teleport bathroom)
+8 John is no longer in the kitchen.	(john is_in kitchen)
+9 Is Mary in the hallway?	((Mary is_in *) before (Mary is_in hallway))	false	4
+10 John is in the bathroom.	(john is_in bathroom)
+11 Sandra travelled to the office.	(sandra teleport office)
+12 Is Sandra in the office?	((Sandra is_in *) before (Sandra is_in office))	true	11
+13 Daniel moved to the bathroom.	(daniel teleport bathroom)
+14 Daniel is no longer in the hallway.	(daniel is_in hallway)
+15 Is Mary in the hallway?	((Mary is_in *) before (Mary is_in hallway))	false	4
+option=	John is_in bedroom	false
+--> question choosen - #words=	4
+  word=	John
+  word=	is_in
+  word=	bedroom
+  word=	false
+option=	Mary is_in kitchen	true
+--> question choosen - #words=	4
+  word=	Mary
+  word=	is_in
+  word=	kitchen
+  word=	true
+option=	Mary is_in office	false
+--> question choosen - #words=	4
+  word=	Mary
+  word=	is_in
+  word=	office
+  word=	false
+option=	Sandra is_in kitchen	false
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	kitchen
+  word=	false
+option=	Sandra is_in kitchen	false
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	kitchen
+  word=	false
+1 Mary travelled to the garden.	(mary teleport garden)
+2 John went to the bathroom.	(john teleport bathroom)
+3 Is John in the bedroom?	((John is_in *) before (John is_in bedroom))	false	2
+4 Daniel is in the hallway.	(daniel is_in hallway)
+5 Mary went to the kitchen.	(mary teleport kitchen)
+6 Is Mary in the kitchen?	((Mary is_in *) before (Mary is_in kitchen))	true	5
+7 John is not in the bedroom.	(john is_in bedroom)
+8 Sandra moved to the bathroom.	(sandra teleport bathroom)
+9 Is Mary in the office?	((Mary is_in *) before (Mary is_in office))	false	5
+10 Daniel journeyed to the office.	(daniel teleport office)
+11 John journeyed to the kitchen.	(john teleport kitchen)
+12 Is Sandra in the kitchen?	((Sandra is_in *) before (Sandra is_in kitchen))	false	8
+13 Daniel moved to the hallway.	(daniel teleport hallway)
+14 John moved to the bathroom.	(john teleport bathroom)
+15 Is Sandra in the kitchen?	((Sandra is_in *) before (Sandra is_in kitchen))	false	8
+option=	Daniel is_in hallway	true
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	is_in
+  word=	hallway
+  word=	true
+option=	Mary is_in bathroom	false
+--> question choosen - #words=	4
+  word=	Mary
+  word=	is_in
+  word=	bathroom
+  word=	false
+option=	Daniel is_in hallway	true
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	is_in
+  word=	hallway
+  word=	true
+option=	John is_in hallway	false
+--> question choosen - #words=	4
+  word=	John
+  word=	is_in
+  word=	hallway
+  word=	false
+option=	Sandra is_in garden	true
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	garden
+  word=	true
+1 Daniel moved to the garden.	(daniel teleport garden)
+2 Daniel went to the hallway.	(daniel teleport hallway)
+3 Is Daniel in the hallway?	((Daniel is_in *) before (Daniel is_in hallway))	true	2
+4 Sandra is in the garden.	(sandra is_in garden)
+5 Mary is no longer in the bathroom.	(mary is_in bathroom)
+6 Is Mary in the bathroom?	((Mary is_in *) before (Mary is_in bathroom))	false	5
+7 Sandra travelled to the office.	(sandra teleport office)
+8 John is in the kitchen.	(john is_in kitchen)
+9 Is Daniel in the hallway?	((Daniel is_in *) before (Daniel is_in hallway))	true	2
+10 Sandra went to the garden.	(sandra teleport garden)
+11 John is no longer in the hallway.	(john is_in hallway)
+12 Is John in the hallway?	((John is_in *) before (John is_in hallway))	false	11
+13 Sandra is in the garden.	(sandra is_in garden)
+14 Daniel moved to the bedroom.	(daniel teleport bedroom)
+15 Is Sandra in the garden?	((Sandra is_in *) before (Sandra is_in garden))	true	4
+option=	Sandra is_in bathroom	false
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	bathroom
+  word=	false
+option=	Daniel is_in bedroom	true
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	is_in
+  word=	bedroom
+  word=	true
+option=	Sandra is_in bedroom	false
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	bedroom
+  word=	false
+option=	Daniel is_in bedroom	false
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	is_in
+  word=	bedroom
+  word=	false
+option=	John is_in hallway	false
+--> question choosen - #words=	4
+  word=	John
+  word=	is_in
+  word=	hallway
+  word=	false
+1 Mary is in the bedroom.	(mary is_in bedroom)
+2 Sandra is in the garden.	(sandra is_in garden)
+3 Is Sandra in the bathroom?	((Sandra is_in *) before (Sandra is_in bathroom))	false	2
+4 Daniel travelled to the bedroom.	(daniel teleport bedroom)
+5 John is no longer in the hallway.	(john is_in hallway)
+6 Is Daniel in the bedroom?	((Daniel is_in *) before (Daniel is_in bedroom))	true	4
+7 Mary is no longer in the office.	(mary is_in office)
+8 Daniel travelled to the garden.	(daniel teleport garden)
+9 Is Sandra in the bedroom?	((Sandra is_in *) before (Sandra is_in bedroom))	false	2
+10 Sandra is in the garden.	(sandra is_in garden)
+11 Sandra is not in the bathroom.	(sandra is_in bathroom)
+12 Is Daniel in the bedroom?	((Daniel is_in *) before (Daniel is_in bedroom))	false	8
+13 Sandra went to the kitchen.	(sandra teleport kitchen)
+14 Daniel is in the garden.	(daniel is_in garden)
+15 Is John in the hallway?	((John is_in *) before (John is_in hallway))	false	5
+option=	Daniel is_in bedroom	false
+--> question choosen - #words=	4
+  word=	Daniel
+  word=	is_in
+  word=	bedroom
+  word=	false
+option=	John is_in bedroom	false
+--> question choosen - #words=	4
+  word=	John
+  word=	is_in
+  word=	bedroom
+  word=	false
+option=	John is_in bedroom	false
+--> question choosen - #words=	4
+  word=	John
+  word=	is_in
+  word=	bedroom
+  word=	false
+option=	Sandra is_in bathroom	true
+--> question choosen - #words=	4
+  word=	Sandra
+  word=	is_in
+  word=	bathroom
+  word=	true
+option=	Mary is_in bathroom	true
+--> question choosen - #words=	4
+  word=	Mary
+  word=	is_in
+  word=	bathroom
+  word=	true
+1 Daniel went to the office.	(daniel teleport office)
+2 John is not in the bedroom.	(john is_in bedroom)
+3 Is Daniel in the bedroom?	((Daniel is_in *) before (Daniel is_in bedroom))	false	1
+4 Mary moved to the hallway.	(mary teleport hallway)
+5 Mary is no longer in the bathroom.	(mary is_in bathroom)
+6 Is John in the bedroom?	((John is_in *) before (John is_in bedroom))	false	2
+7 Mary travelled to the garden.	(mary teleport garden)
+8 Sandra moved to the bathroom.	(sandra teleport bathroom)
+9 Is John in the bedroom?	((John is_in *) before (John is_in bedroom))	false	2
+10 Mary journeyed to the bathroom.	(mary teleport bathroom)
+11 John is not in the bedroom.	(john is_in bedroom)
+12 Is Sandra in the bathroom?	((Sandra is_in *) before (Sandra is_in bathroom))	true	8
+13 Sandra is no longer in the kitchen.	(sandra is_in kitchen)
+14 Daniel moved to the hallway.	(daniel teleport hallway)
+15 Is Mary in the bathroom?	((Mary is_in *) before (Mary is_in bathroom))	true	10

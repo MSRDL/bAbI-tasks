@@ -1,0 +1,769 @@
+option=	football is_in office	bathroom
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	office
+  word=	bathroom
+option=	football is_in office	bathroom
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	office
+  word=	bathroom
+option=	football is_in office	bathroom
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	office
+  word=	bathroom
+option=	apple is_in bathroom	kitchen
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	bathroom
+  word=	kitchen
+option=	apple is_in bathroom	kitchen
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	bathroom
+  word=	kitchen
+1 Mary moved to the bathroom.	(mary teleport bathroom)
+2 Sandra grabbed the football.	(sandra get football)
+3 Sandra travelled to the bathroom.	(sandra teleport bathroom)
+4 John moved to the office.	(john teleport office)
+5 Sandra travelled to the office.	(sandra teleport office)
+6 Where was the football before the office?	((football is_in *) before (football is_in office))	bathroom	2 5 3
+7 Mary journeyed to the hallway.	(mary teleport hallway)
+8 Sandra dropped the football.	(sandra drop football)
+9 John grabbed the football.	(john get football)
+10 Where was the football before the office?	((football is_in *) before (football is_in office))	bathroom	2 5 3
+11 John dropped the football.	(john drop football)
+12 John got the football.	(john get football)
+13 John let go of the football.	(john drop football)
+14 Sandra journeyed to the kitchen.	(sandra teleport kitchen)
+15 Sandra took the apple.	(sandra get apple)
+16 Where was the football before the office?	((football is_in *) before (football is_in office))	bathroom	2 5 3
+17 Sandra moved to the bathroom.	(sandra teleport bathroom)
+18 John got the football.	(john get football)
+19 John put down the football.	(john drop football)
+20 Where was the apple before the bathroom?	((apple is_in *) before (apple is_in bathroom))	kitchen	17 15 14
+21 Daniel travelled to the kitchen.	(daniel teleport kitchen)
+22 Mary journeyed to the bedroom.	(mary teleport bedroom)
+23 Mary journeyed to the kitchen.	(mary teleport kitchen)
+24 John took the football.	(john get football)
+25 John put down the football.	(john drop football)
+26 Where was the apple before the bathroom?	((apple is_in *) before (apple is_in bathroom))	kitchen	17 15 14
+option=	football is_in hallway	garden
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	hallway
+  word=	garden
+option=	football is_in hallway	garden
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	hallway
+  word=	garden
+option=	football is_in hallway	garden
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	hallway
+  word=	garden
+option=	football is_in hallway	garden
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	hallway
+  word=	garden
+option=	football is_in hallway	garden
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	hallway
+  word=	garden
+1 John went to the garden.	(john teleport garden)
+2 Sandra moved to the bathroom.	(sandra teleport bathroom)
+3 Mary went to the garden.	(mary teleport garden)
+4 Mary grabbed the football.	(mary get football)
+5 Mary travelled to the hallway.	(mary teleport hallway)
+6 Where was the football before the hallway?	((football is_in *) before (football is_in hallway))	garden	4 3 5
+7 John journeyed to the kitchen.	(john teleport kitchen)
+8 John took the milk.	(john get milk)
+9 John put down the milk.	(john drop milk)
+10 Mary dropped the football.	(mary drop football)
+11 Mary took the football.	(mary get football)
+12 Where was the football before the hallway?	((football is_in *) before (football is_in hallway))	garden	4 3 5
+13 John took the apple.	(john get apple)
+14 Mary let go of the football.	(mary drop football)
+15 Daniel journeyed to the office.	(daniel teleport office)
+16 Where was the football before the hallway?	((football is_in *) before (football is_in hallway))	garden	4 3 5
+17 Daniel moved to the hallway.	(daniel teleport hallway)
+18 John let go of the apple.	(john drop apple)
+19 Mary took the football.	(mary get football)
+20 Mary put down the football.	(mary drop football)
+21 John went to the bathroom.	(john teleport bathroom)
+22 Where was the football before the hallway?	((football is_in *) before (football is_in hallway))	garden	4 3 5
+23 Mary took the football.	(mary get football)
+24 Sandra travelled to the kitchen.	(sandra teleport kitchen)
+25 Sandra grabbed the milk.	(sandra get milk)
+26 Daniel moved to the office.	(daniel teleport office)
+27 Where was the football before the hallway?	((football is_in *) before (football is_in hallway))	garden	4 3 5
+option=	milk is_in bathroom	garden
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	bathroom
+  word=	garden
+option=	milk is_in bathroom	garden
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	bathroom
+  word=	garden
+option=	milk is_in bathroom	garden
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	bathroom
+  word=	garden
+option=	milk is_in bathroom	garden
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	bathroom
+  word=	garden
+option=	milk is_in bathroom	garden
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	bathroom
+  word=	garden
+1 John took the milk.	(john get milk)
+2 Sandra took the football.	(sandra get football)
+3 Sandra let go of the football.	(sandra drop football)
+4 John moved to the garden.	(john teleport garden)
+5 Sandra grabbed the football.	(sandra get football)
+6 John travelled to the bathroom.	(john teleport bathroom)
+7 Sandra dropped the football.	(sandra drop football)
+8 John put down the milk.	(john drop milk)
+9 Sandra grabbed the football.	(sandra get football)
+10 Mary moved to the office.	(mary teleport office)
+11 Where was the milk before the bathroom?	((milk is_in *) before (milk is_in bathroom))	garden	1 4 6
+12 Sandra let go of the football.	(sandra drop football)
+13 John got the milk.	(john get milk)
+14 John dropped the milk.	(john drop milk)
+15 John grabbed the milk.	(john get milk)
+16 John let go of the milk.	(john drop milk)
+17 Where was the milk before the bathroom?	((milk is_in *) before (milk is_in bathroom))	garden	1 4 6
+18 John went to the garden.	(john teleport garden)
+19 Sandra got the football.	(sandra get football)
+20 Sandra put down the football.	(sandra drop football)
+21 Where was the milk before the bathroom?	((milk is_in *) before (milk is_in bathroom))	garden	1 4 6
+22 John took the football.	(john get football)
+23 John moved to the kitchen.	(john teleport kitchen)
+24 John took the apple.	(john get apple)
+25 Daniel travelled to the office.	(daniel teleport office)
+26 John dropped the apple.	(john drop apple)
+27 Where was the milk before the bathroom?	((milk is_in *) before (milk is_in bathroom))	garden	1 4 6
+28 Daniel moved to the garden.	(daniel teleport garden)
+29 Mary went to the bedroom.	(mary teleport bedroom)
+30 Sandra journeyed to the bedroom.	(sandra teleport bedroom)
+31 John journeyed to the garden.	(john teleport garden)
+32 Where was the milk before the bathroom?	((milk is_in *) before (milk is_in bathroom))	garden	1 4 6
+option=	milk is_in garden	office
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	garden
+  word=	office
+option=	milk is_in garden	office
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	garden
+  word=	office
+option=	milk is_in garden	office
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	garden
+  word=	office
+option=	milk is_in garden	office
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	garden
+  word=	office
+option=	football is_in garden	hallway
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	garden
+  word=	hallway
+option=	football is_in garden	hallway
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	garden
+  word=	hallway
+option=	milk is_in bedroom	office
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	bedroom
+  word=	office
+option=	football is_in garden	hallway
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	garden
+  word=	hallway
+option=	football is_in garden	hallway
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	garden
+  word=	hallway
+1 John grabbed the apple.	(john get apple)
+2 John dropped the apple.	(john drop apple)
+3 Sandra grabbed the football.	(sandra get football)
+4 John grabbed the apple.	(john get apple)
+5 John grabbed the milk.	(john get milk)
+6 John dropped the apple.	(john drop apple)
+7 John took the apple.	(john get apple)
+8 John put down the apple.	(john drop apple)
+9 John dropped the milk.	(john drop milk)
+10 John took the apple.	(john get apple)
+11 Mary went to the bathroom.	(mary teleport bathroom)
+12 Mary travelled to the garden.	(mary teleport garden)
+13 John got the milk.	(john get milk)
+14 Sandra journeyed to the hallway.	(sandra teleport hallway)
+15 Sandra journeyed to the garden.	(sandra teleport garden)
+16 Where was the football before the garden?	((football is_in *) before (football is_in garden))	hallway	14 3 15
+17 Sandra put down the football.	(sandra drop football)
+18 John journeyed to the office.	(john teleport office)
+19 Mary took the football.	(mary get football)
+20 Where was the football before the garden?	((football is_in *) before (football is_in garden))	hallway	14 3 15
+21 John travelled to the bedroom.	(john teleport bedroom)
+22 John let go of the milk.	(john drop milk)
+23 John took the milk.	(john get milk)
+24 Where was the milk before the bedroom?	((milk is_in *) before (milk is_in bedroom))	office	21 13 18
+25 Sandra travelled to the office.	(sandra teleport office)
+26 John dropped the apple.	(john drop apple)
+27 John got the apple.	(john get apple)
+28 John dropped the milk.	(john drop milk)
+29 Where was the football before the garden?	((football is_in *) before (football is_in garden))	hallway	14 3 15
+30 Sandra moved to the hallway.	(sandra teleport hallway)
+31 John took the milk.	(john get milk)
+32 John let go of the milk.	(john drop milk)
+33 Daniel moved to the kitchen.	(daniel teleport kitchen)
+34 Where was the football before the garden?	((football is_in *) before (football is_in garden))	hallway	14 3 15
+option=	apple is_in bedroom	kitchen
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	bedroom
+  word=	kitchen
+option=	milk is_in bedroom	kitchen
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	bedroom
+  word=	kitchen
+option=	apple is_in bedroom	kitchen
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	bedroom
+  word=	kitchen
+option=	milk is_in bedroom	kitchen
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	bedroom
+  word=	kitchen
+option=	apple is_in bedroom	kitchen
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	bedroom
+  word=	kitchen
+1 John went to the hallway.	(john teleport hallway)
+2 Sandra went to the hallway.	(sandra teleport hallway)
+3 Mary travelled to the hallway.	(mary teleport hallway)
+4 Daniel journeyed to the bedroom.	(daniel teleport bedroom)
+5 Daniel journeyed to the bathroom.	(daniel teleport bathroom)
+6 John went to the bathroom.	(john teleport bathroom)
+7 Daniel travelled to the office.	(daniel teleport office)
+8 Sandra went to the bathroom.	(sandra teleport bathroom)
+9 John went to the kitchen.	(john teleport kitchen)
+10 John took the apple.	(john get apple)
+11 John took the milk.	(john get milk)
+12 Sandra went to the office.	(sandra teleport office)
+13 Daniel went to the hallway.	(daniel teleport hallway)
+14 John journeyed to the bedroom.	(john teleport bedroom)
+15 Mary travelled to the kitchen.	(mary teleport kitchen)
+16 Where was the apple before the bedroom?	((apple is_in *) before (apple is_in bedroom))	kitchen	14 9 10
+17 John dropped the apple.	(john drop apple)
+18 John let go of the milk.	(john drop milk)
+19 John got the milk.	(john get milk)
+20 Daniel moved to the kitchen.	(daniel teleport kitchen)
+21 Where was the milk before the bedroom?	((milk is_in *) before (milk is_in bedroom))	kitchen	14 11 9
+22 John dropped the milk.	(john drop milk)
+23 John got the milk.	(john get milk)
+24 John put down the milk.	(john drop milk)
+25 Where was the apple before the bedroom?	((apple is_in *) before (apple is_in bedroom))	kitchen	14 9 10
+26 John got the milk.	(john get milk)
+27 Sandra moved to the hallway.	(sandra teleport hallway)
+28 John took the apple.	(john get apple)
+29 John dropped the milk.	(john drop milk)
+30 John dropped the apple.	(john drop apple)
+31 Where was the milk before the bedroom?	((milk is_in *) before (milk is_in bedroom))	kitchen	14 11 9
+32 John took the apple.	(john get apple)
+33 John put down the apple.	(john drop apple)
+34 John took the milk.	(john get milk)
+35 John grabbed the apple.	(john get apple)
+36 Where was the apple before the bedroom?	((apple is_in *) before (apple is_in bedroom))	kitchen	14 9 10
+option=	apple is_in hallway	kitchen
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	hallway
+  word=	kitchen
+option=	milk is_in garden	bathroom
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	garden
+  word=	bathroom
+option=	milk is_in bathroom	kitchen
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	bathroom
+  word=	kitchen
+option=	milk is_in bathroom	kitchen
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	bathroom
+  word=	kitchen
+option=	milk is_in bathroom	kitchen
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	bathroom
+  word=	kitchen
+option=	milk is_in bathroom	kitchen
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	bathroom
+  word=	kitchen
+option=	apple is_in garden	office
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	garden
+  word=	office
+option=	apple is_in garden	office
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	garden
+  word=	office
+option=	apple is_in garden	office
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	garden
+  word=	office
+option=	apple is_in garden	office
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	garden
+  word=	office
+option=	apple is_in garden	office
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	garden
+  word=	office
+1 John got the apple.	(john get apple)
+2 Sandra went to the office.	(sandra teleport office)
+3 Sandra moved to the hallway.	(sandra teleport hallway)
+4 John grabbed the milk.	(john get milk)
+5 John dropped the milk.	(john drop milk)
+6 John got the milk.	(john get milk)
+7 John put down the apple.	(john drop apple)
+8 John grabbed the apple.	(john get apple)
+9 John dropped the milk.	(john drop milk)
+10 John let go of the apple.	(john drop apple)
+11 John got the apple.	(john get apple)
+12 John put down the apple.	(john drop apple)
+13 John got the apple.	(john get apple)
+14 John grabbed the milk.	(john get milk)
+15 John let go of the milk.	(john drop milk)
+16 Mary journeyed to the kitchen.	(mary teleport kitchen)
+17 John grabbed the milk.	(john get milk)
+18 John let go of the milk.	(john drop milk)
+19 John got the milk.	(john get milk)
+20 Mary travelled to the bathroom.	(mary teleport bathroom)
+21 John let go of the milk.	(john drop milk)
+22 Sandra travelled to the kitchen.	(sandra teleport kitchen)
+23 John went to the office.	(john teleport office)
+24 Sandra took the milk.	(sandra get milk)
+25 John moved to the garden.	(john teleport garden)
+26 Where was the apple before the garden?	((apple is_in *) before (apple is_in garden))	office	23 25 13
+27 John grabbed the football.	(john get football)
+28 John let go of the football.	(john drop football)
+29 John dropped the apple.	(john drop apple)
+30 John got the apple.	(john get apple)
+31 Where was the apple before the garden?	((apple is_in *) before (apple is_in garden))	office	23 25 13
+32 Mary went to the kitchen.	(mary teleport kitchen)
+33 John dropped the apple.	(john drop apple)
+34 Daniel moved to the office.	(daniel teleport office)
+35 Where was the apple before the garden?	((apple is_in *) before (apple is_in garden))	office	23 25 13
+36 Sandra dropped the milk.	(sandra drop milk)
+37 Sandra grabbed the milk.	(sandra get milk)
+38 Sandra went to the bedroom.	(sandra teleport bedroom)
+39 Where was the apple before the garden?	((apple is_in *) before (apple is_in garden))	office	23 25 13
+40 Sandra put down the milk.	(sandra drop milk)
+41 Sandra moved to the bathroom.	(sandra teleport bathroom)
+42 John grabbed the apple.	(john get apple)
+43 Where was the apple before the garden?	((apple is_in *) before (apple is_in garden))	office	23 25 13
+option=	apple is_in garden	kitchen
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	garden
+  word=	kitchen
+option=	apple is_in bathroom	garden
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	bathroom
+  word=	garden
+option=	apple is_in bathroom	garden
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	bathroom
+  word=	garden
+option=	apple is_in kitchen	hallway
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	kitchen
+  word=	hallway
+option=	apple is_in kitchen	hallway
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	kitchen
+  word=	hallway
+1 Sandra got the football.	(sandra get football)
+2 John took the apple.	(john get apple)
+3 John dropped the apple.	(john drop apple)
+4 John got the milk.	(john get milk)
+5 John took the apple.	(john get apple)
+6 John let go of the apple.	(john drop apple)
+7 Sandra let go of the football.	(sandra drop football)
+8 Daniel journeyed to the bedroom.	(daniel teleport bedroom)
+9 Sandra got the football.	(sandra get football)
+10 John got the apple.	(john get apple)
+11 John dropped the milk.	(john drop milk)
+12 John got the milk.	(john get milk)
+13 John let go of the apple.	(john drop apple)
+14 Sandra put down the football.	(sandra drop football)
+15 Sandra moved to the kitchen.	(sandra teleport kitchen)
+16 Mary moved to the garden.	(mary teleport garden)
+17 John put down the milk.	(john drop milk)
+18 Daniel travelled to the kitchen.	(daniel teleport kitchen)
+19 Sandra got the milk.	(sandra get milk)
+20 Daniel got the apple.	(daniel get apple)
+21 Mary got the football.	(mary get football)
+22 Daniel travelled to the garden.	(daniel teleport garden)
+23 Where was the apple before the garden?	((apple is_in *) before (apple is_in garden))	kitchen	20 18 22
+24 Daniel travelled to the bathroom.	(daniel teleport bathroom)
+25 Sandra put down the milk.	(sandra drop milk)
+26 Daniel put down the apple.	(daniel drop apple)
+27 Where was the apple before the bathroom?	((apple is_in *) before (apple is_in bathroom))	garden	20 24 22
+28 Mary let go of the football.	(mary drop football)
+29 Daniel took the apple.	(daniel get apple)
+30 Mary took the football.	(mary get football)
+31 Mary let go of the football.	(mary drop football)
+32 Where was the apple before the bathroom?	((apple is_in *) before (apple is_in bathroom))	garden	20 24 22
+33 Daniel journeyed to the hallway.	(daniel teleport hallway)
+34 John took the milk.	(john get milk)
+35 Daniel moved to the kitchen.	(daniel teleport kitchen)
+36 Mary got the football.	(mary get football)
+37 Mary dropped the football.	(mary drop football)
+38 Where was the apple before the kitchen?	((apple is_in *) before (apple is_in kitchen))	hallway	29 35 33
+39 Mary grabbed the football.	(mary get football)
+40 Daniel dropped the apple.	(daniel drop apple)
+41 John put down the milk.	(john drop milk)
+42 John moved to the hallway.	(john teleport hallway)
+43 Where was the apple before the kitchen?	((apple is_in *) before (apple is_in kitchen))	hallway	29 35 33
+option=	apple is_in garden	bathroom
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	garden
+  word=	bathroom
+option=	apple is_in garden	bathroom
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	garden
+  word=	bathroom
+option=	apple is_in garden	bathroom
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	garden
+  word=	bathroom
+option=	apple is_in garden	bathroom
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	garden
+  word=	bathroom
+option=	football is_in kitchen	garden
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	kitchen
+  word=	garden
+option=	football is_in kitchen	garden
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	kitchen
+  word=	garden
+option=	football is_in kitchen	garden
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	kitchen
+  word=	garden
+option=	football is_in kitchen	garden
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	kitchen
+  word=	garden
+option=	football is_in kitchen	garden
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	kitchen
+  word=	garden
+1 Mary journeyed to the garden.	(mary teleport garden)
+2 Mary took the football.	(mary get football)
+3 Daniel moved to the bathroom.	(daniel teleport bathroom)
+4 John got the milk.	(john get milk)
+5 Mary went to the kitchen.	(mary teleport kitchen)
+6 Mary let go of the football.	(mary drop football)
+7 John got the football.	(john get football)
+8 Sandra travelled to the bathroom.	(sandra teleport bathroom)
+9 John put down the milk.	(john drop milk)
+10 Daniel moved to the hallway.	(daniel teleport hallway)
+11 Where was the football before the kitchen?	((football is_in *) before (football is_in kitchen))	garden	5 1 2
+12 John got the milk.	(john get milk)
+13 Mary moved to the office.	(mary teleport office)
+14 John put down the football.	(john drop football)
+15 Daniel went to the bedroom.	(daniel teleport bedroom)
+16 Where was the football before the kitchen?	((football is_in *) before (football is_in kitchen))	garden	5 1 2
+17 Daniel moved to the hallway.	(daniel teleport hallway)
+18 John put down the milk.	(john drop milk)
+19 John grabbed the apple.	(john get apple)
+20 Where was the football before the kitchen?	((football is_in *) before (football is_in kitchen))	garden	5 1 2
+21 John travelled to the bedroom.	(john teleport bedroom)
+22 John travelled to the office.	(john teleport office)
+23 Sandra journeyed to the bedroom.	(sandra teleport bedroom)
+24 Where was the football before the kitchen?	((football is_in *) before (football is_in kitchen))	garden	5 1 2
+25 John let go of the apple.	(john drop apple)
+26 John took the apple.	(john get apple)
+27 John let go of the apple.	(john drop apple)
+28 Where was the football before the kitchen?	((football is_in *) before (football is_in kitchen))	garden	5 1 2
+option=	milk is_in office	kitchen
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	office
+  word=	kitchen
+option=	milk is_in office	kitchen
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	office
+  word=	kitchen
+option=	milk is_in office	kitchen
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	office
+  word=	kitchen
+option=	milk is_in office	kitchen
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	office
+  word=	kitchen
+option=	milk is_in office	kitchen
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	office
+  word=	kitchen
+1 John took the apple.	(john get apple)
+2 John moved to the bedroom.	(john teleport bedroom)
+3 Mary went to the bathroom.	(mary teleport bathroom)
+4 John dropped the apple.	(john drop apple)
+5 John got the apple.	(john get apple)
+6 John let go of the apple.	(john drop apple)
+7 Sandra took the football.	(sandra get football)
+8 Sandra put down the football.	(sandra drop football)
+9 Sandra took the football.	(sandra get football)
+10 John travelled to the garden.	(john teleport garden)
+11 John went to the hallway.	(john teleport hallway)
+12 Sandra dropped the football.	(sandra drop football)
+13 Sandra grabbed the football.	(sandra get football)
+14 Sandra put down the football.	(sandra drop football)
+15 Sandra grabbed the football.	(sandra get football)
+16 Mary moved to the hallway.	(mary teleport hallway)
+17 Sandra dropped the football.	(sandra drop football)
+18 Sandra travelled to the kitchen.	(sandra teleport kitchen)
+19 Daniel went to the kitchen.	(daniel teleport kitchen)
+20 Daniel got the milk.	(daniel get milk)
+21 Daniel journeyed to the office.	(daniel teleport office)
+22 Where was the milk before the office?	((milk is_in *) before (milk is_in office))	kitchen	20 19 21
+23 Daniel dropped the milk.	(daniel drop milk)
+24 Daniel took the milk.	(daniel get milk)
+25 Daniel let go of the milk.	(daniel drop milk)
+26 Daniel moved to the hallway.	(daniel teleport hallway)
+27 Where was the milk before the office?	((milk is_in *) before (milk is_in office))	kitchen	20 19 21
+28 Sandra moved to the bedroom.	(sandra teleport bedroom)
+29 John moved to the bedroom.	(john teleport bedroom)
+30 Sandra moved to the bathroom.	(sandra teleport bathroom)
+31 Where was the milk before the office?	((milk is_in *) before (milk is_in office))	kitchen	20 19 21
+32 John grabbed the apple.	(john get apple)
+33 John put down the apple.	(john drop apple)
+34 John took the apple.	(john get apple)
+35 Where was the milk before the office?	((milk is_in *) before (milk is_in office))	kitchen	20 19 21
+36 Mary travelled to the office.	(mary teleport office)
+37 Mary got the milk.	(mary get milk)
+38 Daniel journeyed to the bathroom.	(daniel teleport bathroom)
+39 Where was the milk before the office?	((milk is_in *) before (milk is_in office))	kitchen	20 19 21
+option=	apple is_in hallway	kitchen
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	hallway
+  word=	kitchen
+option=	apple is_in hallway	kitchen
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	hallway
+  word=	kitchen
+option=	apple is_in hallway	kitchen
+--> question choosen - #words=	4
+  word=	apple
+  word=	is_in
+  word=	hallway
+  word=	kitchen
+option=	football is_in garden	kitchen
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	garden
+  word=	kitchen
+option=	milk is_in hallway	bathroom
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	hallway
+  word=	bathroom
+option=	milk is_in hallway	bathroom
+--> question choosen - #words=	4
+  word=	milk
+  word=	is_in
+  word=	hallway
+  word=	bathroom
+option=	football is_in bedroom	office
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	bedroom
+  word=	office
+option=	football is_in kitchen	bedroom
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	kitchen
+  word=	bedroom
+option=	football is_in kitchen	bedroom
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	kitchen
+  word=	bedroom
+option=	football is_in kitchen	bedroom
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	kitchen
+  word=	bedroom
+option=	football is_in kitchen	bedroom
+--> question choosen - #words=	4
+  word=	football
+  word=	is_in
+  word=	kitchen
+  word=	bedroom
+1 John got the milk.	(john get milk)
+2 Sandra moved to the hallway.	(sandra teleport hallway)
+3 Mary went to the garden.	(mary teleport garden)
+4 John let go of the milk.	(john drop milk)
+5 Mary journeyed to the office.	(mary teleport office)
+6 John grabbed the milk.	(john get milk)
+7 Daniel went to the garden.	(daniel teleport garden)
+8 John got the apple.	(john get apple)
+9 John let go of the apple.	(john drop apple)
+10 John let go of the milk.	(john drop milk)
+11 John took the milk.	(john get milk)
+12 Daniel got the football.	(daniel get football)
+13 Daniel put down the football.	(daniel drop football)
+14 John grabbed the apple.	(john get apple)
+15 Daniel grabbed the football.	(daniel get football)
+16 John put down the apple.	(john drop apple)
+17 John put down the milk.	(john drop milk)
+18 Daniel journeyed to the office.	(daniel teleport office)
+19 Daniel moved to the bedroom.	(daniel teleport bedroom)
+20 Where was the football before the bedroom?	((football is_in *) before (football is_in bedroom))	office	18 15 19
+21 John went to the office.	(john teleport office)
+22 Daniel moved to the kitchen.	(daniel teleport kitchen)
+23 Sandra moved to the bathroom.	(sandra teleport bathroom)
+24 Daniel put down the football.	(daniel drop football)
+25 Daniel got the milk.	(daniel get milk)
+26 Where was the football before the kitchen?	((football is_in *) before (football is_in kitchen))	bedroom	19 15 22
+27 Daniel travelled to the bathroom.	(daniel teleport bathroom)
+28 Daniel let go of the milk.	(daniel drop milk)
+29 Mary travelled to the bedroom.	(mary teleport bedroom)
+30 Where was the football before the kitchen?	((football is_in *) before (football is_in kitchen))	bedroom	19 15 22
+31 Sandra took the milk.	(sandra get milk)
+32 Sandra put down the milk.	(sandra drop milk)
+33 Daniel grabbed the milk.	(daniel get milk)
+34 Where was the football before the kitchen?	((football is_in *) before (football is_in kitchen))	bedroom	19 15 22
+35 Daniel went to the hallway.	(daniel teleport hallway)
+36 Mary travelled to the bathroom.	(mary teleport bathroom)
+37 Daniel journeyed to the kitchen.	(daniel teleport kitchen)
+38 Daniel got the apple.	(daniel get apple)
+39 Daniel took the football.	(daniel get football)
+40 Daniel put down the milk.	(daniel drop milk)
+41 Where was the football before the kitchen?	((football is_in *) before (football is_in kitchen))	bedroom	19 15 22
